@@ -1,10 +1,11 @@
-# bkbfanssv-publisher
+# bkbfanssv-publisher (public)
 
-Publisher for [@bkbfanssv](https://instagram.com/bkbfanssv) (FESABAL Liga de Desarrollo).
-Everything here is already public on Instagram; no secrets live in this repo.
+Only what Instagram needs at posting time: the final images/videos (served by GitHub Pages), the tag manifest
+of each post, and the publish workflows (IG_TOKEN is a repo secret, never in files).
+Everything that MAKES the content (stats, renderers, handles, player photos) lives in the private repo
+nelsonbolanos/bkbfanssv-studio.
 
-- `stories/<date>/<league>/` leader stories + Dream Team (MP4) and `tags.json` (confirmed handles only)
-- `images/<slug>/` carousel JPEGs (served by GitHub Pages so Instagram can download them)
-- `publisher/` scripts; `.github/workflows/` manual workflows, dry run by default
-
-Secret `IG_TOKEN` (Instagram token) and variable `IG_USER_ID` are set in the repo settings, never in files.
+- `stories/<date>/<league>/NN-*.mp4` + `tags.json` -> workflow publish-story
+- `images/<slug>/*.jpg` + `posts/<slug>/manifest.json` -> workflow publish-carousel
+- `published.json` next to each batch records what went out (reruns never duplicate)
+- media older than 14 days is removed by workflow cleanup-media
