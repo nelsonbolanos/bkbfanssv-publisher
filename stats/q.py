@@ -10,7 +10,7 @@ usage: python3 stats/q.py <command> <code> [options]        code = 14F 14M 16F 1
   standings  <code> [--group A]             2 pts win, 1 loss; pts, then point difference
   player     <code> <name part>             a player's games
 options: --season clausura-2026 (default) · --data  (prints the pipe lines the story/carousel builders read)
-Jornada = a weekend (Mon-Sun week) with games, numbered in order; default = the latest one.
+Jornada = fesabal "Ronda: N" when stored (sync.py), else the Mon-Sun week with games in order; default = the latest.
 """
 import sys, os, json, glob, re, unicodedata
 from datetime import date
@@ -56,8 +56,10 @@ def week(g):
 
 weeks = sorted({week(g) for g in G})
 for g in G:
-    g["j"] = weeks.index(week(g)) + 1
-J = jn or len(weeks)
+    m = re.search(r"(\d+)", str(g.get("round") or ""))
+    g["j"] = int(m.group(1)) if m else weeks.index(week(g)) + 1   # fesabal "Ronda: N" when known
+weeks = sorted({g["j"] for g in G})
+J = jn or max(weeks)
 team = {t["id"]: t for g in G for t in g["teams"]}
 
 
@@ -99,9 +101,9 @@ def line(i, r, extra=""):
 
 
 if cmd == "jornadas":
-    for i, w in enumerate(weeks, 1):
-        ds = sorted({g["date"][:10] for g in G if week(g) == w})
-        print(f"J{i}: {', '.join(ds)} · {sum(1 for g in G if week(g) == w)} games")
+    for w in weeks:
+        ds = sorted({g["date"][:10] for g in G if g["j"] == w})
+        print(f"J{w}: {', '.join(ds)} · {sum(1 for g in G if g['j'] == w)} games")
 
 elif cmd == "games":
     for g in sel():

@@ -60,7 +60,7 @@ for code, L in dump["leagues"].items():
             players.append(rec)
         teams = [{"id": t["id"], "name": t["name"], "code": t.get("code"), "home": bool(t.get("home")),
                   "score": num(t.get("score")), "logo": t.get("logo") or None} for t in g["teams"]]
-        game = {"id": g["id"], "date": g["date"], "pool": g.get("pool"), "venue": g.get("venue"), "status": g.get("status"),
+        game = {"id": g["id"], "date": g["date"], "pool": g.get("pool"), "round": g.get("round"), "venue": g.get("venue"), "status": g.get("status"),
                 "teams": teams, "players": players, "state": g.get("state")}
         # validation: player points add up to the score
         bad = []
