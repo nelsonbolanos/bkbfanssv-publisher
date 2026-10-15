@@ -1,0 +1,42 @@
+name: publish-carousel
+
+on:
+  workflow_dispatch:
+    inputs:
+      manifest:
+        description: "Path to manifest.json inside the repo (e.g. posts/u16m-j1/manifest.json)"
+        required: true
+      dry_run:
+        description: "Dry run (print payloads, post nothing)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      IG_USER_ID: ${{ vars.IG_USER_ID }}
+      # JPEGs are served by GitHub Pages of this repo
+      IMAGE_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ vars.IMAGE_DIR }}
+      MANIFEST: ${{ inputs.manifest }}
+      DRY_RUN: ${{ inputs.dry_run }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Publish
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            python3 publisher/publish.py "$MANIFEST" --dry-run
+          else
+            python3 publisher/publish.py "$MANIFEST"
+          fi

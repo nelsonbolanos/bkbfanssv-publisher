@@ -1,0 +1,65 @@
+name: publish-story
+
+# Publishes leader + Dream Team stories with mentions. Manual trigger, dry run by default.
+on:
+  workflow_dispatch:
+    inputs:
+      folders:
+        description: "Story folders, women first, space-separated (e.g. stories/2026-10-15/u18f stories/2026-10-15/u18m)"
+        required: true
+      only:
+        description: "Optional: only these story numbers, comma-separated (e.g. 01 or 01,08)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Dry run (print what would be published, post nothing)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write   # commits published.json back so reruns never duplicate a story
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      IG_USER_ID: ${{ vars.IG_USER_ID }}
+      FOLDERS: ${{ inputs.folders }}
+      ONLY: ${{ inputs.only }}
+      DRY_RUN: ${{ inputs.dry_run }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check token (no value printed)
+        if: ${{ !inputs.dry_run }}
+        run: |
+          test -n "$IG_TOKEN" || { echo "IG_TOKEN secret missing"; exit 1; }
+          python3 - <<'EOF'
+          import os, json, urllib.request
+          r = urllib.request.Request("https://graph.instagram.com/v23.0/me?fields=username",
+                                     headers={"Authorization": "Bearer " + os.environ["IG_TOKEN"]})
+          print("token account:", json.load(urllib.request.urlopen(r)).get("username"))
+          EOF
+      - name: Publish
+        run: |
+          ARGS="$FOLDERS"
+          [ -n "$ONLY" ] && ARGS="$ARGS --only $ONLY"
+          if [ "$DRY_RUN" = "true" ]; then
+            python3 publisher/publish_story.py $ARGS --dry-run
+          else
+            python3 publisher/publish_story.py $ARGS
+          fi
+      - name: Save published.json
+        if: ${{ always() && !inputs.dry_run }}
+        run: |
+          git config user.name "bkbfanssv-bot"
+          git config user.email "bkbfanssv-bot@users.noreply.github.com"
+          git add -A stories
+          git diff --cached --quiet || { git commit -m "published stories: $FOLDERS"; git push; }
