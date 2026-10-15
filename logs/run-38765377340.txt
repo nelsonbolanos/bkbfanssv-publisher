@@ -1,0 +1,14 @@
+DRY RUN. account=17841478415958357 api=v23.0
+slide 1: {"image_url": "https://nelsonbolanos.github.io/bkbfanssv-publisher/images/test-u16f-j1/test-u16f-j1-01.jpg", "is_carousel_item": "true"}
+slide 2: {"image_url": "https://nelsonbolanos.github.io/bkbfanssv-publisher/images/test-u16f-j1/test-u16f-j1-02.jpg", "is_carousel_item": "true", "user_tags": "[{\"username\": \"wonderbasketballacademy\", \"x\": 0.2749, \"y\": 0.2785}]"}
+slide 3: {"image_url": "https://nelsonbolanos.github.io/bkbfanssv-publisher/images/test-u16f-j1/test-u16f-j1-03.jpg", "is_carousel_item": "true", "user_tags": "[{\"username\": \"salvadorenas.bc\", \"x\": 0.2851, \"y\": 0.2741}, {\"username\": \"capitalinos503_bkb_club\", \"x\": 0.2583, \"y\": 0.4}]"}
+slide 4: {"image_url": "https://nelsonbolanos.github.io/bkbfanssv-publisher/images/test-u16f-j1/test-u16f-j1-04.jpg", "is_carousel_item": "true", "user_tags": "[{\"username\": \"capitalinos503_bkb_club\", \"x\": 0.1183, \"y\": 0.2741}]"}
+slide 5: {"image_url": "https://nelsonbolanos.github.io/bkbfanssv-publisher/images/test-u16f-j1/test-u16f-j1-05.jpg", "is_carousel_item": "true", "user_tags": "[{\"username\": \"santateclabkb\", \"x\": 0.2527, \"y\": 0.2785}, {\"username\": \"academia_onfire_\", \"x\": 0.1461, \"y\": 0.4}]"}
+slide 6: {"image_url": "https://nelsonbolanos.github.io/bkbfanssv-publisher/images/test-u16f-j1/test-u16f-j1-06.jpg", "is_carousel_item": "true", "user_tags": "[{\"username\": \"goriladeportess\", \"x\": 0.1645, \"y\": 0.2741}, {\"username\": \"adfusalmo\", \"x\": 0.1673, \"y\": 0.4}]"}
+slide 7: {"image_url": "https://nelsonbolanos.github.io/bkbfanssv-publisher/images/test-u16f-j1/test-u16f-j1-07.jpg", "is_carousel_item": "true", "user_tags": "[{\"username\": \"sivarsportsacademy\", \"x\": 0.2814, \"y\": 0.2785}, {\"username\": \"c.s.f.a._agape\", \"x\": 0.2599, \"y\": 0.4044}]"}
+slide 8: {"image_url": "https://nelsonbolanos.github.io/bkbfanssv-publisher/images/test-u16f-j1/test-u16f-j1-08.jpg", "is_carousel_item": "true", "user_tags": "[{\"username\": \"salvadorenas.bc\", \"x\": 0.256, \"y\": 0.2741}, {\"username\": \"capitalinasbc\", \"x\": 0.256, \"y\": 0.3037}, {\"username\": \"santanecosbasketballclub\", \"x\": 0.2597, \"y\": 0.4}]"}
+slide 9: {"image_url": "https://nelsonbolanos.github.io/bkbfanssv-publisher/images/test-u16f-j1/test-u16f-j1-09.jpg", "is_carousel_item": "true", "user_tags": "[{\"username\": \"salvadorenas.bc\", \"x\": 0.4407, \"y\": 0.2911}, {\"username\": \"capitalinasbc\", \"x\": 0.4407, \"y\": 0.3207}, {\"username\": \"goriladeportess\", \"x\": 0.4407, \"y\": 0.3556}, {\"username\": \"sivarsportsacademy\", \"x\": 0.4407, \"y\": 0.42}, {\"username\": \"santateclabkb\", \"x\": 0.4407, \"y\": 0.4844}, {\"username\": \"wonderbasketballacademy\", \"x\": 0.4407, \"y\": 0.5489}, {\"username\": \"capitalinos503_bkb_club\", \"x\": 0.4407, \"y\": 0.6778}]"}
+caption:
+Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal
+
+PRUEBA
