@@ -126,7 +126,7 @@ for folder in dirs:
     tags_all = json.load(open(tp, encoding="utf-8")) if os.path.exists(tp) else {}
     logp = os.path.join(folder, "published.json")
     done = json.load(open(logp)) if os.path.exists(logp) else {}
-    files = sorted(f for f in glob.glob(os.path.join(folder, "[0-9][0-9]-*.mp4")))
+    files = sorted(f for f in glob.glob(os.path.join(folder, "[0-9][0-9]-*.mp4")) if ".silent" not in f and ".tmp" not in f)
     for mp4 in files:
         name = os.path.basename(mp4)
         if ONLY and name[:2] not in ONLY: continue
