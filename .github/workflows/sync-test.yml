@@ -1,0 +1,37 @@
+name: sync-test
+
+# Checks whether the Sportradar embed API (behind fesabal.org's stats widget) answers from GitHub
+# without a browser. Re-fetches one stored game by its saved state and compares it.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch one stored game again
+        run: |
+          mkdir -p logs
+          python3 - <<'PY' 2>&1 | tee logs/sync-test-${{ github.run_id }}.txt
+          import json, glob, urllib.request, urllib.parse
+          f = sorted(glob.glob("data/clausura-2026/16m/games/*.json"))[0]
+          g = json.load(open(f))
+          url = "https://embed-api.eui.connect.sportradar.com/v1/embed/13/fixture_detail?state=" + urllib.parse.quote(g["state"])
+          for name, headers in [("plain", {}), ("browser-like", {"Origin": "https://fesabal.org", "Referer": "https://fesabal.org/", "User-Agent": "Mozilla/5.0"})]:
+              try:
+                  r = urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=30)
+                  j = json.load(r)
+                  fx = j["data"]["banner"]["fixture"]
+                  print(name, "HTTP", r.status, "OK:", " vs ".join(f"{c['name']} {c['score']}" for c in fx["competitors"]))
+              except Exception as e:
+                  print(name, "FAILED:", type(e).__name__, str(e)[:200])
+          PY
+      - name: Save log
+        if: always()
+        run: |
+          git config user.name "bkbfanssv-bot"; git config user.email "bkbfanssv-bot@users.noreply.github.com"
+          git add logs; git diff --cached --quiet || { git commit -m "sync-test log"; git push; }
