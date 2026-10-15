@@ -1,0 +1,91 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@goriladeportess"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Fernanda Montes",
+  "value": "14",
+  "title": "CAMPEONA DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@lapazeste_u18",
+   "@santaines.csi",
+   "@goriladeportess"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Ingrid Quiteño",
+  "value": "13",
+  "title": "REINA DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@santaines.csi",
+   "@sivarsportsacademy"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Valeria Velasco",
+  "value": "5",
+  "title": "REINA DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@goriladeportess"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Valeria Velasco",
+  "value": "6",
+  "title": "REINA DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@santaines.csi",
+   "@sivarsportsacademy",
+   "@goriladeportess"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Karla Rodríguez",
+  "value": "1",
+  "title": "REINA DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@santaines.csi",
+   "@sivarsportsacademy",
+   "@lapazeste_u18",
+   "@club_fsb",
+   "@goriladeportess"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Perla Roche",
+  "value": "4",
+  "title": "REINA DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@santaines.csi"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Fernanda Montes",
+  "value": "25",
+  "title": "REINA DE LA EFICIENCIA"
+ },
+ "08-dreamteam.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@santaines.csi"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ }
+}

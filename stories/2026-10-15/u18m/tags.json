@@ -1,0 +1,118 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@lapazeste_u18",
+   "@apgbulldogs_sv",
+   "@sivarsportsacademy"
+  ],
+  "players": [
+   "@x_rivera.c"
+  ],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Keysi Rivera",
+  "value": "24",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@lapazeste_u18",
+   "@adfusalmo",
+   "@nejapabc_",
+   "@se7enbkbclub"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Christian Gallardo",
+  "value": "15",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@goriladeportess",
+   "@apgbulldogs_sv",
+   "@sprtns_basketball_sv"
+  ],
+  "players": [
+   "@zxzx_diego"
+  ],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Diego Guevara",
+  "value": "6",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@lapazeste_u18"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Kevin Argumedo",
+  "value": "5",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@sivarsportsacademy",
+   "@goriladeportess",
+   "@apgbulldogs_sv"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Diego Gómez",
+  "value": "3",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@bkb.elcambio",
+   "@sivarsportsacademy",
+   "@se7enbkbclub"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Gabriel López",
+  "value": "2",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@lapazeste_u18",
+   "@apgbulldogs_sv"
+  ],
+  "players": [
+   "@zxzx_diego"
+  ],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Diego Guevara",
+  "value": "28",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-dreamteam.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@lapazeste_u18",
+   "@apgbulldogs_sv"
+  ],
+  "players": [
+   "@zxzx_diego",
+   "@x_rivera.c"
+  ],
+  "title": "DREAM TEAM DE LA JORNADA"
+ }
+}
