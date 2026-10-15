@@ -1,0 +1,48 @@
+{
+ "_note": "Captured once from fesabal.org widget (Oct 15 2026). Stable API endpoints per league: fixtures (All rounds), standings, statistics_leaders. If a URL stops working, recapture in the browser (see stats/README.md).",
+ "season": "clausura-2026",
+ "leagues": {
+  "18F": {
+   "competition": "LDU18F CLAUSURA 2026",
+   "compId": "3ab00f90-b777-11f1-942a-bd8072120130",
+   "fixtures_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/fixtures?state=eJyrVipWslJQMk5MMjBIszTQTTI3N9c1NEwz1LU0MUrUTUqxMDA3MjQyMDQ2UNJRUMoBKU4t1nUNVqoFAKtUDhw&seasonId=3ab00f90-b777-11f1-942a-bd8072120130",
+   "standings_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/standings?state=eJyrVipWslJQMk5MMjBIszTQTTI3N9c1NEwz1LU0MUrUTUqxMDA3MjQyMDQ2UNJRUMoBKU4t1nUNVqoFAKtUDhw&seasonId=3ab00f90-b777-11f1-942a-bd8072120130",
+   "leaders_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/statistics_leaders?state=eJyrVipWslJQMk5MMjBIszTQTTI3N9c1NEwz1LU0MUrUTUqxMDA3MjQyMDQ2UNJRUMoBKU4t1nUNVqoFAKtUDhw&seasonId=3ab00f90-b777-11f1-942a-bd8072120130"
+  },
+  "14F": {
+   "competition": "LDU14F CLAUSURA 2026",
+   "compId": "c016b5c5-b773-11f1-941b-d1cfcccca8b5",
+   "fixtures_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/fixtures?state=eJyrVipWslJQSjYwNEsyTTbVTTI3N9Y1NEwz1LU0MUzSTTFMTksGgkSLJFMlHQWlHJDi1GJd12ClWgDIYQ94&seasonId=c016b5c5-b773-11f1-941b-d1cfcccca8b5",
+   "standings_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/standings?state=eJyrVipWslJQSjYwNEsyTTbVTTI3N9Y1NEwz1LU0MUzSTTFMTksGgkSLJFMlHQWlHJDi1GJd12ClWgDIYQ94&seasonId=c016b5c5-b773-11f1-941b-d1cfcccca8b5",
+   "leaders_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/statistics_leaders?state=eJyrVipWslJQSjYwNEsyTTbVTTI3N9Y1NEwz1LU0MUzSTTFMTksGgkSLJFMlHQWlHJDi1GJd12ClWgDIYQ94&seasonId=c016b5c5-b773-11f1-941b-d1cfcccca8b5"
+  },
+  "16F": {
+   "competition": "LDU16F CLAUSURA 2026",
+   "compId": "6bc9b9ed-b775-11f1-966e-6d58ebf38105",
+   "fixtures_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/fixtures?state=eJyrVipWslJQMktKtkyyTE3RTTI3N9U1NEwz1LU0M0vVNUsxtUhNSjO2MDQwVdJRUMoBKU4t1nUNVqoFAMrHDw4&seasonId=6bc9b9ed-b775-11f1-966e-6d58ebf38105",
+   "standings_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/standings?state=eJyrVipWslJQMktKtkyyTE3RTTI3N9U1NEwz1LU0M0vVNUsxtUhNSjO2MDQwVdJRUMoBKU4t1nUNVqoFAMrHDw4&seasonId=6bc9b9ed-b775-11f1-966e-6d58ebf38105",
+   "leaders_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/statistics_leaders?state=eJyrVipWslJQMktKtkyyTE3RTTI3N9U1NEwz1LU0M0vVNUsxtUhNSjO2MDQwVdJRUMoBKU4t1nUNVqoFAMrHDw4&seasonId=6bc9b9ed-b775-11f1-966e-6d58ebf38105"
+  },
+  "18M": {
+   "competition": "LDU18M CLAUSURA 2026",
+   "compId": "c68c360c-b778-11f1-b5a5-5d7f121eeaab",
+   "fixtures_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/fixtures?state=eJyrVipWslJQSjazSDY2M0jWTTI3t9A1NEwz1E0yTTTVNU0xTzM0MkxNTUxMUtJRUMoBKU4t1nUNVqoFAMVmD08&seasonId=c68c360c-b778-11f1-b5a5-5d7f121eeaab",
+   "standings_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/standings?state=eJyrVipWslJQSjazSDY2M0jWTTI3t9A1NEwz1E0yTTTVNU0xTzM0MkxNTUxMUtJRUMoBKU4t1nUNVqoFAMVmD08&seasonId=c68c360c-b778-11f1-b5a5-5d7f121eeaab",
+   "leaders_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/statistics_leaders?state=eJyrVipWslJQSjazSDY2M0jWTTI3t9A1NEwz1E0yTTTVNU0xTzM0MkxNTUxMUtJRUMoBKU4t1nUNVqoFAMVmD08&seasonId=c68c360c-b778-11f1-b5a5-5d7f121eeaab"
+  },
+  "14M": {
+   "competition": "LDU14M CLAUSURA 2026",
+   "compId": "d716790f-b774-11f1-a714-49e72964282a",
+   "fixtures_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/fixtures?state=eJyrVipWslJQSjE3NDO3NEjTTTI3N9E1NEwz1E00NzTRNbFMNTeyNDMxsjBKVNJRUMoBKU4t1nUNVqoFAKVjDhY&seasonId=d716790f-b774-11f1-a714-49e72964282a",
+   "standings_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/standings?state=eJyrVipWslJQSjE3NDO3NEjTTTI3N9E1NEwz1E00NzTRNbFMNTeyNDMxsjBKVNJRUMoBKU4t1nUNVqoFAKVjDhY&seasonId=d716790f-b774-11f1-a714-49e72964282a",
+   "leaders_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/statistics_leaders?state=eJyrVipWslJQSjE3NDO3NEjTTTI3N9E1NEwz1E00NzTRNbFMNTeyNDMxsjBKVNJRUMoBKU4t1nUNVqoFAKVjDhY&seasonId=d716790f-b774-11f1-a714-49e72964282a"
+  },
+  "16M": {
+   "competition": "LDU16M CLAUSURA 2026",
+   "compId": "22511c1a-b776-11f1-9e78-0526df805f09",
+   "fixtures_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/fixtures?state=eJyrVipWslJQMjIyNTRMNkzUTTI3N9M1NEwz1LVMNbfQNTA1MktJszAwTTOwVNJRUMoBKU4t1nUNVqoFAKVWDjg&seasonId=22511c1a-b776-11f1-9e78-0526df805f09",
+   "standings_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/standings?state=eJyrVipWslJQMjIyNTRMNkzUTTI3N9M1NEwz1LVMNbfQNTA1MktJszAwTTOwVNJRUMoBKU4t1nUNVqoFAKVWDjg&seasonId=22511c1a-b776-11f1-9e78-0526df805f09",
+   "leaders_url": "https://embed-api.eui.connect.sportradar.com/v1/embed/13/statistics_leaders?state=eJyrVipWslJQMjIyNTRMNkzUTTI3N9M1NEwz1LVMNbfQNTA1MktJszAwTTOwVNJRUMoBKU4t1nUNVqoFAKVWDjg&seasonId=22511c1a-b776-11f1-9e78-0526df805f09"
+  }
+ }
+}
