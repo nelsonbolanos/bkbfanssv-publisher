@@ -1,0 +1,1 @@
+carousel needs 2-10 slides, got 12
