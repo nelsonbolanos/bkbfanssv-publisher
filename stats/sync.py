@@ -76,6 +76,8 @@ for code, L in SRC["leagues"].items():
         if fid in have:
             old = json.load(open(os.path.join(gdir, fid + ".json"), encoding="utf-8"))
             when = datetime.fromisoformat(old["date"].replace("Z", "+00:00"))
+            if when.tzinfo is None:
+                when = when.replace(tzinfo=timezone(timedelta(hours=-6)))  # fesabal times are El Salvador local
             if when < now - timedelta(days=recheck):
                 skipped += 1; continue
         st = state_of(f["link"])
