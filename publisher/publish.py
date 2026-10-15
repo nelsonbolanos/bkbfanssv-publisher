@@ -8,7 +8,7 @@ usage:
 env (never put the token in a file or a URL):
   IG_TOKEN        Instagram User access token (GitHub secret)
   IG_USER_ID      Instagram account id (17841478415958357 for @bkbfanssv)
-  IMAGE_BASE_URL  public base URL where the JPEGs are hosted, no trailing slash
+  IMAGE_BASE_URL  public base URL of the repo (GitHub Pages); slide "file" paths are relative to it
   IG_API_VERSION  optional, default v23.0
 
 manifest.json:
@@ -89,7 +89,22 @@ def wait_finished(cid, tries=30):
     sys.exit(f"container {cid} not FINISHED after waiting")
 
 
+def wait_public(url, tries=24):
+    for _ in range(tries):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=30) as r:
+                if r.status == 200:
+                    return
+        except urllib.error.HTTPError:
+            pass
+        time.sleep(10)
+    sys.exit(f"image not publicly reachable: {url}")
+
+
 validate(manifest)
+LOG = os.path.join(os.path.dirname(os.path.abspath(args[0])), "published.json")
+if os.path.exists(LOG) and not DRY:
+    sys.exit(f"already published: {open(LOG).read()} (delete published.json only if you are sure it is not on Instagram)")
 children_payloads = []
 for s in manifest["slides"]:
     p = {"image_url": f"{IMG}/{s['file']}", "is_carousel_item": "true"}
@@ -109,6 +124,9 @@ if DRY:
 if not (TOKEN and UID and IMG):
     sys.exit("IG_TOKEN, IG_USER_ID and IMAGE_BASE_URL must be set")
 
+for p in children_payloads:
+    wait_public(p["image_url"])
+print("all slides publicly reachable")
 ids = []
 for i, p in enumerate(children_payloads, 1):
     cid = call("POST", f"{UID}/media", p)["id"]
@@ -121,6 +139,8 @@ parent = call("POST", f"{UID}/media", {
 wait_finished(parent)
 media = call("POST", f"{UID}/media_publish", {"creation_id": parent})["id"]
 print("published media id:", media)
+json.dump({"media_id": media, "at": time.strftime("%Y-%m-%d %H:%M"), "tags": sum(len(s.get("tags", [])) for s in manifest["slides"])},
+          open(LOG, "w"), indent=1)
 try:
     pl = call("GET", media, {"fields": "permalink"})
     print("permalink:", pl.get("permalink"))

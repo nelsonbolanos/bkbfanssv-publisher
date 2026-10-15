@@ -12,7 +12,7 @@ on:
         default: true
 
 permissions:
-  contents: read
+  contents: write   # commits published.json + log back
 
 concurrency:
   group: publish
@@ -24,8 +24,8 @@ jobs:
     env:
       IG_TOKEN: ${{ secrets.IG_TOKEN }}
       IG_USER_ID: ${{ vars.IG_USER_ID }}
-      # JPEGs are served by GitHub Pages of this repo
-      IMAGE_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/${{ vars.IMAGE_DIR }}
+      # JPEGs are served by GitHub Pages of this repo (slide paths in the manifest are relative to the repo root)
+      IMAGE_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
       MANIFEST: ${{ inputs.manifest }}
       DRY_RUN: ${{ inputs.dry_run }}
     steps:
@@ -35,8 +35,13 @@ jobs:
           python-version: "3.12"
       - name: Publish
         run: |
-          if [ "$DRY_RUN" = "true" ]; then
-            python3 publisher/publish.py "$MANIFEST" --dry-run
-          else
-            python3 publisher/publish.py "$MANIFEST"
-          fi
+          mkdir -p logs
+          if [ "$DRY_RUN" = "true" ]; then FLAG=--dry-run; else FLAG=; fi
+          python3 -u publisher/publish.py "$MANIFEST" $FLAG 2>&1 | tee logs/run-${{ github.run_id }}.txt; exit ${PIPESTATUS[0]}
+      - name: Save published.json + log
+        if: ${{ always() }}
+        run: |
+          git config user.name "bkbfanssv-bot"
+          git config user.email "bkbfanssv-bot@users.noreply.github.com"
+          git add -A posts logs
+          git diff --cached --quiet || { git commit -m "published carousel: $MANIFEST"; git push; }
