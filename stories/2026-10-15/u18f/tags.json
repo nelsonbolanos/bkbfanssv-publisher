@@ -80,7 +80,18 @@
   "value": "25",
   "title": "REINA DE LA EFICIENCIA"
  },
- "08-dreamteam.mp4": {
+ "08-sixth.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@sivarsportsacademy",
+   "@santaines.csi"
+  ],
+  "players": [],
+  "leader": "Valeria Velasco",
+  "value": "15",
+  "title": "SEXTA REINA"
+ },
+ "09-dreamteam.mp4": {
   "handles": [
    "@goriladeportess",
    "@santaines.csi"
