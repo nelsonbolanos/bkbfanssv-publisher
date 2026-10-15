@@ -9,6 +9,8 @@ usage: python3 stats/q.py <command> <code> [options]        code = 14F 14M 16F 1
   leaders    <code> [-j N | --torneo] [--top 5]         pts reb ast stl tpm blk eff (totals)
   standings  <code> [--group A]             2 pts win, 1 loss; pts, then point difference
   player     <code> <name part>             a player's games
+  carousel   <code> [-j N] --out <dir>      writes <dir>/games.csv (gen.py format, Jugador del Partido = top EFF)
+                                            and <dir>/standings_full.json (cumulative, all teams)
 options: --season clausura-2026 (default) · --data  (prints the pipe lines the story/carousel builders read)
 Jornada = the Mon-Sun week with games, numbered in order (fesabal "Ronda: N" numbers games, not jornadas); default = the latest.
 """
@@ -168,5 +170,34 @@ elif cmd == "player":
             if norm(want) in norm(p["name"]) and p.get("played"):
                 print(f"J{g['j']} {g['date'][:10]} {p['name']} ({tname(p['team'])}) {'TIT' if p.get('starter') else 'BANCA'} "
                       f"{round(p.get('min', 0))} MIN · {p.get('pts', 0)} PTS {p.get('reb', 0)} REB {p.get('ast', 0)} AST EFF {p.get('eff', 0)}")
+elif cmd == "carousel":
+    out = opt("--out", None)
+    if not out:
+        sys.exit("--out <dir> required")
+    os.makedirs(out, exist_ok=True)
+    MES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
+    lines = []
+    for g in sel():
+        h, v = sorted(g["teams"], key=lambda t: not t["home"])
+        ps = [p for p in g["players"] if p.get("played")]
+        m = max(ps, key=lambda p: (p.get("eff", 0), p.get("pts", 0)))
+        d = date.fromisoformat(g["date"][:10])
+        ven = g.get("venue") or ""
+        mm = re.search(r"ADOLFO PINEDA\W*(\d)", ven.upper())
+        if mm:
+            ven = "GNAP" + mm.group(1)   # gen.py's venue codes
+        lines.append("|".join(str(x) for x in [f"{d.day} {MES[d.month - 1]} {d.year}", ven, h["name"], v["name"],
+                     f"{h['score']}-{v['score']}", "H" if m["team"] == h["id"] else "A", m["name"], m.get("pts", 0), m.get("reb", 0),
+                     m.get("ast", 0), m.get("eff", 0), m.get("img") or "", h.get("logo") or "", v.get("logo") or ""]))
+    open(os.path.join(out, "games.csv"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
+    tab = {}
+    for g in G:
+        a_, b_ = g["teams"]
+        for me, ot in ((a_, b_), (b_, a_)):
+            r = tab.setdefault(me["name"], [me["name"], 0, 0])
+            r[1] += me["score"] - ot["score"]; r[2] += 2 if me["score"] > ot["score"] else 1
+    json.dump(sorted(tab.values(), key=lambda r: (-r[2], -r[1])), open(os.path.join(out, "standings_full.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    print(f"{len(lines)} games ({label()}) -> {out}/games.csv; standings_full {len(tab)} teams; checks: "
+          + ("; ".join(c for g in sel() for c in g.get("check", [])) or "ok"))
 else:
     sys.exit(__doc__)
