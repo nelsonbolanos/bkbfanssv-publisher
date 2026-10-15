@@ -8,4 +8,4 @@ nelsonbolanos/bkbfanssv-studio.
 - `stories/<date>/<league>/NN-*.mp4` + `tags.json` -> workflow publish-story
 - `images/<slug>/*.jpg` + `posts/<slug>/manifest.json` -> workflow publish-carousel
 - `published.json` next to each batch records what went out (reruns never duplicate)
-- media older than 14 days is removed by workflow cleanup-media
+- media older than 7 days is removed by workflow cleanup-media

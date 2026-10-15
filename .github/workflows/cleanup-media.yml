@@ -1,6 +1,6 @@
 name: cleanup-media
 
-# Removes published media older than 14 days so the public repo does not keep an archive of photos.
+# Removes published media older than 7 days so the public repo does not keep an archive of photos.
 on:
   schedule:
     - cron: "17 9 * * *"
@@ -18,7 +18,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import os, re, shutil, datetime, json
-          cut = datetime.date.today() - datetime.timedelta(days=14)
+          cut = datetime.date.today() - datetime.timedelta(days=7)
           for d in sorted(os.listdir("stories")) if os.path.isdir("stories") else []:
               if re.fullmatch(r"\d{4}-\d\d-\d\d", d) and datetime.date.fromisoformat(d) < cut:
                   shutil.rmtree(os.path.join("stories", d)); print("removed stories/" + d)
