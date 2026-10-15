@@ -14,8 +14,9 @@ Tags = team handles + player handles (confirmed only; they come from handles.md 
 env (never put the token in a file or a URL):
   IG_TOKEN        Instagram User access token (secret)
   IG_USER_ID      17841478415958357 (@bkbfanssv)
-  MEDIA_BASE_URL  optional public base URL of the MP4s (<base>/<folder name>/<file>). If unset the MP4 is
-                  uploaded directly to Meta with the resumable upload (rupload.facebook.com), no hosting needed.
+  MEDIA_BASE_URL  public base URL of the repo files (GitHub Pages), e.g. https://nelsonbolanos.github.io/bkbfanssv-publisher
+                  The story video is <base>/<folder>/<file>. REQUIRED: Instagram Login stories reject the resumable
+                  upload ("The parameter video_url is required", tested Oct 15 2026).
   IG_API_VERSION  optional, default v23.0
 
 Safety:
@@ -92,7 +93,7 @@ def create(folder, mp4, tags):
     p = {"media_type": "STORIES"}
     if tags: p["user_tags"] = json.dumps([{"username": u} for u in tags])
     if MEDIA:
-        p["video_url"] = f"{MEDIA}/{os.path.basename(folder.rstrip('/'))}/{os.path.basename(mp4)}"
+        p["video_url"] = f"{MEDIA}/{mp4.lstrip('./')}"
         return call("POST", f"{UID}/media", p)["id"]
     p["upload_type"] = "resumable"
     r = call("POST", f"{UID}/media", p)
@@ -102,8 +103,8 @@ def create(folder, mp4, tags):
     return r["id"]
 
 
-if not DRY and not (TOKEN and UID):
-    sys.exit("IG_TOKEN and IG_USER_ID must be set")
+if not DRY and not (TOKEN and UID and MEDIA):
+    sys.exit("IG_TOKEN, IG_USER_ID and MEDIA_BASE_URL must be set")
 
 report = []
 for folder in dirs:
@@ -127,6 +128,8 @@ for folder in dirs:
             cid = create(folder, mp4, tags); wait_finished(cid)
         except ApiError as e:
             if not tags: raise
+            if "video_url" in e.body or e.code >= 500 and "user" not in e.body.lower():
+                raise  # not a tag problem: stop, nothing was published
             print(f"{name}: container failed with tags ({e}); retrying without tags")
             note = f"published WITHOUT tags (tag error: {str(e)[:200]})"
             cid = create(folder, mp4, []); wait_finished(cid)
