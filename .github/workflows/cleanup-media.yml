@@ -1,6 +1,7 @@
 name: cleanup-media
 
-# Removes published media older than 7 days so the public repo does not keep an archive of photos.
+# Removes media 1 day after it was published (7 days if it never got published, to allow a retry),
+# so the public repo does not keep an archive of photos.
 on:
   schedule:
     - cron: "17 9 * * *"
@@ -17,19 +18,26 @@ jobs:
       - name: Remove old media
         run: |
           python3 - <<'PY'
-          import os, re, shutil, datetime, json
-          cut = datetime.date.today() - datetime.timedelta(days=7)
-          for d in sorted(os.listdir("stories")) if os.path.isdir("stories") else []:
-              if re.fullmatch(r"\d{4}-\d\d-\d\d", d) and datetime.date.fromisoformat(d) < cut:
-                  shutil.rmtree(os.path.join("stories", d)); print("removed stories/" + d)
-          for root in ("images",):
-              if not os.path.isdir(root): continue
-              for slug in os.listdir(root):
+          import os, re, shutil, datetime, json, glob
+          today = datetime.date.today()
+          cut_done = today - datetime.timedelta(days=1)   # published: keep 1 day (Nelson, Oct 15 2026)
+          cut_any = today - datetime.timedelta(days=7)    # never published (failed run): keep 7 days for a retry
+          if os.path.isdir("stories"):
+              for d in sorted(os.listdir("stories")):
+                  if not re.fullmatch(r"\d{4}-\d\d-\d\d", d):
+                      continue
+                  day = datetime.date.fromisoformat(d)
+                  leagues = [x for x in glob.glob(f"stories/{d}/*") if os.path.isdir(x)]
+                  done = leagues and all(os.path.exists(os.path.join(x, "published.json")) for x in leagues)
+                  if (done and day < cut_done) or day < cut_any:
+                      shutil.rmtree(os.path.join("stories", d)); print("removed stories/" + d)
+          if os.path.isdir("images"):
+              for slug in os.listdir("images"):
                   pub = os.path.join("posts", slug, "published.json")
-                  if os.path.exists(pub):
-                      at = json.load(open(pub)).get("at", "")[:10]
-                      if at and datetime.date.fromisoformat(at) < cut:
-                          shutil.rmtree(os.path.join(root, slug)); print("removed images/" + slug)
+                  at = json.load(open(pub)).get("at", "")[:10] if os.path.exists(pub) else ""
+                  mtime = datetime.date.fromtimestamp(os.path.getmtime(os.path.join("images", slug)))
+                  if (at and datetime.date.fromisoformat(at) < cut_done) or (not at and mtime < cut_any):
+                      shutil.rmtree(os.path.join("images", slug)); print("removed images/" + slug)
           PY
           git config user.name "bkbfanssv-bot"; git config user.email "bkbfanssv-bot@users.noreply.github.com"
           git add -A; git diff --cached --quiet || { git commit -m "cleanup old media"; git push; }
