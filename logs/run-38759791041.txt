@@ -1,0 +1,9 @@
+token account: bkbfanssv
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u16f/08-dreamteam.mp4
+published stories/2026-10-15/u16f/08-dreamteam.mp4 media=18042878018830063 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u16m/08-dreamteam.mp4
+published stories/2026-10-15/u16m/08-dreamteam.mp4 media=18146513905599940 tags=4 
+
+SUMMARY
+  stories/2026-10-15/u16f/08-dreamteam.mp4: 5 tags 
+  stories/2026-10-15/u16m/08-dreamteam.mp4: 4 tags 
