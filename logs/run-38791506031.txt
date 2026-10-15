@@ -1,0 +1,18 @@
+DRY stories/2026-10-15/u18f/01-points.mp4  520 KB  tags=['@goriladeportess']  via=video_url
+DRY stories/2026-10-15/u18f/02-rebounds.mp4  582 KB  tags=['@lapazeste_u18', '@santaines.csi', '@goriladeportess']  via=video_url
+DRY stories/2026-10-15/u18f/03-assists.mp4  523 KB  tags=['@goriladeportess', '@santaines.csi', '@sivarsportsacademy']  via=video_url
+DRY stories/2026-10-15/u18f/04-steals.mp4  491 KB  tags=['@goriladeportess']  via=video_url
+DRY stories/2026-10-15/u18f/05-pointsThreeMade.mp4  446 KB  tags=['@santaines.csi', '@sivarsportsacademy', '@goriladeportess']  via=video_url
+DRY stories/2026-10-15/u18f/06-blocks.mp4  433 KB  tags=['@santaines.csi', '@sivarsportsacademy', '@lapazeste_u18', '@club_fsb', '@goriladeportess']  via=video_url
+DRY stories/2026-10-15/u18f/07-efficiency.mp4  534 KB  tags=['@goriladeportess', '@santaines.csi']  via=video_url
+DRY stories/2026-10-15/u18f/08-sixth.mp4  513 KB  tags=['@goriladeportess', '@sivarsportsacademy', '@santaines.csi']  via=video_url
+DRY stories/2026-10-15/u18f/09-dreamteam.mp4  606 KB  tags=['@goriladeportess', '@santaines.csi']  via=video_url
+DRY stories/2026-10-15/u18m/01-points.mp4  669 KB  tags=['@lapazeste_u18', '@apgbulldogs_sv', '@sivarsportsacademy', '@x_rivera.c']  via=video_url
+DRY stories/2026-10-15/u18m/02-rebounds.mp4  569 KB  tags=['@lapazeste_u18', '@adfusalmo', '@nejapabc_', '@se7enbkbclub']  via=video_url
+DRY stories/2026-10-15/u18m/03-assists.mp4  572 KB  tags=['@sansalvadorbc', '@goriladeportess', '@apgbulldogs_sv', '@sprtns_basketball_sv', '@zxzx_diego']  via=video_url
+DRY stories/2026-10-15/u18m/04-steals.mp4  358 KB  tags=['@sansalvadorbc', '@lapazeste_u18']  via=video_url
+DRY stories/2026-10-15/u18m/05-pointsThreeMade.mp4  473 KB  tags=['@sivarsportsacademy', '@goriladeportess', '@apgbulldogs_sv']  via=video_url
+DRY stories/2026-10-15/u18m/06-blocks.mp4  332 KB  tags=['@santateclabkb', '@bkb.elcambio', '@sivarsportsacademy', '@se7enbkbclub']  via=video_url
+DRY stories/2026-10-15/u18m/07-efficiency.mp4  575 KB  tags=['@sansalvadorbc', '@lapazeste_u18', '@apgbulldogs_sv', '@zxzx_diego']  via=video_url
+DRY stories/2026-10-15/u18m/08-sixth.mp4  355 KB  tags=['@apgbulldogs_sv', '@sivarsportsacademy', '@sub18.dragons', '@goriladeportess']  via=video_url
+DRY stories/2026-10-15/u18m/09-dreamteam.mp4  555 KB  tags=['@sansalvadorbc', '@lapazeste_u18', '@apgbulldogs_sv', '@zxzx_diego', '@x_rivera.c']  via=video_url
