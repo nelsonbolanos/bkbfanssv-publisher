@@ -10,7 +10,7 @@ usage: python3 stats/q.py <command> <code> [options]        code = 14F 14M 16F 1
   standings  <code> [--group A]             2 pts win, 1 loss; pts, then point difference
   player     <code> <name part>             a player's games
 options: --season clausura-2026 (default) · --data  (prints the pipe lines the story/carousel builders read)
-Jornada = fesabal "Ronda: N" when stored (sync.py), else the Mon-Sun week with games in order; default = the latest.
+Jornada = the Mon-Sun week with games, numbered in order (fesabal "Ronda: N" numbers games, not jornadas); default = the latest.
 """
 import sys, os, json, glob, re, unicodedata
 from datetime import date
@@ -56,8 +56,7 @@ def week(g):
 
 weeks = sorted({week(g) for g in G})
 for g in G:
-    m = re.search(r"(\d+)", str(g.get("round") or ""))
-    g["j"] = int(m.group(1)) if m else weeks.index(week(g)) + 1   # fesabal "Ronda: N" when known
+    g["j"] = weeks.index(week(g)) + 1   # fesabal "Ronda: N" numbers GAMES, not jornadas: do not use it
 weeks = sorted({g["j"] for g in G})
 J = jn or max(weeks)
 team = {t["id"]: t for g in G for t in g["teams"]}
