@@ -89,11 +89,25 @@ def tag_list(t):
     return out[:20]
 
 
+def wait_public(url, tries=24):
+    """GitHub Pages can take a minute or two to serve a new file; Instagram fails if it can't download it."""
+    for _ in range(tries):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=30) as r:
+                if r.status == 200:
+                    print(f"  public OK ({r.headers.get('Content-Type')}): {url}"); return
+        except urllib.error.HTTPError:
+            pass
+        time.sleep(10)
+    raise ApiError(0, f"video not publicly reachable: {url}")
+
+
 def create(folder, mp4, tags):
     p = {"media_type": "STORIES"}
     if tags: p["user_tags"] = json.dumps([{"username": u} for u in tags])
     if MEDIA:
         p["video_url"] = f"{MEDIA}/{mp4.lstrip('./')}"
+        wait_public(p["video_url"])
         return call("POST", f"{UID}/media", p)["id"]
     p["upload_type"] = "resumable"
     r = call("POST", f"{UID}/media", p)
