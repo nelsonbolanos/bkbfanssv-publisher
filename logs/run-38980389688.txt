@@ -1,0 +1,57 @@
+token account: bkbfanssv
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmb/01-points.mp4
+published stories/2026-10-16/lmb/01-points.mp4 media=18038604137837696 tags=7 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmb/02-rebounds.mp4
+published stories/2026-10-16/lmb/02-rebounds.mp4 media=18022865102720221 tags=7 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmb/03-assists.mp4
+published stories/2026-10-16/lmb/03-assists.mp4 media=18350270893268813 tags=7 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmb/04-steals.mp4
+published stories/2026-10-16/lmb/04-steals.mp4 media=17992050099022057 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmb/05-pointsThreeMade.mp4
+published stories/2026-10-16/lmb/05-pointsThreeMade.mp4 media=17969271051190830 tags=7 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmb/06-blocks.mp4
+published stories/2026-10-16/lmb/06-blocks.mp4 media=18115847513015489 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmb/07-efficiency.mp4
+published stories/2026-10-16/lmb/07-efficiency.mp4 media=18106245125207329 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmb/08-sixth.mp4
+published stories/2026-10-16/lmb/08-sixth.mp4 media=18081428537343897 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmb/09-dreamteam.mp4
+published stories/2026-10-16/lmb/09-dreamteam.mp4 media=18132440746758412 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmbf/01-points.mp4
+published stories/2026-10-16/lmbf/01-points.mp4 media=18130484131776646 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmbf/02-rebounds.mp4
+published stories/2026-10-16/lmbf/02-rebounds.mp4 media=18503747152102584 tags=8 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmbf/03-assists.mp4
+published stories/2026-10-16/lmbf/03-assists.mp4 media=18079215536393882 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmbf/04-steals.mp4
+published stories/2026-10-16/lmbf/04-steals.mp4 media=18031735079899425 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmbf/05-pointsThreeMade.mp4
+published stories/2026-10-16/lmbf/05-pointsThreeMade.mp4 media=18372160177215711 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmbf/06-blocks.mp4
+published stories/2026-10-16/lmbf/06-blocks.mp4 media=18134644897663806 tags=8 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmbf/07-efficiency.mp4
+published stories/2026-10-16/lmbf/07-efficiency.mp4 media=18076440854460919 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmbf/08-sixth.mp4
+published stories/2026-10-16/lmbf/08-sixth.mp4 media=18248458123313150 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-16/lmbf/09-dreamteam.mp4
+published stories/2026-10-16/lmbf/09-dreamteam.mp4 media=18626478556015167 tags=6 
+
+SUMMARY
+  stories/2026-10-16/lmb/01-points.mp4: 7 tags 
+  stories/2026-10-16/lmb/02-rebounds.mp4: 7 tags 
+  stories/2026-10-16/lmb/03-assists.mp4: 7 tags 
+  stories/2026-10-16/lmb/04-steals.mp4: 6 tags 
+  stories/2026-10-16/lmb/05-pointsThreeMade.mp4: 7 tags 
+  stories/2026-10-16/lmb/06-blocks.mp4: 6 tags 
+  stories/2026-10-16/lmb/07-efficiency.mp4: 6 tags 
+  stories/2026-10-16/lmb/08-sixth.mp4: 5 tags 
+  stories/2026-10-16/lmb/09-dreamteam.mp4: 6 tags 
+  stories/2026-10-16/lmbf/01-points.mp4: 6 tags 
+  stories/2026-10-16/lmbf/02-rebounds.mp4: 8 tags 
+  stories/2026-10-16/lmbf/03-assists.mp4: 6 tags 
+  stories/2026-10-16/lmbf/04-steals.mp4: 6 tags 
+  stories/2026-10-16/lmbf/05-pointsThreeMade.mp4: 5 tags 
+  stories/2026-10-16/lmbf/06-blocks.mp4: 8 tags 
+  stories/2026-10-16/lmbf/07-efficiency.mp4: 6 tags 
+  stories/2026-10-16/lmbf/08-sixth.mp4: 5 tags 
+  stories/2026-10-16/lmbf/09-dreamteam.mp4: 6 tags 
