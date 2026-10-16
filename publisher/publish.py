@@ -52,6 +52,16 @@ def validate(m):
             seen.add(u)
 
 
+RATE_CODES = ('"code":4,', '"code":17,', '"code":32,', '"code":613,', '"error_subcode":2207051')
+RATE_WAITS = [60, 120, 240, 480, 600]   # up to ~25 min of back-off per request (Oct 16 2026: hit code 4 with stories)
+
+
+def rate_limited(body):
+    """Instagram/Meta rate limit. The request was rejected, nothing happened, so retrying is safe."""
+    b = (body or "").replace(" ", "")
+    return "requestlimit" in b.lower() or any(c in b for c in RATE_CODES)
+
+
 def call(method, path, data=None):
     """Token goes in the Authorization header, never the URL."""
     url = f"{BASE}/{path}"
@@ -62,18 +72,21 @@ def call(method, path, data=None):
     elif data:
         url += "?" + urllib.parse.urlencode(data)
     req = urllib.request.Request(url, data=body, headers=headers, method=method)
-    for attempt in range(4):
+    attempt = rate = 0
+    while True:
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors="replace")
+            if rate_limited(msg) and rate < len(RATE_WAITS):
+                print(f"  rate limit, waiting {RATE_WAITS[rate]} s"); time.sleep(RATE_WAITS[rate]); rate += 1; continue
             if e.code >= 500 and attempt < 3 and "media_publish" not in path:
-                time.sleep(3 * (attempt + 1)); continue
+                attempt += 1; time.sleep(3 * attempt); continue
             sys.exit(f"HTTP {e.code} on {method} {path}: {msg}")
         except urllib.error.URLError as e:
             if attempt < 3 and "media_publish" not in path:
-                time.sleep(3 * (attempt + 1)); continue
+                attempt += 1; time.sleep(3 * attempt); continue
             sys.exit(f"network error on {path}: {e}")
 
 
@@ -85,7 +98,7 @@ def wait_finished(cid, tries=30):
             return
         if st in ("ERROR", "EXPIRED"):
             sys.exit(f"container {cid} status {st}: {r}")
-        time.sleep(4)
+        time.sleep(10)   # was 4 s: fewer status calls, the hourly API limit is shared by all posts
     sys.exit(f"container {cid} not FINISHED after waiting")
 
 
