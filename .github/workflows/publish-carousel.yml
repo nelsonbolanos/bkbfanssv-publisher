@@ -1,6 +1,11 @@
 name: publish-carousel
 
+# - schedule: every night 20:37 El Salvador (02:37 UTC) it publishes every posts/<slug> with a READY file
+#   (first line YYYY-MM-DD) and no published.json (publisher/pending.py). Nothing READY -> does nothing.
+# - manual (workflow_dispatch): one manifest, dry run by default.
 on:
+  schedule:
+    - cron: "37 2 * * *"
   workflow_dispatch:
     inputs:
       manifest:
@@ -27,21 +32,34 @@ jobs:
       # JPEGs are served by GitHub Pages of this repo (slide paths in the manifest are relative to the repo root)
       IMAGE_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
       MANIFEST: ${{ inputs.manifest }}
-      DRY_RUN: ${{ inputs.dry_run }}
+      DRY_RUN: ${{ github.event_name == 'schedule' && 'false' || inputs.dry_run }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Pick READY carousels (schedule only)
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          M=$(python3 publisher/pending.py carousels)
+          echo "pending: ${M:-nothing}"
+          echo "MANIFEST=$M" >> "$GITHUB_ENV"
       - name: Publish
+        if: ${{ env.MANIFEST != '' }}
         run: |
           mkdir -p logs
           if [ "$DRY_RUN" = "true" ]; then FLAG=--dry-run; else FLAG=; fi
-          python3 -u publisher/publish.py "$MANIFEST" $FLAG 2>&1 | tee logs/run-${{ github.run_id }}.txt; exit ${PIPESTATUS[0]}
+          rc=0
+          for m in $MANIFEST; do
+            echo "== $m"
+            python3 -u publisher/publish.py "$m" $FLAG 2>&1 | tee -a logs/run-${{ github.run_id }}.txt
+            [ "${PIPESTATUS[0]}" = 0 ] || rc=1
+          done
+          exit $rc
       - name: Save published.json + log
-        if: ${{ always() }}
+        if: ${{ always() && env.MANIFEST != '' }}
         run: |
           git config user.name "bkbfanssv-bot"
           git config user.email "bkbfanssv-bot@users.noreply.github.com"
           git add -A posts logs
-          git diff --cached --quiet || { git commit -m "published carousel: $MANIFEST"; git push; }
+          git diff --cached --quiet || { git commit -m "published carousel ($GITHUB_EVENT_NAME): $MANIFEST"; git pull --rebase -q; git push; }
