@@ -1,10 +1,15 @@
 name: publish-story
 
 # Publishes leader + Dream Team stories with mentions.
-# - schedule: every night 20:07 El Salvador (02:07 UTC) it publishes every stories/<date>/<league> folder that has a
-#   READY file and is not fully in published.json (publisher/pending.py). Nothing marked READY -> does nothing.
+# - push: as soon as a stories/<date>/<league>/READY file lands on main, it publishes every READY folder that is not
+#   fully in published.json (publisher/pending.py).
+# - schedule: every day 18:07 El Salvador (00:07 UTC), same thing, as a backup if the push run did not happen.
 # - manual (workflow_dispatch): any folders, dry run by default.
 on:
+  push:
+    branches: [main]
+    paths:
+      - "stories/**/READY"
   schedule:
     - cron: "7 0 * * *"
   workflow_dispatch:
@@ -37,14 +42,16 @@ jobs:
       MEDIA_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
       FOLDERS: ${{ inputs.folders }}
       ONLY: ${{ inputs.only }}
-      DRY_RUN: ${{ github.event_name == 'schedule' && 'false' || inputs.dry_run }}
+      DRY_RUN: ${{ github.event_name != 'workflow_dispatch' && 'false' || inputs.dry_run }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # latest main, so a queued run sees the published.json written by the run before it
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Pick READY folders (schedule only)
-        if: ${{ github.event_name == 'schedule' }}
+      - name: Pick READY folders (push / schedule)
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         run: |
           F=$(python3 publisher/pending.py stories)
           echo "pending: ${F:-nothing}"
