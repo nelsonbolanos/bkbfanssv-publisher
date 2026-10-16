@@ -1,0 +1,109 @@
+token account: bkbfanssv
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18f/01-points.mp4
+published stories/2026-10-15/u18f/01-points.mp4 media=18470416651136448 tags=1 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18f/02-rebounds.mp4
+published stories/2026-10-15/u18f/02-rebounds.mp4 media=18129597301880512 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18f/03-assists.mp4
+published stories/2026-10-15/u18f/03-assists.mp4 media=18151599847543674 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18f/04-steals.mp4
+published stories/2026-10-15/u18f/04-steals.mp4 media=17998095860822565 tags=1 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18f/05-pointsThreeMade.mp4
+published stories/2026-10-15/u18f/05-pointsThreeMade.mp4 media=18123133888918324 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18f/06-blocks.mp4
+published stories/2026-10-15/u18f/06-blocks.mp4 media=18150393922553203 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18f/07-efficiency.mp4
+published stories/2026-10-15/u18f/07-efficiency.mp4 media=17973141363171093 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18f/08-sixth.mp4
+published stories/2026-10-15/u18f/08-sixth.mp4 media=18150913597548792 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18f/09-dreamteam.mp4
+published stories/2026-10-15/u18f/09-dreamteam.mp4 media=18136343524710873 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/01-points.mp4
+published stories/2026-10-15/u18m/01-points.mp4 media=18108471797218909 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/02-rebounds.mp4
+published stories/2026-10-15/u18m/02-rebounds.mp4 media=17949972324317625 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/03-assists.mp4
+published stories/2026-10-15/u18m/03-assists.mp4 media=18038581460837728 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/04-steals.mp4
+published stories/2026-10-15/u18m/04-steals.mp4 media=18132360137508989 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/05-pointsThreeMade.mp4
+published stories/2026-10-15/u18m/05-pointsThreeMade.mp4 media=18132065275673892 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/06-blocks.mp4
+published stories/2026-10-15/u18m/06-blocks.mp4 media=17995675397975576 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/07-efficiency.mp4
+published stories/2026-10-15/u18m/07-efficiency.mp4 media=17915068383540099 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/08-sixth.mp4
+08-sixth.mp4: container failed with tags (HTTP 403: {"error":{"message":"Application request limit reached","type":"OAuthException","is_transient":true,"code":4,"error_subcode":1349210,"error_user_title":"Rate Limit Exceeded","error_user_msg":"You are hitting rate-limits on the node that you are attempting to fetch. Please wait and try again later.","fbtrace_id":"AsFe5J9KpbiTHNh7-EBn0_x"}}); retrying without tags
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/08-sixth.mp4
+Traceback (most recent call last):
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 61, in call
+    with urllib.request.urlopen(req, timeout=300) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 142, in <module>
+    cid = create(folder, mp4, tags); wait_finished(cid)
+                                     ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 76, in wait_finished
+    r = call("GET", cid, {"fields": "status_code,status"})
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 67, in call
+    raise ApiError(e.code, msg)
+ApiError: HTTP 403: {"error":{"message":"Application request limit reached","type":"OAuthException","is_transient":true,"code":4,"error_subcode":1349210,"error_user_title":"Rate Limit Exceeded","error_user_msg":"You are hitting rate-limits on the node that you are attempting to fetch. Please wait and try again later.","fbtrace_id":"AsFe5J9KpbiTHNh7-EBn0_x"}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 61, in call
+    with urllib.request.urlopen(req, timeout=300) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 149, in <module>
+    cid = create(folder, mp4, []); wait_finished(cid)
+                                   ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 76, in wait_finished
+    r = call("GET", cid, {"fields": "status_code,status"})
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 67, in call
+    raise ApiError(e.code, msg)
+ApiError: HTTP 403: {"error":{"message":"Application request limit reached","type":"OAuthException","is_transient":true,"code":4,"error_subcode":1349210,"error_user_title":"Rate Limit Exceeded","error_user_msg":"You are hitting rate-limits on the node that you are attempting to fetch. Please wait and try again later.","fbtrace_id":"AQ2DY6DiAvf8Y9ohpYTRsY9"}}
