@@ -40,4 +40,4 @@ jobs:
                       shutil.rmtree(os.path.join("images", slug)); print("removed images/" + slug)
           PY
           git config user.name "bkbfanssv-bot"; git config user.email "bkbfanssv-bot@users.noreply.github.com"
-          git add -A; git diff --cached --quiet || { git commit -m "cleanup old media"; git push; }
+          git add -A; git diff --cached --quiet || { git commit -m "cleanup old media"; git pull --rebase -q; git push; }
