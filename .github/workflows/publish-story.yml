@@ -6,7 +6,7 @@ name: publish-story
 # - manual (workflow_dispatch): any folders, dry run by default.
 on:
   schedule:
-    - cron: "7 2 * * *"
+    - cron: "45 1 * * *"
   workflow_dispatch:
     inputs:
       folders:
