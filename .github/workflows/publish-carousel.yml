@@ -1,9 +1,14 @@
 name: publish-carousel
 
-# - schedule: every night 20:37 El Salvador (02:37 UTC) it publishes every posts/<slug> with a READY file
-#   (first line YYYY-MM-DD) and no published.json (publisher/pending.py). Nothing READY -> does nothing.
+# - push: as soon as a posts/<slug>/READY file (first line YYYY-MM-DD) lands on main, it publishes every READY
+#   carousel without published.json (publisher/pending.py).
+# - schedule: every day 09:07 El Salvador (15:07 UTC), same thing, as a backup if the push run did not happen.
 # - manual (workflow_dispatch): one manifest, dry run by default.
 on:
+  push:
+    branches: [main]
+    paths:
+      - "posts/**/READY"
   schedule:
     - cron: "7 15 * * *"
   workflow_dispatch:
@@ -32,14 +37,16 @@ jobs:
       # JPEGs are served by GitHub Pages of this repo (slide paths in the manifest are relative to the repo root)
       IMAGE_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
       MANIFEST: ${{ inputs.manifest }}
-      DRY_RUN: ${{ github.event_name == 'schedule' && 'false' || inputs.dry_run }}
+      DRY_RUN: ${{ github.event_name != 'workflow_dispatch' && 'false' || inputs.dry_run }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # latest main, so a queued run sees the published.json written by the run before it
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Pick READY carousels (schedule only)
-        if: ${{ github.event_name == 'schedule' }}
+      - name: Pick READY carousels (push / schedule)
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         run: |
           M=$(python3 publisher/pending.py carousels)
           echo "pending: ${M:-nothing}"
@@ -54,6 +61,7 @@ jobs:
             echo "== $m"
             python3 -u publisher/publish.py "$m" $FLAG 2>&1 | tee -a logs/run-${{ github.run_id }}.txt
             [ "${PIPESTATUS[0]}" = 0 ] || rc=1
+            sleep 30   # spread the API calls of several carousels
           done
           exit $rc
       - name: Save published.json + log
