@@ -47,6 +47,18 @@ class ApiError(Exception):
     def __init__(self, code, body): super().__init__(f"HTTP {code}: {body}"); self.code, self.body = code, body
 
 
+RATE_CODES = ('"code":4,', '"code":17,', '"code":32,', '"code":613,', '"error_subcode":2207051')
+
+
+def rate_limited(body):
+    """Instagram/Meta rate limit (app, user or account level). The request was rejected, nothing happened."""
+    b = (body or "").replace(" ", "")
+    return "requestlimit" in b.lower() or any(c in b for c in RATE_CODES)
+
+
+RATE_WAITS = [60, 120, 240, 480, 600]   # up to ~25 min of back-off per request (Oct 16 2026: 18 stories hit code 4)
+
+
 def call(method, path, data=None, url=None, headers=None, raw=None):
     url = url or f"{BASE}/{path}"
     h = {"Authorization": f"Bearer {TOKEN}"}; h.update(headers or {})
@@ -56,29 +68,34 @@ def call(method, path, data=None, url=None, headers=None, raw=None):
     elif method == "GET" and data:
         url += "?" + urllib.parse.urlencode(data)
     req = urllib.request.Request(url, data=body, headers=h, method=method)
-    for attempt in range(4):
+    is_publish = (path or "").endswith("media_publish")
+    attempt = rate = 0
+    while True:
         try:
             with urllib.request.urlopen(req, timeout=300) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors="replace")
-            if e.code >= 500 and attempt < 3 and path != "media_publish":
-                time.sleep(3 * (attempt + 1)); continue
+            if rate_limited(msg) and rate < len(RATE_WAITS):
+                # a rate-limited request is rejected outright, so retrying is safe even for media_publish
+                print(f"  rate limit, waiting {RATE_WAITS[rate]} s"); time.sleep(RATE_WAITS[rate]); rate += 1; continue
+            if e.code >= 500 and attempt < 3 and not is_publish:
+                attempt += 1; time.sleep(3 * attempt); continue
             raise ApiError(e.code, msg)
         except urllib.error.URLError as e:
-            if attempt < 3 and path != "media_publish":
-                time.sleep(3 * (attempt + 1)); continue
+            if attempt < 3 and not is_publish:
+                attempt += 1; time.sleep(3 * attempt); continue
             raise ApiError(0, str(e))
 
 
-def wait_finished(cid, tries=60):
+def wait_finished(cid, tries=40):
     for _ in range(tries):
         r = call("GET", cid, {"fields": "status_code,status"})
         st = r.get("status_code")
         if st == "FINISHED": return
         if st in ("ERROR", "EXPIRED"): raise ApiError(0, f"container {cid} {st}: {r}")
-        time.sleep(5)
-    raise ApiError(0, f"container {cid} not FINISHED after {tries * 5}s")
+        time.sleep(15)   # was 5 s: polling is what used up the rate limit
+    raise ApiError(0, f"container {cid} not FINISHED after {tries * 15}s")
 
 
 def tag_list(t):
@@ -141,7 +158,7 @@ for folder in dirs:
         try:
             cid = create(folder, mp4, tags); wait_finished(cid)
         except ApiError as e:
-            if not tags: raise
+            if not tags or rate_limited(e.body): raise   # rate limit is not a tag problem: keep the tags, stop
             if "video_url" in e.body or e.code >= 500 and "user" not in e.body.lower():
                 raise  # not a tag problem: stop, nothing was published
             print(f"{name}: container failed with tags ({e}); retrying without tags")
@@ -152,7 +169,7 @@ for folder in dirs:
         json.dump(done, open(logp, "w"), indent=1)
         report.append((folder, name, tags, note))
         print(f"published {folder}/{name} media={mid} tags={len(tags)} {note}")
-        time.sleep(3)
+        time.sleep(10)
 
 if report:
     print("\nSUMMARY")
