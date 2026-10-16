@@ -7,5 +7,7 @@ nelsonbolanos/bkbfanssv-studio.
 
 - `stories/<date>/<league>/NN-*.mp4` + `tags.json` -> workflow publish-story
 - `images/<slug>/*.jpg` + `posts/<slug>/manifest.json` -> workflow publish-carousel
+- a `READY` file in a batch folder marks it as reviewed: pushing it starts the publish workflow (backup crons: stories
+  18:07, carousels 09:07 El Salvador). `publisher/pending.py` lists what is READY and not yet published.
 - `published.json` next to each batch records what went out (reruns never duplicate)
 - media is removed 1 day after publishing (7 days if never published) by workflow cleanup-media
