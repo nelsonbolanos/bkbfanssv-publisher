@@ -1,0 +1,30 @@
+token account: bkbfanssv
+skip stories/2026-10-15/u18f/01-points.mp4 (already published 2026-10-16 02:27)
+skip stories/2026-10-15/u18f/02-rebounds.mp4 (already published 2026-10-16 02:28)
+skip stories/2026-10-15/u18f/03-assists.mp4 (already published 2026-10-16 02:29)
+skip stories/2026-10-15/u18f/04-steals.mp4 (already published 2026-10-16 02:30)
+skip stories/2026-10-15/u18f/05-pointsThreeMade.mp4 (already published 2026-10-16 02:30)
+skip stories/2026-10-15/u18f/06-blocks.mp4 (already published 2026-10-16 02:31)
+skip stories/2026-10-15/u18f/07-efficiency.mp4 (already published 2026-10-16 02:32)
+skip stories/2026-10-15/u18f/08-sixth.mp4 (already published 2026-10-16 02:32)
+skip stories/2026-10-15/u18f/09-dreamteam.mp4 (already published 2026-10-16 02:33)
+skip stories/2026-10-15/u18m/01-points.mp4 (already published 2026-10-16 02:34)
+skip stories/2026-10-15/u18m/02-rebounds.mp4 (already published 2026-10-16 02:34)
+skip stories/2026-10-15/u18m/03-assists.mp4 (already published 2026-10-16 02:36)
+skip stories/2026-10-15/u18m/04-steals.mp4 (already published 2026-10-16 02:37)
+skip stories/2026-10-15/u18m/05-pointsThreeMade.mp4 (already published 2026-10-16 02:37)
+skip stories/2026-10-15/u18m/06-blocks.mp4 (already published 2026-10-16 02:38)
+skip stories/2026-10-15/u18m/07-efficiency.mp4 (already published 2026-10-16 02:38)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/08-sixth.mp4
+  rate limit, waiting 60 s
+  rate limit, waiting 120 s
+  rate limit, waiting 240 s
+  rate limit, waiting 480 s
+  rate limit, waiting 600 s
+published stories/2026-10-15/u18m/08-sixth.mp4 media=18014557220958300 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-15/u18m/09-dreamteam.mp4
+published stories/2026-10-15/u18m/09-dreamteam.mp4 media=18464650543136420 tags=5 
+
+SUMMARY
+  stories/2026-10-15/u18m/08-sixth.mp4: 4 tags 
+  stories/2026-10-15/u18m/09-dreamteam.mp4: 5 tags 
