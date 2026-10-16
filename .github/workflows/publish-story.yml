@@ -1,7 +1,12 @@
 name: publish-story
 
-# Publishes leader + Dream Team stories with mentions. Manual trigger, dry run by default.
+# Publishes leader + Dream Team stories with mentions.
+# - schedule: every night 20:07 El Salvador (02:07 UTC) it publishes every stories/<date>/<league> folder that has a
+#   READY file and is not fully in published.json (publisher/pending.py). Nothing marked READY -> does nothing.
+# - manual (workflow_dispatch): any folders, dry run by default.
 on:
+  schedule:
+    - cron: "7 2 * * *"
   workflow_dispatch:
     inputs:
       folders:
@@ -32,14 +37,20 @@ jobs:
       MEDIA_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
       FOLDERS: ${{ inputs.folders }}
       ONLY: ${{ inputs.only }}
-      DRY_RUN: ${{ inputs.dry_run }}
+      DRY_RUN: ${{ github.event_name == 'schedule' && 'false' || inputs.dry_run }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Pick READY folders (schedule only)
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          F=$(python3 publisher/pending.py stories)
+          echo "pending: ${F:-nothing}"
+          echo "FOLDERS=$F" >> "$GITHUB_ENV"
       - name: Check token (no value printed)
-        if: ${{ !inputs.dry_run }}
+        if: ${{ env.FOLDERS != '' && env.DRY_RUN != 'true' }}
         run: |
           mkdir -p logs
           { test -n "$IG_TOKEN" || { echo "IG_TOKEN secret missing"; exit 1; }
@@ -55,6 +66,7 @@ jobs:
           EOF
           } 2>&1 | tee logs/run-${{ github.run_id }}.txt; exit ${PIPESTATUS[0]}
       - name: Publish
+        if: ${{ env.FOLDERS != '' }}
         run: |
           mkdir -p logs
           ARGS="$FOLDERS"
@@ -62,9 +74,9 @@ jobs:
           if [ "$DRY_RUN" = "true" ]; then FLAG=--dry-run; else FLAG=; fi
           python3 -u publisher/publish_story.py $ARGS $FLAG 2>&1 | tee -a logs/run-${{ github.run_id }}.txt; exit ${PIPESTATUS[0]}
       - name: Save published.json + log
-        if: ${{ always() }}
+        if: ${{ always() && env.FOLDERS != '' }}
         run: |
           git config user.name "bkbfanssv-bot"
           git config user.email "bkbfanssv-bot@users.noreply.github.com"
           git add -A stories logs
-          git diff --cached --quiet || { git commit -m "published stories: $FOLDERS"; git push; }
+          git diff --cached --quiet || { git commit -m "published stories ($GITHUB_EVENT_NAME): $FOLDERS"; git pull --rebase -q; git push; }
