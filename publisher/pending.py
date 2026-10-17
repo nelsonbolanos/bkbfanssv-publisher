@@ -34,8 +34,13 @@ def stories():
         done = set(json.load(open(pub))) if os.path.exists(pub) else set()
         if mp4s - done:
             out.append(folder)
-    # date, then age group, then women before men (u18f before u18m)
-    return sorted(out, key=lambda f: (f.split("/")[1], f.split("/")[2][:-1], f[-1] != "f", f))
+    # date, then league, then women before men (u18f before u18m, lmbf before lmb)
+    def key(f):
+        lg = f.split("/")[2]
+        women = lg.endswith("f")
+        base = lg[:-1] if lg[-1:] in ("f", "m") else lg   # u18f/u18m -> u18, lmbf/lmb -> lmb
+        return (f.split("/")[1], base, not women, f)
+    return sorted(out, key=key)
 
 
 def carousels():
