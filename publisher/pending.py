@@ -28,8 +28,8 @@ def stories():
         d = folder.split("/")[1]
         if not re.fullmatch(r"\d{4}-\d\d-\d\d", d) or not fresh(datetime.date.fromisoformat(d)):
             print(f"skip {folder}: date {d} too old or invalid", file=sys.stderr); continue
-        mp4s = {os.path.basename(f) for f in glob.glob(f"{folder}/[0-9][0-9]-*.mp4")
-                if ".silent" not in f and ".tmp" not in f}
+        mp4s = {os.path.basename(f) for f in glob.glob(f"{folder}/[0-9][0-9]-*.mp4") + glob.glob(f"{folder}/[0-9][0-9]-*.jpg")
+                if ".silent" not in f and ".tmp" not in f}   # videos + per-game images (post/story)
         pub = os.path.join(folder, "published.json")
         done = set(json.load(open(pub))) if os.path.exists(pub) else set()
         if mp4s - done:

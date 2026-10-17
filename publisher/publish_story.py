@@ -11,6 +11,12 @@ Each folder holds NN-<cat>.mp4 plus tags.json written by build_leaders.py / buil
   {"01-points.mp4": {"handles": ["@team", ...], "players": ["@player"], ...}, "08-dreamteam.mp4": {...}}
 Tags = team handles + player handles (confirmed only; they come from handles.md / the photo library).
 
+Per-game content (Oct 17 2026, game/run.py in bkbfanssv-studio): a folder may also hold NN-*.jpg files. tags.json then says
+what each one is:
+  "01-post.jpg":  {"kind": "post",  "caption": "...", "handles": [...], "positions": {"user": [x, y]}}   feed image post
+  "02-story.jpg": {"kind": "story", "handles": [...], "positions": {"user": [x, y]}}                      image story
+x/y are 0..1 from the top-left corner (required for a feed image, optional for a story). Videos stay as they were.
+
 env (never put the token in a file or a URL):
   IG_TOKEN        Instagram User access token (secret)
   IG_USER_ID      17841478415958357 (@bkbfanssv)
@@ -119,7 +125,31 @@ def wait_public(url, tries=24):
     raise ApiError(0, f"video not publicly reachable: {url}")
 
 
-def create(folder, mp4, tags):
+def user_tags(spec, tags):
+    """user_tags payload: with x/y when tags.json has positions (feed images need them), else username only."""
+    pos = (spec or {}).get("positions") or {}
+    out = []
+    for u in tags:
+        if u in pos: out.append({"username": u, "x": pos[u][0], "y": pos[u][1]})
+        elif (spec or {}).get("kind") != "post": out.append({"username": u})   # a feed image tag without x/y is invalid
+    return out
+
+
+def create_image(path, tags, spec):
+    """Feed image post (kind post: image_url + caption) or image story (kind story: media_type STORIES)."""
+    if not MEDIA: raise ApiError(0, "MEDIA_BASE_URL is required for images (image_url)")
+    kind = (spec or {}).get("kind", "story")
+    p = {"image_url": f"{MEDIA}/{path.lstrip('./')}"}
+    if kind == "post": p["caption"] = (spec or {}).get("caption", "")
+    else: p["media_type"] = "STORIES"
+    ut = user_tags(spec, tags)
+    if ut: p["user_tags"] = json.dumps(ut)
+    wait_public(p["image_url"])
+    return call("POST", f"{UID}/media", p)["id"]
+
+
+def create(folder, mp4, tags, spec=None):
+    if mp4.lower().endswith(".jpg"): return create_image(mp4, tags, spec)
     p = {"media_type": "STORIES"}
     if tags: p["user_tags"] = json.dumps([{"username": u} for u in tags])
     if MEDIA:
@@ -143,27 +173,31 @@ for folder in dirs:
     tags_all = json.load(open(tp, encoding="utf-8")) if os.path.exists(tp) else {}
     logp = os.path.join(folder, "published.json")
     done = json.load(open(logp)) if os.path.exists(logp) else {}
-    files = sorted(f for f in glob.glob(os.path.join(folder, "[0-9][0-9]-*.mp4")) if ".silent" not in f and ".tmp" not in f)
+    files = sorted(f for f in glob.glob(os.path.join(folder, "[0-9][0-9]-*.mp4")) + glob.glob(os.path.join(folder, "[0-9][0-9]-*.jpg"))
+                   if ".silent" not in f and ".tmp" not in f)
     for mp4 in files:
         name = os.path.basename(mp4)
         if ONLY and name[:2] not in ONLY: continue
         if name in done:
             print(f"skip {folder}/{name} (already published {done[name]['at']})"); continue
-        tags = tag_list(tags_all.get(name, {}))
+        spec = tags_all.get(name, {})
+        tags = tag_list(spec)
+        kind = "video story" if name.endswith(".mp4") else ("feed post" if spec.get("kind") == "post" else "image story")
         if DRY:
-            print(f"DRY {folder}/{name}  {os.path.getsize(mp4) // 1024} KB  tags={['@' + t for t in tags]}"
+            print(f"DRY {folder}/{name}  {kind}  {os.path.getsize(mp4) // 1024} KB  tags={['@' + t for t in tags]}"
                   f"  via={'video_url' if MEDIA else 'resumable upload'}")
+            if spec.get("kind") == "post": print("    caption: " + spec.get("caption", "").replace("\n", " | ")[:300])
             continue
         note = ""
         try:
-            cid = create(folder, mp4, tags); wait_finished(cid)
+            cid = create(folder, mp4, tags, spec); wait_finished(cid)
         except ApiError as e:
             if not tags or rate_limited(e.body): raise   # rate limit is not a tag problem: keep the tags, stop
-            if "video_url" in e.body or e.code >= 500 and "user" not in e.body.lower():
+            if "video_url" in e.body or "image_url" in e.body or e.code >= 500 and "user" not in e.body.lower():
                 raise  # not a tag problem: stop, nothing was published
             print(f"{name}: container failed with tags ({e}); retrying without tags")
             note = f"published WITHOUT tags (tag error: {str(e)[:200]})"
-            cid = create(folder, mp4, []); wait_finished(cid)
+            cid = create(folder, mp4, [], spec); wait_finished(cid)
         mid = call("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
         done[name] = {"media_id": mid, "tags": tags, "note": note, "at": time.strftime("%Y-%m-%d %H:%M")}
         json.dump(done, open(logp, "w"), indent=1)
