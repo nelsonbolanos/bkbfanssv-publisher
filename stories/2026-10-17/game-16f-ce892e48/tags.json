@@ -1,0 +1,37 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\nPerdón por el retraso 🙏\n\nFINAL · U16 Femenino · Jornada 2\nGorillaz 42-28 Capitalinos 503\n\nJugador del Partido: Daniela Paniagua (Capitalinos 503) · 6 PTS · 10 REB · 0 AST · 13 EFF\n\n#u16f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "goriladeportess",
+   "capitalinos503_bkb_club"
+  ],
+  "positions": {
+   "goriladeportess": [
+    0.1648,
+    0.2741
+   ],
+   "capitalinos503_bkb_club": [
+    0.2597,
+    0.4
+   ]
+  }
+ },
+ "02-story.jpg": {
+  "kind": "story",
+  "handles": [
+   "goriladeportess",
+   "capitalinos503_bkb_club"
+  ],
+  "positions": {
+   "goriladeportess": [
+    0.1648,
+    0.3412
+   ],
+   "capitalinos503_bkb_club": [
+    0.2597,
+    0.4297
+   ]
+  }
+ }
+}
