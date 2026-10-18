@@ -11,17 +11,5 @@
     0.2741
    ]
   }
- },
- "02-story.jpg": {
-  "kind": "story",
-  "handles": [
-   "cojute_sub16"
-  ],
-  "positions": {
-   "cojute_sub16": [
-    0.1444,
-    0.3412
-   ]
-  }
  }
 }

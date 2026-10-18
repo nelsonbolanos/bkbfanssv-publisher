@@ -16,22 +16,5 @@
     0.4
    ]
   }
- },
- "02-story.jpg": {
-  "kind": "story",
-  "handles": [
-   "sprtns_basketball_sv",
-   "bkb.elcambio"
-  ],
-  "positions": {
-   "sprtns_basketball_sv": [
-    0.1481,
-    0.3412
-   ],
-   "bkb.elcambio": [
-    0.2356,
-    0.4297
-   ]
-  }
  }
 }
