@@ -1,0 +1,37 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\nPerdón por el retraso 🙏\n\nFINAL · U14 Femenino · Jornada 2\nSantanecos B.C. 24-21 Batanecas\n\nJugador del Partido: Sofía Sevillano (Santanecos B.C.) · 4 PTS · 12 REB · 1 AST · 14 EFF\n\n#u14f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "santanecosbasketballclub",
+   "batanecas.bc"
+  ],
+  "positions": {
+   "santanecosbasketballclub": [
+    0.2606,
+    0.2741
+   ],
+   "batanecas.bc": [
+    0.188,
+    0.4
+   ]
+  }
+ },
+ "02-story.jpg": {
+  "kind": "story",
+  "handles": [
+   "santanecosbasketballclub",
+   "batanecas.bc"
+  ],
+  "positions": {
+   "santanecosbasketballclub": [
+    0.2606,
+    0.3412
+   ],
+   "batanecas.bc": [
+    0.188,
+    0.4297
+   ]
+  }
+ }
+}

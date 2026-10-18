@@ -1,0 +1,27 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\nPerdón por el retraso 🙏\n\nFINAL · U18 Masculino · Jornada 2\nMasferrer 40-37 Santa Tecla Imdels\n\nJugador del Partido: Gabriel López (Santa Tecla Imdels) · 9 PTS · 4 REB · 2 AST · 12 EFF\n\n#u18m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "santateclabkb"
+  ],
+  "positions": {
+   "santateclabkb": [
+    0.2537,
+    0.4044
+   ]
+  }
+ },
+ "02-story.jpg": {
+  "kind": "story",
+  "handles": [
+   "santateclabkb"
+  ],
+  "positions": {
+   "santateclabkb": [
+    0.2537,
+    0.4328
+   ]
+  }
+ }
+}

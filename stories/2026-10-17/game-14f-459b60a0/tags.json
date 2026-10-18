@@ -1,0 +1,27 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\nPerdón por el retraso 🙏\n\nFINAL · U14 Femenino · Jornada 2\nSanta Inés 36-16 Delgadense School\n\nJugador del Partido: Katya Alberto (Santa Inés) · 18 PTS · 7 REB · 5 AST · 18 EFF\n\n#u14f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "santaines.csi"
+  ],
+  "positions": {
+   "santaines.csi": [
+    0.1917,
+    0.2741
+   ]
+  }
+ },
+ "02-story.jpg": {
+  "kind": "story",
+  "handles": [
+   "santaines.csi"
+  ],
+  "positions": {
+   "santaines.csi": [
+    0.1917,
+    0.3412
+   ]
+  }
+ }
+}
