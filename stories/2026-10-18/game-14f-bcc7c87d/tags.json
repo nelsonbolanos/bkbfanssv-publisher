@@ -1,0 +1,37 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\nPerdón por el retraso 🙏\n\nFINAL · U14 Femenino · Jornada 2\nCapitalinos 503 34-11 San Salvador B.C.\n\nJugador del Partido: Mariana Pérez (Capitalinos 503) · 8 PTS · 1 REB · 1 AST · 8 EFF\n\n#u14f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "capitalinos503_bkb_club",
+   "sansalvadorbc"
+  ],
+  "positions": {
+   "capitalinos503_bkb_club": [
+    0.2597,
+    0.2741
+   ],
+   "sansalvadorbc": [
+    0.2806,
+    0.4
+   ]
+  }
+ },
+ "02-story.jpg": {
+  "kind": "story",
+  "handles": [
+   "capitalinos503_bkb_club",
+   "sansalvadorbc"
+  ],
+  "positions": {
+   "capitalinos503_bkb_club": [
+    0.2597,
+    0.3412
+   ],
+   "sansalvadorbc": [
+    0.2806,
+    0.4297
+   ]
+  }
+ }
+}
