@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U16 Femenino · Jornada 2\nSivar Sports Academy 41-35 Wonder BKB Academy\n\nJugador del Partido: Sofía Baiza (Sivar Sports Academy) · 19 PTS · 8 REB · 2 AST · 24 EFF\nDestacado: Beatriz Bolaños (Wonder BKB Academy) · 19 PTS · 11 REB · 3 AST · 24 EFF\n\n#u16f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sivarsportsacademy",
+   "wonderbasketballacademy"
+  ],
+  "positions": {
+   "sivarsportsacademy": [
+    0.2824,
+    0.2785
+   ],
+   "wonderbasketballacademy": [
+    0.2759,
+    0.4044
+   ]
+  }
+ }
+}
