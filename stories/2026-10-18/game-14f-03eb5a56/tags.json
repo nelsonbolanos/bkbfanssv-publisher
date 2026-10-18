@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U14 Femenino · Jornada 2\nSivar Sports Academy 55-15 Águilas B.C.\n\nJugador del Partido: Luz Muñoz (Sivar Sports Academy) · 12 PTS · 6 REB · 3 AST · 17 EFF\nDestacado: Brianna Rivas (Águilas B.C.) · 5 PTS · 1 REB · 1 AST · 4 EFF\n\n#u14f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sivarsportsacademy",
+   "aguilassonsonate2026",
+   "luzz_0324"
+  ],
+  "positions": {
+   "sivarsportsacademy": [
+    0.2824,
+    0.2785
+   ],
+   "aguilassonsonate2026": [
+    0.2069,
+    0.4
+   ],
+   "luzz_0324": [
+    0.2722,
+    0.7077
+   ]
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U18 Masculino · Jornada 2\nSan Salvador B.C. 22-19 La Paz Este\n\nJugador del Partido: Camilo Agudelo (San Salvador B.C.) · 9 PTS · 10 REB · 0 AST · 10 EFF\nDestacado: Jazael López (La Paz Este) · 6 PTS · 6 REB · 0 AST · 9 EFF\n\n#u18m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sansalvadorbc",
+   "lapazeste_u18"
+  ],
+  "positions": {
+   "sansalvadorbc": [
+    0.2806,
+    0.2741
+   ],
+   "lapazeste_u18": [
+    0.1954,
+    0.4
+   ]
+  }
+ }
+}
