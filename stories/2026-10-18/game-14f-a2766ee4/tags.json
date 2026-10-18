@@ -1,0 +1,27 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\nPerdón por el retraso 🙏\n\nFINAL · U14 Femenino · Jornada 2\nClub BKB Jaguares 36-15 Mystics Belén\n\nJugador del Partido: Alejandra Yanes (Club BKB Jaguares) · 11 PTS · 6 REB · 0 AST · 15 EFF\n\n#u14f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "club.jaguares.bkb.sv"
+  ],
+  "positions": {
+   "club.jaguares.bkb.sv": [
+    0.2926,
+    0.2741
+   ]
+  }
+ },
+ "02-story.jpg": {
+  "kind": "story",
+  "handles": [
+   "club.jaguares.bkb.sv"
+  ],
+  "positions": {
+   "club.jaguares.bkb.sv": [
+    0.2926,
+    0.3412
+   ]
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\nPerdón por el retraso 🙏\n\nFINAL · U16 Masculino · Jornada 2\nSan Salvador Sur 45-37 Col. San Fco de Asís\n\nJugador del Partido: Francisco Rivera (San Salvador Sur) · 17 PTS · 2 REB · 2 AST · 13 EFF\n\n#u16m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "c.s.f.a._agape"
+  ],
+  "positions": {
+   "c.s.f.a._agape": [
+    0.2616,
+    0.4044
+   ]
+  }
+ },
+ "02-story.jpg": {
+  "kind": "story",
+  "handles": [
+   "c.s.f.a._agape"
+  ],
+  "positions": {
+   "c.s.f.a._agape": [
+    0.2616,
+    0.4328
+   ]
+  }
+ }
+}
