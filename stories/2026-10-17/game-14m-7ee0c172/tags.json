@@ -1,0 +1,27 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U14 Masculino · Jornada 2\nMasferrer 65-26 Gorillaz\n\nJugador del Partido: Adrián Cosme (Masferrer) · 23 PTS · 6 REB · 3 AST · 26 EFF\n\n#u14m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "goriladeportess"
+  ],
+  "positions": {
+   "goriladeportess": [
+    0.1648,
+    0.4
+   ]
+  }
+ },
+ "02-story.jpg": {
+  "kind": "story",
+  "handles": [
+   "goriladeportess"
+  ],
+  "positions": {
+   "goriladeportess": [
+    0.1648,
+    0.4297
+   ]
+  }
+ }
+}
