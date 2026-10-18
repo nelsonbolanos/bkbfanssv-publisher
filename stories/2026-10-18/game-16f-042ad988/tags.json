@@ -1,0 +1,47 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\nPerdón por el retraso 🙏\n\nFINAL · U16 Femenino · Jornada 2\nCapitalinas B.C. 56-13 Col. San Fco de Asís\n\nJugador del Partido: Fiorella Paredes (Capitalinas B.C.) · 13 PTS · 2 REB · 5 AST · 19 EFF\n\n* A la fecha, la suma de puntos individuales no coincide con el marcador final.\n\n#u16f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "salvadorenas.bc",
+   "capitalinasbc",
+   "c.s.f.a._agape"
+  ],
+  "positions": {
+   "salvadorenas.bc": [
+    0.2574,
+    0.2741
+   ],
+   "capitalinasbc": [
+    0.2574,
+    0.3037
+   ],
+   "c.s.f.a._agape": [
+    0.2616,
+    0.4044
+   ]
+  }
+ },
+ "02-story.jpg": {
+  "kind": "story",
+  "handles": [
+   "salvadorenas.bc",
+   "capitalinasbc",
+   "c.s.f.a._agape"
+  ],
+  "positions": {
+   "salvadorenas.bc": [
+    0.2574,
+    0.3412
+   ],
+   "capitalinasbc": [
+    0.2574,
+    0.362
+   ],
+   "c.s.f.a._agape": [
+    0.2616,
+    0.4328
+   ]
+  }
+ }
+}
