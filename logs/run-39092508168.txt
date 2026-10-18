@@ -1,0 +1,39 @@
+token account: bkbfanssv
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-14m-d3eb87d2/01-post.jpg
+published stories/2026-10-17/game-14m-d3eb87d2/01-post.jpg media=17990924072860657 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-14m-d3eb87d2/02-story.jpg
+published stories/2026-10-17/game-14m-d3eb87d2/02-story.jpg media=18136768594629541 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-16f-ce892e48/01-post.jpg
+published stories/2026-10-17/game-16f-ce892e48/01-post.jpg media=17998347120041746 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-16f-ce892e48/02-story.jpg
+published stories/2026-10-17/game-16f-ce892e48/02-story.jpg media=18107389664141150 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-16f-e69bdaa7/01-post.jpg
+published stories/2026-10-17/game-16f-e69bdaa7/01-post.jpg media=18642144223055718 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-16f-e69bdaa7/02-story.jpg
+published stories/2026-10-17/game-16f-e69bdaa7/02-story.jpg media=18127349540303302 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-16m-3f816e9c/01-post.jpg
+published stories/2026-10-17/game-16m-3f816e9c/01-post.jpg media=18142283146611951 tags=1 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-16m-3f816e9c/02-story.jpg
+published stories/2026-10-17/game-16m-3f816e9c/02-story.jpg media=18033245216674760 tags=1 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-18m-1b619a63/01-post.jpg
+published stories/2026-10-17/game-18m-1b619a63/01-post.jpg media=18111723908173219 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-18m-1b619a63/02-story.jpg
+published stories/2026-10-17/game-18m-1b619a63/02-story.jpg media=18452022442120995 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-18m-38278cf8/01-post.jpg
+published stories/2026-10-17/game-18m-38278cf8/01-post.jpg media=18098942744106770 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-17/game-18m-38278cf8/02-story.jpg
+published stories/2026-10-17/game-18m-38278cf8/02-story.jpg media=18130599661801208 tags=2 
+
+SUMMARY
+  stories/2026-10-17/game-14m-d3eb87d2/01-post.jpg: 2 tags 
+  stories/2026-10-17/game-14m-d3eb87d2/02-story.jpg: 2 tags 
+  stories/2026-10-17/game-16f-ce892e48/01-post.jpg: 2 tags 
+  stories/2026-10-17/game-16f-ce892e48/02-story.jpg: 2 tags 
+  stories/2026-10-17/game-16f-e69bdaa7/01-post.jpg: 2 tags 
+  stories/2026-10-17/game-16f-e69bdaa7/02-story.jpg: 2 tags 
+  stories/2026-10-17/game-16m-3f816e9c/01-post.jpg: 1 tags 
+  stories/2026-10-17/game-16m-3f816e9c/02-story.jpg: 1 tags 
+  stories/2026-10-17/game-18m-1b619a63/01-post.jpg: 2 tags 
+  stories/2026-10-17/game-18m-1b619a63/02-story.jpg: 2 tags 
+  stories/2026-10-17/game-18m-38278cf8/01-post.jpg: 2 tags 
+  stories/2026-10-17/game-18m-38278cf8/02-story.jpg: 2 tags 
