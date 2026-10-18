@@ -168,6 +168,30 @@ if not DRY and not (TOKEN and UID and MEDIA):
     sys.exit("IG_TOKEN, IG_USER_ID and MEDIA_BASE_URL must be set")
 
 report = []
+
+
+def quota_stop(why):
+    print(f"QUOTA: {why}. Nothing is lost: the folders stay unpublished (no published.json entry) and the next run "
+          f"(any READY push or the daily schedule) continues when Instagram frees slots (24 h moving window).")
+    if report:
+        print("\nSUMMARY")
+        for f_, n_, t_, note_ in report: print(f"  {f_}/{n_}: {len(t_)} tags {note_}")
+    sys.exit(0)
+
+
+REMAIN = None
+if not DRY:
+    try:   # Content Publishing API quota (moving 24 h window): do not start what cannot finish
+        _q = call("GET", f"{UID}/content_publishing_limit", {"fields": "quota_usage,config"})["data"][0]
+        _tot = int(_q["config"]["quota_total"]); _use = int(_q["quota_usage"])
+        REMAIN = max(0, _tot - _use)
+        print(f"publishing quota: {_use}/{_tot} used in the last 24 h, {REMAIN} left")
+        if REMAIN == 0:
+            quota_stop("Instagram publishing quota exhausted")
+    except SystemExit:
+        raise
+    except Exception as ex:
+        print(f"(quota check unavailable: {str(ex)[:120]})")
 for folder in dirs:
     tp = os.path.join(folder, "tags.json")
     tags_all = json.load(open(tp, encoding="utf-8")) if os.path.exists(tp) else {}
@@ -189,6 +213,8 @@ for folder in dirs:
             if spec.get("kind") == "post": print("    caption: " + spec.get("caption", "").replace("\n", " | ")[:300])
             continue
         note = ""
+        if REMAIN is not None and len(report) >= REMAIN:
+            quota_stop("quota reached for this window")
         try:
             cid = create(folder, mp4, tags, spec); wait_finished(cid)
         except ApiError as e:
@@ -198,7 +224,12 @@ for folder in dirs:
             print(f"{name}: container failed with tags ({e}); retrying without tags")
             note = f"published WITHOUT tags (tag error: {str(e)[:200]})"
             cid = create(folder, mp4, [], spec); wait_finished(cid)
-        mid = call("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
+        try:
+            mid = call("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
+        except ApiError as e:
+            if "2207042" in e.body or "Media Publish Limit" in e.body:
+                quota_stop("Instagram says: Media Publish Limit Exceeded")
+            raise
         done[name] = {"media_id": mid, "tags": tags, "note": note, "at": time.strftime("%Y-%m-%d %H:%M")}
         json.dump(done, open(logp, "w"), indent=1)
         report.append((folder, name, tags, note))
