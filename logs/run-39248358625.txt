@@ -1,0 +1,5 @@
+token account: bkbfanssv
+publishing quota: 50/100 used in the last 24 h, 50 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14f-9163a4b3/01-post.jpg
+quota at stop: usage 50 / 100, published this run: 0
+QUOTA: Instagram says: Media Publish Limit Exceeded. Nothing is lost: the folders stay unpublished (no published.json entry) and the next run (any READY push or the daily schedule) continues when Instagram frees slots (24 h moving window).
