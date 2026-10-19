@@ -170,7 +170,18 @@ if not DRY and not (TOKEN and UID and MEDIA):
 report = []
 
 
+def quota_now(label):
+    """Log Instagram's own counter, to learn how many 'uses' each publication costs (Oct 19: 51/100 yet blocked at ~51)."""
+    if DRY: return
+    try:
+        q = call("GET", f"{UID}/content_publishing_limit", {"fields": "quota_usage,config"})["data"][0]
+        print(f"quota {label}: usage {q['quota_usage']} / {q['config']['quota_total']}, published this run: {len(report)}")
+    except Exception as ex:
+        print(f"(quota {label} unavailable: {str(ex)[:100]})")
+
+
 def quota_stop(why):
+    quota_now("at stop")
     print(f"QUOTA: {why}. Nothing is lost: the folders stay unpublished (no published.json entry) and the next run "
           f"(any READY push or the daily schedule) continues when Instagram frees slots (24 h moving window).")
     if report:
@@ -251,6 +262,7 @@ for folder in dirs:
         print(f"published {folder}/{name} media={mid} tags={len(tags)} {note}")
         time.sleep(10)
 
+quota_now("after run")
 if report:
     print("\nSUMMARY")
     for f, n, t, note in report: print(f"  {f}/{n}: {len(t)} tags {note}")
