@@ -1,0 +1,6 @@
+token account: bkbfanssv
+publishing quota: 51/100 used in the last 24 h, 49 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14f-03eb5a56/01-post.jpg
+01-post.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: luzz_0324","fbtrace_id":"ADhnK00Iki5aFrp2jdhQcuo"}}); retrying without tags
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14f-03eb5a56/01-post.jpg
+QUOTA: Instagram says: Media Publish Limit Exceeded. Nothing is lost: the folders stay unpublished (no published.json entry) and the next run (any READY push or the daily schedule) continues when Instagram frees slots (24 h moving window).
