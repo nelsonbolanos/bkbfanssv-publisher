@@ -1,0 +1,50 @@
+token account: bkbfanssv
+publishing quota: 36/100 used in the last 24 h, 14 left
+skip stories/2026-10-18/game-lmb-b9dee67d/01-post.jpg (already published 2026-10-19T12:33:41Z)
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmb-b9dee67d/02-story.jpg
+published stories/2026-10-18/game-lmb-b9dee67d/02-story.jpg media=18113456558332711 tags=2 
+skip stories/2026-10-18/game-lmbf-80f0be6b/01-post.jpg (already published 2026-10-19T12:33:41Z)
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmbf-80f0be6b/02-story.jpg
+published stories/2026-10-18/game-lmbf-80f0be6b/02-story.jpg media=18049801364818030 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14f/01-points.mp4
+published stories/2026-10-19/u14f/01-points.mp4 media=18339732859279911 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14f/02-rebounds.mp4
+published stories/2026-10-19/u14f/02-rebounds.mp4 media=18648067678038768 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14f/03-assists.mp4
+published stories/2026-10-19/u14f/03-assists.mp4 media=18088274006302650 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14f/04-steals.mp4
+published stories/2026-10-19/u14f/04-steals.mp4 media=17902329393670769 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14f/05-pointsThreeMade.mp4
+published stories/2026-10-19/u14f/05-pointsThreeMade.mp4 media=18114997325027799 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14f/06-blocks.mp4
+published stories/2026-10-19/u14f/06-blocks.mp4 media=18098086688451740 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14f/07-efficiency.mp4
+published stories/2026-10-19/u14f/07-efficiency.mp4 media=18127277104883007 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14f/08-sixth.mp4
+published stories/2026-10-19/u14f/08-sixth.mp4 media=18496967356100588 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14f/09-dreamteam.mp4
+published stories/2026-10-19/u14f/09-dreamteam.mp4 media=18131938132805361 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14m/01-points.mp4
+published stories/2026-10-19/u14m/01-points.mp4 media=18098432681400046 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14m/02-rebounds.mp4
+published stories/2026-10-19/u14m/02-rebounds.mp4 media=17910634152559716 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-19/u14m/03-assists.mp4
+published stories/2026-10-19/u14m/03-assists.mp4 media=17965586351984189 tags=2 
+quota at stop: usage 49 / 100, published this run: 14
+QUOTA: quota reached for this window. Nothing is lost: the folders stay unpublished (no published.json entry) and the next run (any READY push or the daily schedule) continues when Instagram frees slots (24 h moving window).
+
+SUMMARY
+  stories/2026-10-18/game-lmb-b9dee67d/02-story.jpg: 2 tags 
+  stories/2026-10-18/game-lmbf-80f0be6b/02-story.jpg: 2 tags 
+  stories/2026-10-19/u14f/01-points.mp4: 3 tags 
+  stories/2026-10-19/u14f/02-rebounds.mp4: 3 tags 
+  stories/2026-10-19/u14f/03-assists.mp4: 3 tags 
+  stories/2026-10-19/u14f/04-steals.mp4: 5 tags 
+  stories/2026-10-19/u14f/05-pointsThreeMade.mp4: 3 tags 
+  stories/2026-10-19/u14f/06-blocks.mp4: 5 tags 
+  stories/2026-10-19/u14f/07-efficiency.mp4: 3 tags 
+  stories/2026-10-19/u14f/08-sixth.mp4: 3 tags 
+  stories/2026-10-19/u14f/09-dreamteam.mp4: 3 tags 
+  stories/2026-10-19/u14m/01-points.mp4: 4 tags 
+  stories/2026-10-19/u14m/02-rebounds.mp4: 4 tags 
+  stories/2026-10-19/u14m/03-assists.mp4: 2 tags 
