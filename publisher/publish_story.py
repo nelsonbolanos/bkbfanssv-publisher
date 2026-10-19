@@ -221,9 +221,24 @@ for folder in dirs:
             if not tags or rate_limited(e.body): raise   # rate limit is not a tag problem: keep the tags, stop
             if "video_url" in e.body or "image_url" in e.body or e.code >= 500 and "user" not in e.body.lower():
                 raise  # not a tag problem: stop, nothing was published
-            print(f"{name}: container failed with tags ({e}); retrying without tags")
-            note = f"published WITHOUT tags (tag error: {str(e)[:200]})"
-            cid = create(folder, mp4, [], spec); wait_finished(cid)
+            print(f"{name}: container failed with tags ({e}); retrying")
+            # One bad tag (private profile / invalid user) makes Instagram reject ALL of them (Oct 18: Luz Muñoz's private
+            # account cost the whole post its tags). Try dropping one tag at a time; only if that never works, post untagged.
+            cid = None
+            for drop in tags if len(tags) > 1 else []:
+                sub = [t for t in tags if t != drop]
+                try:
+                    cid = create(folder, mp4, sub, spec); wait_finished(cid)
+                except ApiError as e2:
+                    if rate_limited(e2.body): raise
+                    cid = None; continue
+                tags = sub; note = f"published WITHOUT @{drop} (Instagram rejected it: private or invalid; tag error: {str(e)[:120]})"
+                print(f"  {name}: posted with {len(sub)} tags, without @{drop}")
+                break
+            if cid is None:
+                tags = []
+                note = f"published WITHOUT tags (tag error: {str(e)[:200]})"
+                cid = create(folder, mp4, [], spec); wait_finished(cid)
         try:
             mid = call("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
         except ApiError as e:
