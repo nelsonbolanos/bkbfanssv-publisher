@@ -195,7 +195,9 @@ if not DRY:
     try:   # Content Publishing API quota (moving 24 h window): do not start what cannot finish
         _q = call("GET", f"{UID}/content_publishing_limit", {"fields": "quota_usage,config"})["data"][0]
         _tot = int(_q["config"]["quota_total"]); _use = int(_q["quota_usage"])
-        REMAIN = max(0, _tot - _use)
+        # the API reports 100 but Instagram actually blocked at 50/100 used (Oct 19 2026: usage 50, 0 published, error 2207042)
+        _cap = int(os.environ.get("IG_REAL_CAP", "50"))
+        REMAIN = max(0, min(_tot, _cap) - _use)
         print(f"publishing quota: {_use}/{_tot} used in the last 24 h, {REMAIN} left")
         if REMAIN == 0:
             quota_stop("Instagram publishing quota exhausted")
