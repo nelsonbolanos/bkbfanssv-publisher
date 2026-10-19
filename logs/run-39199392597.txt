@@ -1,0 +1,92 @@
+token account: bkbfanssv
+publishing quota: 35/100 used in the last 24 h, 65 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14f-03eb5a56/01-post.jpg
+01-post.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: luzz_0324","fbtrace_id":"A_K0yCIob_QxFExhuSen3xj"}}); retrying without tags
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14f-03eb5a56/01-post.jpg
+published stories/2026-10-18/game-14f-03eb5a56/01-post.jpg media=18356617849175797 tags=3 published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14f-2239534b/01-post.jpg
+published stories/2026-10-18/game-14f-2239534b/01-post.jpg media=18138878098715787 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14f-38c7f2b2/01-post.jpg
+published stories/2026-10-18/game-14f-38c7f2b2/01-post.jpg media=18117410792007774 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14f-5645f96c/01-post.jpg
+published stories/2026-10-18/game-14f-5645f96c/01-post.jpg media=17963603436232206 tags=0 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14f-7011dc00/01-post.jpg
+published stories/2026-10-18/game-14f-7011dc00/01-post.jpg media=18146234212572927 tags=1 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14f-e45060c7/01-post.jpg
+published stories/2026-10-18/game-14f-e45060c7/01-post.jpg media=18638170678009968 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14m-1fbbfabc/01-post.jpg
+published stories/2026-10-18/game-14m-1fbbfabc/01-post.jpg media=17914072464547223 tags=1 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14m-60362ab3/01-post.jpg
+published stories/2026-10-18/game-14m-60362ab3/01-post.jpg media=18591319708067769 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14m-9f2915ec/01-post.jpg
+published stories/2026-10-18/game-14m-9f2915ec/01-post.jpg media=18107810915205246 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-14m-b65a0ec6/01-post.jpg
+published stories/2026-10-18/game-14m-b65a0ec6/01-post.jpg media=18119616563058461 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-16f-042ad988/01-post.jpg
+published stories/2026-10-18/game-16f-042ad988/01-post.jpg media=17951508780050301 tags=3 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-16f-421d99a4/01-post.jpg
+published stories/2026-10-18/game-16f-421d99a4/01-post.jpg media=17952306927051443 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-16f-64768e6e/01-post.jpg
+published stories/2026-10-18/game-16f-64768e6e/01-post.jpg media=18138087592726379 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-16m-11a32edb/01-post.jpg
+published stories/2026-10-18/game-16m-11a32edb/01-post.jpg media=18101316983449799 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-16m-2df456a8/01-post.jpg
+published stories/2026-10-18/game-16m-2df456a8/01-post.jpg media=18348804904264384 tags=1 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-16m-d1e89a97/01-post.jpg
+published stories/2026-10-18/game-16m-d1e89a97/01-post.jpg media=18153248728463479 tags=1 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-16m-eebb3e4c/01-post.jpg
+published stories/2026-10-18/game-16m-eebb3e4c/01-post.jpg media=18152912686544449 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-18f-e55ed2ae/01-post.jpg
+published stories/2026-10-18/game-18f-e55ed2ae/01-post.jpg media=17871868185644957 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-18m-d8ebb188/01-post.jpg
+published stories/2026-10-18/game-18m-d8ebb188/01-post.jpg media=18119649931945681 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-18m-efe79fb3/01-post.jpg
+published stories/2026-10-18/game-18m-efe79fb3/01-post.jpg media=17974929201154331 tags=1 
+skip stories/2026-10-18/game-lmb-8593cdaf/01-post.jpg (already published 2026-10-18 13:14)
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmb-8593cdaf/02-story.jpg
+published stories/2026-10-18/game-lmb-8593cdaf/02-story.jpg media=18252889300308344 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmb-9dae584c/01-post.jpg
+published stories/2026-10-18/game-lmb-9dae584c/01-post.jpg media=17953727070295765 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmb-9dae584c/02-story.jpg
+published stories/2026-10-18/game-lmb-9dae584c/02-story.jpg media=18106710392255220 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmbf-4cac8855/01-post.jpg
+01-post.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: imder.bkb.ss.fans","fbtrace_id":"A40uYkSs7FXS2yRSjhcZ6q9"}}); retrying without tags
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmbf-4cac8855/01-post.jpg
+published stories/2026-10-18/game-lmbf-4cac8855/01-post.jpg media=18151775629493351 tags=4 published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmbf-4cac8855/02-story.jpg
+02-story.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: imder.bkb.ss.fans","fbtrace_id":"AKIN0QoWrT_z8e_N7r-16xR"}}); retrying without tags
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmbf-4cac8855/02-story.jpg
+published stories/2026-10-18/game-lmbf-4cac8855/02-story.jpg media=17914315068541712 tags=4 published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmbf-6738fbd7/01-post.jpg
+published stories/2026-10-18/game-lmbf-6738fbd7/01-post.jpg media=18113864552167089 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-18/game-lmbf-6738fbd7/02-story.jpg
+published stories/2026-10-18/game-lmbf-6738fbd7/02-story.jpg media=18352740061301976 tags=2 
+
+SUMMARY
+  stories/2026-10-18/game-14f-03eb5a56/01-post.jpg: 3 tags published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+  stories/2026-10-18/game-14f-2239534b/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-14f-38c7f2b2/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-14f-5645f96c/01-post.jpg: 0 tags 
+  stories/2026-10-18/game-14f-7011dc00/01-post.jpg: 1 tags 
+  stories/2026-10-18/game-14f-e45060c7/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-14m-1fbbfabc/01-post.jpg: 1 tags 
+  stories/2026-10-18/game-14m-60362ab3/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-14m-9f2915ec/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-14m-b65a0ec6/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-16f-042ad988/01-post.jpg: 3 tags 
+  stories/2026-10-18/game-16f-421d99a4/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-16f-64768e6e/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-16m-11a32edb/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-16m-2df456a8/01-post.jpg: 1 tags 
+  stories/2026-10-18/game-16m-d1e89a97/01-post.jpg: 1 tags 
+  stories/2026-10-18/game-16m-eebb3e4c/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-18f-e55ed2ae/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-18m-d8ebb188/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-18m-efe79fb3/01-post.jpg: 1 tags 
+  stories/2026-10-18/game-lmb-8593cdaf/02-story.jpg: 2 tags 
+  stories/2026-10-18/game-lmb-9dae584c/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-lmb-9dae584c/02-story.jpg: 2 tags 
+  stories/2026-10-18/game-lmbf-4cac8855/01-post.jpg: 4 tags published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+  stories/2026-10-18/game-lmbf-4cac8855/02-story.jpg: 4 tags published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+  stories/2026-10-18/game-lmbf-6738fbd7/01-post.jpg: 2 tags 
+  stories/2026-10-18/game-lmbf-6738fbd7/02-story.jpg: 2 tags 

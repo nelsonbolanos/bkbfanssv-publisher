@@ -1,0 +1,24 @@
+{
+ "01-post.jpg": {
+  "media_id": "18151775629493351",
+  "tags": [
+   "imder.bkb.ss.fans",
+   "sansalvadorbc",
+   "salvadorenas.bc",
+   "capitalinasbc"
+  ],
+  "note": "published WITHOUT tags (tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient\":false,\"error_user_title\":\"Cannot load user with a private profile or invalid u)",
+  "at": "2026-10-19 04:38"
+ },
+ "02-story.jpg": {
+  "media_id": "17914315068541712",
+  "tags": [
+   "imder.bkb.ss.fans",
+   "sansalvadorbc",
+   "salvadorenas.bc",
+   "capitalinasbc"
+  ],
+  "note": "published WITHOUT tags (tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient\":false,\"error_user_title\":\"Cannot load user with a private profile or invalid u)",
+  "at": "2026-10-19 04:38"
+ }
+}
