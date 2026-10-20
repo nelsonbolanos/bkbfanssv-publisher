@@ -1,0 +1,123 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@academia_onfire_",
+   "@sivarsportsacademy",
+   "@goriladeportess",
+   "@aml_bkb_club"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Derian Valenzuela",
+  "value": "63",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@capitalinos503_bkb_club",
+   "@academia_onfire_"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Matteo Garay",
+  "value": "22",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@cojute_sub16",
+   "@sivarsportsacademy",
+   "@capitalinos503_bkb_club",
+   "@sansalvadorbc"
+  ],
+  "players": [
+   "@jonathan_28855"
+  ],
+  "no_handle": [],
+  "leader": "Jonathan Rodríguez",
+  "value": "13",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@capitalinos503_bkb_club",
+   "@cojute_sub16",
+   "@sivarsportsacademy",
+   "@aml_bkb_club",
+   "@academia_onfire_"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "José Castro",
+  "value": "17",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@cojute_sub16",
+   "@capitalinos503_bkb_club",
+   "@academia_onfire_",
+   "@c.s.f.a._agape"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Gabriel Gámez",
+  "value": "6",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@cojute_sub16",
+   "@bkb.elcambio",
+   "@academia_onfire_"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Matteo Garay",
+  "value": "5",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@sivarsportsacademy",
+   "@academia_onfire_",
+   "@cojute_sub16"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Cooper Tidwell",
+  "value": "74",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@capitalinos503_bkb_club",
+   "@sivarsportsacademy",
+   "@cojute_sub16"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@capitalinos503_bkb_club",
+   "@sivarsportsacademy",
+   "@cojute_sub16",
+   "@goriladeportess"
+  ],
+  "players": [],
+  "leader": "David Rodríguez",
+  "value": "24",
+  "title": "SEXTO REY"
+ }
+}
