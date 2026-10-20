@@ -1,0 +1,4 @@
+token account: bkbfanssv
+publishing quota: 50/100 used in the last 24 h, 0 left
+quota at stop: usage 50 / 100, published this run: 0
+QUOTA: Instagram publishing quota exhausted. Nothing is lost: the folders stay unpublished (no published.json entry) and the next run (any READY push or the daily schedule) continues when Instagram frees slots (24 h moving window).
