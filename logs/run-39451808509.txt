@@ -1,0 +1,3 @@
+token account: bkbfanssv
+publishing quota: 22/100 used in the last 24 h, 28 left
+quota after run: usage 22 / 100, published this run: 0
