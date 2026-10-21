@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmbf.elsalvador\n\nFINAL · Liga Mayor Femenino\nSalvadoreñas 64-29 Capitalinas\n\nJugador del Partido: Donasja Scott (Salvadoreñas) · 17 PTS · 15 REB · 0 AST · 21 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "salvadorenas.bc",
+   "capitalinasbc"
+  ],
+  "positions": {
+   "salvadorenas.bc": [
+    0.2324,
+    0.2741
+   ],
+   "capitalinasbc": [
+    0.2042,
+    0.4296
+   ]
+  }
+ }
+}
