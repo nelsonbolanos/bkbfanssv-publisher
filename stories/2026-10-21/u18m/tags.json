@@ -1,0 +1,138 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@sub18.dragons",
+   "@adfusalmo",
+   "@goriladeportess",
+   "@sivarsportsacademy"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Yordy Lazo",
+  "value": "36",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@sprtns_basketball_sv",
+   "@nejapabc_",
+   "@lapazeste_u18",
+   "@adfusalmo"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Diego Rivas",
+  "value": "30",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@bkb.elcambio",
+   "@sansalvadorbc",
+   "@goriladeportess",
+   "@apgbulldogs_sv",
+   "@sprtns_basketball_sv"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Carlos Cortez",
+  "value": "9",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@sub18.dragons",
+   "@goriladeportess",
+   "@sansalvadorbc"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Antony Coto",
+  "value": "10",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@bkb.elcambio",
+   "@adfusalmo",
+   "@apgbulldogs_sv",
+   "@sprtns_basketball_sv"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Diego Gómez",
+  "value": "6",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@se7enbkbclub",
+   "@nejapabc_",
+   "@bkb.elcambio",
+   "@sivarsportsacademy"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Sebastián Morales",
+  "value": "4",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@sivarsportsacademy",
+   "@goriladeportess",
+   "@sansalvadorbc"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Kevin Argumedo",
+  "value": "38",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@bkb.elcambio",
+   "@sansalvadorbc",
+   "@santanecosbasketballclub"
+  ],
+  "players": [],
+  "leader": "Alan Ayala",
+  "value": "13",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@bkb.elcambio",
+   "@sprtns_basketball_sv",
+   "@goriladeportess",
+   "@adfusalmo"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@bkb.elcambio",
+   "@sprtns_basketball_sv",
+   "@goriladeportess",
+   "@adfusalmo",
+   "@sivarsportsacademy",
+   "@sub18.dragons",
+   "@santanecosbasketballclub"
+  ],
+  "players": [],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
