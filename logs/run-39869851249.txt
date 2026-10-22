@@ -1,0 +1,14 @@
+all slides publicly reachable
+slide 1/10 ready
+slide 2/10 ready
+slide 3/10 ready
+slide 4/10 ready
+slide 5/10 ready
+HTTP 400 on POST 17841478415958357/media: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: imder.bkb.ss.fans","fbtrace_id":"A23YPeZ3S6ds006SFIkwI-c"}}
+all slides publicly reachable
+slide 1/8 ready
+slide 2/8 ready
+slide 3/8 ready
+slide 4/8 ready
+slide 5/8 ready
+HTTP 400 on POST 17841478415958357/media: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: imder.bkb.ss.fans","fbtrace_id":"AlxIcmLzd12ixQ1oaHY1LHD"}}
