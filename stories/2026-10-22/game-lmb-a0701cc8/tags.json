@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nA Lobos BKB 99-84 Ahuachapan\n\nJugador del Partido: Montavious Marc (A Lobos BKB) · 28 PTS · 21 REB · 0 AST · 46 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "lobosbkblmb",
+   "ahuachapan_bc"
+  ],
+  "positions": {
+   "lobosbkblmb": [
+    0.2065,
+    0.2741
+   ],
+   "ahuachapan_bc": [
+    0.2097,
+    0.4
+   ]
+  }
+ }
+}
