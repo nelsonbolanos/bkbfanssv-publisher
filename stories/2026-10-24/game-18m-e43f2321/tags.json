@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U18 Masculino · Jornada 3\nEl Cambio B.C. 45-41 La Paz Este\n\nJugador del Partido: Anderson López (El Cambio B.C.) · 9 PTS · 13 REB · 0 AST · 19 EFF\nDestacado: Jazael López (La Paz Este) · 8 PTS · 10 REB · 1 AST · 14 EFF\n\n#u18m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "bkb.elcambio",
+   "lapazeste_u18"
+  ],
+  "positions": {
+   "bkb.elcambio": [
+    0.2356,
+    0.2741
+   ],
+   "lapazeste_u18": [
+    0.1954,
+    0.4
+   ]
+  }
+ }
+}
