@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U18 Femenino · Jornada 3\nSivar Sports Academy 46-28 Santa Inés\n\nJugador del Partido: Mariana León (Santa Inés) · 13 PTS · 4 REB · 2 AST · 23 EFF\nDestacado: Sofía Baiza (Sivar Sports Academy) · 12 PTS · 9 REB · 4 AST · 17 EFF\n\n#u18f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sivarsportsacademy",
+   "santaines.csi"
+  ],
+  "positions": {
+   "sivarsportsacademy": [
+    0.2824,
+    0.2785
+   ],
+   "santaines.csi": [
+    0.1917,
+    0.4
+   ]
+  }
+ }
+}
