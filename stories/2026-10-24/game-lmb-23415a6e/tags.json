@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nSan Miguel 80-77 Santa Ana\n\nJugador del Partido: Darnell Johnson (Santa Ana) · 26 PTS · 14 REB · 9 AST · 38 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sanmiguelbc",
+   "santa_anab.c_oficial"
+  ],
+  "positions": {
+   "sanmiguelbc": [
+    0.1995,
+    0.2741
+   ],
+   "santa_anab.c_oficial": [
+    0.1861,
+    0.4
+   ]
+  }
+ }
+}
