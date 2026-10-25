@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U14 Masculino · Jornada 3\nClub BKB Jaguares 39-34 San Salvador B.C.\n\nJugador del Partido: André Santos (Club BKB Jaguares) · 14 PTS · 17 REB · 4 AST · 23 EFF\nDestacado: Joshua Cantaderio (San Salvador B.C.) · 19 PTS · 2 REB · 1 AST · 9 EFF\n\n#u14m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "club.jaguares.bkb.sv",
+   "sansalvadorbc"
+  ],
+  "positions": {
+   "club.jaguares.bkb.sv": [
+    0.2926,
+    0.2741
+   ],
+   "sansalvadorbc": [
+    0.2806,
+    0.4
+   ]
+  }
+ }
+}
