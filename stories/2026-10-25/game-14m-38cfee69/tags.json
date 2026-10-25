@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U14 Masculino · Jornada 3\nSivar Sports Academy 66-4 CAPS\n\nJugador del Partido: Mateo López (Sivar Sports Academy) · 15 PTS · 4 REB · 1 AST · 21 EFF\nDestacado: Mario Ayala (CAPS) · 1 PTS · 2 REB · 0 AST · 4 EFF\n\n#u14m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sivarsportsacademy",
+   "capitalinos503_bkb_club"
+  ],
+  "positions": {
+   "sivarsportsacademy": [
+    0.2824,
+    0.2785
+   ],
+   "capitalinos503_bkb_club": [
+    0.1185,
+    0.4
+   ]
+  }
+ }
+}

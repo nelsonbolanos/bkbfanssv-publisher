@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U16 Femenino · Jornada 3\nWonder BKB Academy 32-20 Salvadoreñas B.C.\n\nJugador del Partido: Beatriz Bolaños (Wonder BKB Academy) · 16 PTS · 12 REB · 3 AST · 27 EFF\nDestacado: Mariana Barrientos (Salvadoreñas B.C.) · 11 PTS · 2 REB · 0 AST · 13 EFF\n\n#u16f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "wonderbasketballacademy",
+   "salvadorenas.bc"
+  ],
+  "positions": {
+   "wonderbasketballacademy": [
+    0.2759,
+    0.2785
+   ],
+   "salvadorenas.bc": [
+    0.2856,
+    0.4
+   ]
+  }
+ }
+}
