@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U14 Masculino · Jornada 3\nAcademia Ballers 72-32 On Fire\n\nJugador del Partido: Stephen Rodríguez (Academia Ballers) · 13 PTS · 8 REB · 4 AST · 20 EFF\nDestacado: Jesé Rodas (On Fire) · 12 PTS · 7 REB · 2 AST · 9 EFF\n\n* A la fecha, la suma de puntos individuales no coincide con el marcador final.\n\n#u14m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "ballers_academy_santa_ana_",
+   "academia_onfire_"
+  ],
+  "positions": {
+   "ballers_academy_santa_ana_": [
+    0.2806,
+    0.2741
+   ],
+   "academia_onfire_": [
+    0.1463,
+    0.4
+   ]
+  }
+ }
+}
