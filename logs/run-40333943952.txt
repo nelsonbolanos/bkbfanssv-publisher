@@ -1,0 +1,116 @@
+all slides publicly reachable
+slide 1/9 ready
+slide 2/9 ready
+slide 3/9 ready
+slide 4/9 ready
+slide 5/9 ready
+slide 6/9 ready
+slide 7/9 ready
+slide 8/9 ready
+slide 9/9 ready
+published media id: 18139517797626084
+permalink: https://www.instagram.com/p/De9bpQoFQj-/
+all slides publicly reachable
+slide 1/7 ready
+slide 2/7 ready
+slide 3/7 ready
+slide 4/7 ready
+slide 5/7 ready
+slide 6/7 ready
+slide 7/7 ready
+published media id: 18104010227457155
+permalink: https://www.instagram.com/p/De9b6meFTED/
+all slides publicly reachable
+slide 1/8 ready
+slide 2/8 ready
+slide 3/8 ready
+slide 4/8 ready
+slide 5/8 ready
+slide 6/8 ready
+slide 7/8 ready
+slide 8/8 ready
+published media id: 18145637353581076
+permalink: https://www.instagram.com/p/De9cM8ElUEK/
+all slides publicly reachable
+slide 1/7 ready
+slide 2/7 ready
+slide 3/7 ready
+slide 4/7 ready
+slide 5/7 ready
+slide 6/7 ready
+slide 7/7 ready
+published media id: 17912911014519679
+permalink: https://www.instagram.com/p/De9cbznlZPU/
+all slides publicly reachable
+slide 1/7 ready
+slide 2/7 ready
+slide 3/7 ready
+slide 4/7 ready
+slide 5/7 ready
+slide 6/7 ready
+slide 7/7 ready
+published media id: 18195930859395797
+permalink: https://www.instagram.com/p/De9crk0lSbB/
+all slides publicly reachable
+slide 1/7 ready
+slide 2/7 ready
+slide 3/7 ready
+slide 4/7 ready
+slide 5/7 ready
+slide 6/7 ready
+slide 7/7 ready
+published media id: 18139863673559066
+permalink: https://www.instagram.com/p/De9c7mgFSfO/
+all slides publicly reachable
+slide 1/9 ready
+  rate limit, waiting 60 s
+  rate limit, waiting 120 s
+  rate limit, waiting 240 s
+  rate limit, waiting 480 s
+  rate limit, waiting 600 s
+HTTP 403 on GET 17896032342613866: {"error":{"message":"Application request limit reached","type":"OAuthException","is_transient":true,"code":4,"error_subcode":1349210,"error_user_title":"Rate Limit Exceeded","error_user_msg":"You are hitting rate-limits on the node that you are attempting to fetch. Please wait and try again later.","fbtrace_id":"AUCyHATEeHCZFpPCi8FLN3m"}}
+all slides publicly reachable
+  rate limit, waiting 60 s
+  rate limit, waiting 120 s
+  rate limit, waiting 240 s
+  rate limit, waiting 480 s
+  rate limit, waiting 600 s
+slide 1/7 ready
+slide 2/7 ready
+slide 3/7 ready
+slide 4/7 ready
+slide 5/7 ready
+slide 6/7 ready
+slide 7/7 ready
+published media id: 18229315189328692
+permalink: https://www.instagram.com/p/De9jBEAFalC/
+all slides publicly reachable
+slide 1/6 ready
+slide 2/6 ready
+slide 3/6 ready
+slide 4/6 ready
+slide 5/6 ready
+slide 6/6 ready
+published media id: 18129210655895214
+permalink: https://www.instagram.com/p/De9jQf5FX6p/
+all slides publicly reachable
+slide 1/5 ready
+slide 2/5 ready
+slide 3/5 ready
+slide 4/5 ready
+slide 5/5 ready
+published media id: 18108097322576702
+permalink: https://www.instagram.com/p/De9jeb2lWtd/
+all slides publicly reachable
+slide 1/9 ready
+slide 2/9 ready
+slide 3/9 ready
+slide 4/9 ready
+slide 5/9 ready
+slide 6/9 ready
+  rate limit, waiting 60 s
+slide 7/9 ready
+slide 8/9 ready
+slide 9/9 ready
+published media id: 17912137695482674
+permalink: https://www.instagram.com/p/De9j6e5FVrS/
