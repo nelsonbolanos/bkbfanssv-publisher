@@ -62,8 +62,13 @@ def rate_limited(body):
     return "requestlimit" in b.lower() or any(c in b for c in RATE_CODES)
 
 
-def call(method, path, data=None):
-    """Token goes in the Authorization header, never the URL."""
+CALLS = 0   # API calls made by this run (printed at the end; the app limit is ~200/hour in development mode)
+
+
+def call(method, path, data=None, soft=False):
+    """Token goes in the Authorization header, never the URL.
+    soft=True: a non-rate-limit HTTP error returns {"_error": body} instead of stopping the run."""
+    global CALLS
     url = f"{BASE}/{path}"
     headers = {"Authorization": f"Bearer {TOKEN}"}
     body = None
@@ -74,6 +79,7 @@ def call(method, path, data=None):
     req = urllib.request.Request(url, data=body, headers=headers, method=method)
     attempt = rate = 0
     while True:
+        CALLS += 1
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.load(r)
@@ -83,6 +89,8 @@ def call(method, path, data=None):
                 print(f"  rate limit, waiting {RATE_WAITS[rate]} s"); time.sleep(RATE_WAITS[rate]); rate += 1; continue
             if e.code >= 500 and attempt < 3 and "media_publish" not in path:
                 attempt += 1; time.sleep(3 * attempt); continue
+            if soft:
+                return {"_error": f"HTTP {e.code}: {msg}"}
             sys.exit(f"HTTP {e.code} on {method} {path}: {msg}")
         except urllib.error.URLError as e:
             if attempt < 3 and "media_publish" not in path:
@@ -90,7 +98,9 @@ def call(method, path, data=None):
             sys.exit(f"network error on {path}: {e}")
 
 
-def wait_finished(cid, tries=30):
+def wait_finished(cid, tries=30, first_wait=0):
+    if first_wait:
+        time.sleep(first_wait)   # the carousel container is never ready at once: polling right away wastes a call
     for _ in range(tries):
         r = call("GET", cid, {"fields": "status_code"})
         st = r.get("status_code")
@@ -140,22 +150,27 @@ if not (TOKEN and UID and IMG):
 for p in children_payloads:
     wait_public(p["image_url"])
 print("all slides publicly reachable")
+# Oct 26 2026 (Nelson: fix the 2 biggest API consumers): image containers are ready almost at once, so the slides
+# are NOT polled one by one any more (that was ~1 status call per slide). The carousel container is created right
+# after; only if Instagram rejects it (a slide not ready yet) the slides are polled as before and it is retried once.
 ids = []
 for i, p in enumerate(children_payloads, 1):
-    cid = call("POST", f"{UID}/media", p)["id"]
-    wait_finished(cid)
-    ids.append(cid)
-    print(f"slide {i}/{len(children_payloads)} ready")
-
-parent = call("POST", f"{UID}/media", {
-    "media_type": "CAROUSEL", "children": ",".join(ids), "caption": manifest["caption"]})["id"]
-wait_finished(parent)
+    ids.append(call("POST", f"{UID}/media", p)["id"])
+    print(f"slide {i}/{len(children_payloads)} created")
+time.sleep(5)
+parent_data = {"media_type": "CAROUSEL", "children": ",".join(ids), "caption": manifest["caption"]}
+r = call("POST", f"{UID}/media", parent_data, soft=True)
+if "_error" in r:
+    print(f"carousel container rejected ({r['_error'][:300]}); checking each slide and retrying once")
+    for i, cid in enumerate(ids, 1):
+        wait_finished(cid)
+        print(f"slide {i}/{len(ids)} ready")
+    r = call("POST", f"{UID}/media", parent_data)
+parent = r["id"]
+wait_finished(parent, first_wait=10)
 media = call("POST", f"{UID}/media_publish", {"creation_id": parent})["id"]
 print("published media id:", media)
 json.dump({"media_id": media, "at": time.strftime("%Y-%m-%d %H:%M"), "tags": sum(len(s.get("tags", [])) for s in manifest["slides"])},
           open(LOG, "w"), indent=1)
-try:
-    pl = call("GET", media, {"fields": "permalink"})
-    print("permalink:", pl.get("permalink"))
-except SystemExit:
-    pass
+# (the permalink GET after publishing was dropped Oct 26 2026 to save a call per carousel; media_id is enough)
+print(f"API calls used: {CALLS}")
