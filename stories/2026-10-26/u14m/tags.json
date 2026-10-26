@@ -1,0 +1,137 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@aguilassonsonate2026",
+   "@club.jaguares.bkb.sv",
+   "@c.s.f.a._agape"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "José López",
+  "value": "80",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@club.jaguares.bkb.sv",
+   "@santateclabkb",
+   "@se7enbkbclub"
+  ],
+  "players": [],
+  "no_handle": [
+   "Don Bosco"
+  ],
+  "leader": "Lizandro Maravilla",
+  "value": "50",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@academia_onfire_",
+   "@capitalinos503_bkb_club",
+   "@sansalvadorbc"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Adrián Cosme",
+  "value": "26",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@ballers_academy_santa_ana_",
+   "@academia_onfire_",
+   "@santateclabkb"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Adrián Cosme",
+  "value": "22",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@club.jaguares.bkb.sv",
+   "@sansalvadorbc",
+   "@aml_bkb_club",
+   "@capitalinos503_bkb_club"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Adrián Cosme",
+  "value": "5",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@club.jaguares.bkb.sv",
+   "@c.s.f.a._agape",
+   "@capitalinos503_bkb_club",
+   "@aguilassonsonate2026"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Mario Durán",
+  "value": "8",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@club.jaguares.bkb.sv",
+   "@santateclabkb",
+   "@c.s.f.a._agape"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "José López",
+  "value": "96",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@sivarsportsacademy",
+   "@ballers_academy_santa_ana_",
+   "@goriladeportess",
+   "@aml_bkb_club"
+  ],
+  "players": [],
+  "leader": "Mateo López",
+  "value": "21",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@c.s.f.a._agape",
+   "@aml_bkb_club",
+   "@club.jaguares.bkb.sv"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@c.s.f.a._agape",
+   "@aml_bkb_club",
+   "@club.jaguares.bkb.sv",
+   "@aguilassonsonate2026",
+   "@sivarsportsacademy",
+   "@ballers_academy_santa_ana_",
+   "@capitalinos503_bkb_club"
+  ],
+  "players": [],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
