@@ -1,0 +1,120 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@lapazeste_u18",
+   "@goriladeportess",
+   "@sivarsportsacademy",
+   "@santaines.csi"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Adriana López",
+  "value": "34",
+  "title": "CAMPEONA DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@lapazeste_u18",
+   "@se7enbkbclub",
+   "@santaines.csi",
+   "@sivarsportsacademy"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Gianella Pérez",
+  "value": "25",
+  "title": "REINA DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@sivarsportsacademy"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Valeria Velasco",
+  "value": "8",
+  "title": "REINA DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@santaines.csi"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Fernanda Montes",
+  "value": "14",
+  "title": "REINA DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@sivarsportsacademy",
+   "@santaines.csi"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Fabiola Bruno",
+  "value": "4",
+  "title": "REINA DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@sivarsportsacademy",
+   "@santaines.csi",
+   "@se7enbkbclub",
+   "@lapazeste_u18",
+   "@club_fsb"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Tania García",
+  "value": "6",
+  "title": "REINA DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@sivarsportsacademy",
+   "@santaines.csi"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Fernanda Montes",
+  "value": "41",
+  "title": "REINA DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@sivarsportsacademy",
+   "@goriladeportess",
+   "@se7enbkbclub"
+  ],
+  "players": [],
+  "leader": "Renata Sandoval",
+  "value": "8",
+  "title": "SEXTA REINA"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@santaines.csi",
+   "@goriladeportess",
+   "@sivarsportsacademy",
+   "@se7enbkbclub"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@santaines.csi",
+   "@goriladeportess",
+   "@sivarsportsacademy",
+   "@se7enbkbclub",
+   "@lapazeste_u18"
+  ],
+  "players": [],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}

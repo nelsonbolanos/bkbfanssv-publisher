@@ -1,0 +1,137 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@sub18.dragons",
+   "@santateclabkb",
+   "@santanecosbasketballclub"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Lester Martínez",
+  "value": "49",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@sprtns_basketball_sv",
+   "@nejapabc_",
+   "@bkb.elcambio",
+   "@adfusalmo",
+   "@lapazeste_u18"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Diego Rivas",
+  "value": "52",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@bkb.elcambio",
+   "@sansalvadorbc",
+   "@apgbulldogs_sv",
+   "@adfusalmo"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Carlos Cortez",
+  "value": "14",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@sub18.dragons",
+   "@adfusalmo",
+   "@santateclabkb"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Antony Coto",
+  "value": "12",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@nejapabc_"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer",
+   "San Salvador Sur"
+  ],
+  "leader": "Carlos Rodríguez",
+  "value": "7",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@bkb.elcambio",
+   "@nejapabc_",
+   "@se7enbkbclub",
+   "@sprtns_basketball_sv",
+   "@sub18.dragons"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Anderson López",
+  "value": "7",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@sprtns_basketball_sv",
+   "@sansalvadorbc",
+   "@bkb.elcambio"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Diego Rivas",
+  "value": "60",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@apgbulldogs_sv",
+   "@sansalvadorbc",
+   "@nejapabc_"
+  ],
+  "players": [],
+  "leader": "Sebastián Cienfuegos",
+  "value": "16",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@sprtns_basketball_sv",
+   "@santateclabkb",
+   "@apgbulldogs_sv",
+   "@bkb.elcambio"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@sprtns_basketball_sv",
+   "@santateclabkb",
+   "@apgbulldogs_sv",
+   "@bkb.elcambio",
+   "@sansalvadorbc"
+  ],
+  "players": [
+   "@zxzx_diego"
+  ],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
