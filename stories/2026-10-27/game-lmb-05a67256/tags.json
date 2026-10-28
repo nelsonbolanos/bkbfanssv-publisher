@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nSanta Ana 98-82 Ahuachapan\n\nJugador del Partido: Darnell Johnson (Santa Ana) · 46 PTS · 12 REB · 5 AST · 46 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "santa_anab.c_oficial",
+   "ahuachapan_bc"
+  ],
+  "positions": {
+   "santa_anab.c_oficial": [
+    0.1861,
+    0.2741
+   ],
+   "ahuachapan_bc": [
+    0.2097,
+    0.4
+   ]
+  }
+ }
+}
