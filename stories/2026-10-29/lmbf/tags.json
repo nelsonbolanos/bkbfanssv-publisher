@@ -1,0 +1,124 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@lmmr_bkb",
+   "@santateclabkb",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Yenifer Jiménez",
+  "value": "30.7",
+  "title": "CAMPEONA DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@lmmr_bkb",
+   "@santateclabkb",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Yenifer Jiménez",
+  "value": "15.7",
+  "title": "REINA DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@lmmr_bkb",
+   "@santateclabkb",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Yenifer Jiménez",
+  "value": "7.0",
+  "title": "REINA DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@salvadorenas.bc",
+   "@capitalinasbc",
+   "@lmmr_bkb",
+   "@santateclabkb",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Gabriela Alvarado",
+  "value": "4.0",
+  "title": "REINA DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@lmmr_bkb",
+   "@santateclabkb",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Yenifer Jiménez",
+  "value": "2.7",
+  "title": "REINA DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@lmmr_bkb",
+   "@santateclabkb",
+   "@salvadorenas.bc",
+   "@capitalinasbc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Yenifer Jiménez",
+  "value": "1.7",
+  "title": "REINA DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@lmmr_bkb",
+   "@santateclabkb",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Yenifer Jiménez",
+  "value": "37.0",
+  "title": "REINA DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@salvadorenas.bc",
+   "@santateclabkb",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "leader": "Alejandra Menéndez",
+  "value": "12.0",
+  "title": "SEXTA REINA"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@lmmr_bkb",
+   "@santateclabkb",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@lmmr_bkb",
+   "@santateclabkb",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}

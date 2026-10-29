@@ -1,0 +1,158 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@imder.bkb.ss.fans",
+   "@sansalvadorbc",
+   "@santa_anab.c_oficial",
+   "@metapanbcoficial",
+   "@brujos_oficial",
+   "@santiagobc2017",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Bernardo Polanco",
+  "value": "28.8",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@imder.bkb.ss.fans",
+   "@sansalvadorbc",
+   "@santiagobc2017",
+   "@lobosbkblmb",
+   "@cojutebkb_lmb",
+   "@salvadorenosbc",
+   "@salvadorenosbc_oficial",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Yovani Del Rosario",
+  "value": "19.3",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@santiagobc2017",
+   "@santa_anab.c_oficial",
+   "@salvadorenosbc",
+   "@salvadorenosbc_oficial",
+   "@metapanbcoficial",
+   "@ahuachapan_bc",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Diego Gerbaudo",
+  "value": "12.1",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@santa_anab.c_oficial",
+   "@cojutebkb_lmb",
+   "@lobosbkblmb",
+   "@salvadorenosbc",
+   "@salvadorenosbc_oficial",
+   "@santateclabkb",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Darnell Johnson",
+  "value": "2.9",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@imder.bkb.ss.fans",
+   "@sansalvadorbc",
+   "@santiagobc2017",
+   "@ahuachapan_bc",
+   "@santateclabkb",
+   "@salvadorenosbc",
+   "@salvadorenosbc_oficial",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Bernardo Polanco",
+  "value": "3.7",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@metapanbcoficial",
+   "@lobosbkblmb",
+   "@cojutebkb_lmb",
+   "@santa_anab.c_oficial",
+   "@sanmiguelbc",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Yoel Cubillas",
+  "value": "3.4",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@metapanbcoficial",
+   "@santa_anab.c_oficial",
+   "@lobosbkblmb",
+   "@santiagobc2017",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Yoel Cubillas",
+  "value": "38.0",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@santa_anab.c_oficial",
+   "@metapanbcoficial",
+   "@cojutebkb_lmb",
+   "@lobosbkblmb",
+   "@imder.bkb.ss.fans",
+   "@sansalvadorbc",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "leader": "Jonathan Rivera",
+  "value": "15.5",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@santa_anab.c_oficial",
+   "@metapanbcoficial",
+   "@salvadorenosbc",
+   "@salvadorenosbc_oficial",
+   "@lobosbkblmb",
+   "@brujos_oficial",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@santa_anab.c_oficial",
+   "@metapanbcoficial",
+   "@salvadorenosbc",
+   "@salvadorenosbc_oficial",
+   "@lobosbkblmb",
+   "@brujos_oficial",
+   "@santiagobc2017",
+   "@santateclabkb",
+   "@ahuachapan_bc",
+   "@sanmiguelbc",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
