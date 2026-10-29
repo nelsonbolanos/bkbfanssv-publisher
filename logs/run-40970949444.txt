@@ -1,0 +1,81 @@
+token account: bkbfanssv
+publishing quota: 19/100 used in the last 24 h, 31 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmbf/01-points.mp4
+published stories/2026-10-29/lmbf/01-points.mp4 media=18168978751489417 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmbf/02-rebounds.mp4
+published stories/2026-10-29/lmbf/02-rebounds.mp4 media=17887431177620972 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmbf/03-assists.mp4
+published stories/2026-10-29/lmbf/03-assists.mp4 media=18062928806797816 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmbf/04-steals.mp4
+published stories/2026-10-29/lmbf/04-steals.mp4 media=18634685269020693 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmbf/05-pointsThreeMade.mp4
+published stories/2026-10-29/lmbf/05-pointsThreeMade.mp4 media=18037428206663637 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmbf/06-blocks.mp4
+published stories/2026-10-29/lmbf/06-blocks.mp4 media=18081932027424514 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmbf/07-efficiency.mp4
+published stories/2026-10-29/lmbf/07-efficiency.mp4 media=18011568281991063 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmbf/08-sixth.mp4
+published stories/2026-10-29/lmbf/08-sixth.mp4 media=18137502694639430 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmbf/09-dreamteam.mp4
+published stories/2026-10-29/lmbf/09-dreamteam.mp4 media=18115721317843972 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmbf/10-top10.mp4
+published stories/2026-10-29/lmbf/10-top10.mp4 media=18103924226372426 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/01-points.mp4
+01-points.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: imder.bkb.ss.fans","fbtrace_id":"A3qNAiXrufyzHcXbL2zI8He"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/01-points.mp4
+  01-points.mp4: posted with 6 tags, without @imder.bkb.ss.fans
+published stories/2026-10-29/lmb/01-points.mp4 media=18097488743427618 tags=6 published WITHOUT @imder.bkb.ss.fans (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/02-rebounds.mp4
+02-rebounds.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: imder.bkb.ss.fans","fbtrace_id":"AZmVmyd-T5LqRK9L71GwCDp"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/02-rebounds.mp4
+  02-rebounds.mp4: posted with 7 tags, without @imder.bkb.ss.fans
+published stories/2026-10-29/lmb/02-rebounds.mp4 media=18233440261325006 tags=7 published WITHOUT @imder.bkb.ss.fans (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/03-assists.mp4
+published stories/2026-10-29/lmb/03-assists.mp4 media=18081240650713841 tags=7 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/04-steals.mp4
+published stories/2026-10-29/lmb/04-steals.mp4 media=18079893548412287 tags=7 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/05-pointsThreeMade.mp4
+05-pointsThreeMade.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: imder.bkb.ss.fans","fbtrace_id":"A5xTMYEYIdLHcwnxdwFjOYX"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/05-pointsThreeMade.mp4
+  05-pointsThreeMade.mp4: posted with 7 tags, without @imder.bkb.ss.fans
+published stories/2026-10-29/lmb/05-pointsThreeMade.mp4 media=18470570581139924 tags=7 published WITHOUT @imder.bkb.ss.fans (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/06-blocks.mp4
+published stories/2026-10-29/lmb/06-blocks.mp4 media=18143415853716650 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/07-efficiency.mp4
+published stories/2026-10-29/lmb/07-efficiency.mp4 media=18638351959034080 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/08-sixth.mp4
+08-sixth.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: imder.bkb.ss.fans","fbtrace_id":"ArtlE9lDKUcElIbRzMhhoIj"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/08-sixth.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/08-sixth.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/08-sixth.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/08-sixth.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/08-sixth.mp4
+  08-sixth.mp4: posted with 6 tags, without @imder.bkb.ss.fans
+published stories/2026-10-29/lmb/08-sixth.mp4 media=18002095250812858 tags=6 published WITHOUT @imder.bkb.ss.fans (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/09-dreamteam.mp4
+published stories/2026-10-29/lmb/09-dreamteam.mp4 media=17964445296211253 tags=7 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-10-29/lmb/10-top10.mp4
+published stories/2026-10-29/lmb/10-top10.mp4 media=18479005003119449 tags=11 
+quota after run: usage 19 / 100, published this run: 20
+
+SUMMARY
+  stories/2026-10-29/lmbf/01-points.mp4: 4 tags 
+  stories/2026-10-29/lmbf/02-rebounds.mp4: 3 tags 
+  stories/2026-10-29/lmbf/03-assists.mp4: 4 tags 
+  stories/2026-10-29/lmbf/04-steals.mp4: 5 tags 
+  stories/2026-10-29/lmbf/05-pointsThreeMade.mp4: 3 tags 
+  stories/2026-10-29/lmbf/06-blocks.mp4: 5 tags 
+  stories/2026-10-29/lmbf/07-efficiency.mp4: 4 tags 
+  stories/2026-10-29/lmbf/08-sixth.mp4: 3 tags 
+  stories/2026-10-29/lmbf/09-dreamteam.mp4: 4 tags 
+  stories/2026-10-29/lmbf/10-top10.mp4: 4 tags 
+  stories/2026-10-29/lmb/01-points.mp4: 6 tags published WITHOUT @imder.bkb.ss.fans (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-10-29/lmb/02-rebounds.mp4: 7 tags published WITHOUT @imder.bkb.ss.fans (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-10-29/lmb/03-assists.mp4: 7 tags 
+  stories/2026-10-29/lmb/04-steals.mp4: 7 tags 
+  stories/2026-10-29/lmb/05-pointsThreeMade.mp4: 7 tags published WITHOUT @imder.bkb.ss.fans (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-10-29/lmb/06-blocks.mp4: 6 tags 
+  stories/2026-10-29/lmb/07-efficiency.mp4: 5 tags 
+  stories/2026-10-29/lmb/08-sixth.mp4: 6 tags published WITHOUT @imder.bkb.ss.fans (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-10-29/lmb/09-dreamteam.mp4: 7 tags 
+  stories/2026-10-29/lmb/10-top10.mp4: 11 tags 
