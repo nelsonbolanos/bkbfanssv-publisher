@@ -1,0 +1,21 @@
+{
+ "01-fem-ca-co.mp4": {
+  "handles": [
+   "@fiba3x3",
+   "@canadabasketball",
+   "@colombiabasketball"
+  ],
+  "players": [],
+  "no_handle": []
+ },
+ "02-fem-us-cu.mp4": {
+  "handles": [
+   "@fiba3x3",
+   "@usabasketball"
+  ],
+  "players": [],
+  "no_handle": [
+   "CUB"
+  ]
+ }
+}
