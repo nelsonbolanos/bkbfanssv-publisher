@@ -1,0 +1,47 @@
+token account: bkbfanssv
+publishing quota: 21/100 used in the last 24 h, 29 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14f/01-points.mp4
+published stories/2026-11-02/u14f/01-points.mp4 media=17978023908130892 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14f/02-rebounds.mp4
+published stories/2026-11-02/u14f/02-rebounds.mp4 media=18149401855562123 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14f/03-assists.mp4
+published stories/2026-11-02/u14f/03-assists.mp4 media=17965296044991697 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14f/04-steals.mp4
+published stories/2026-11-02/u14f/04-steals.mp4 media=18100474112388644 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14f/05-pointsThreeMade.mp4
+published stories/2026-11-02/u14f/05-pointsThreeMade.mp4 media=18134883859824318 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14f/06-blocks.mp4
+published stories/2026-11-02/u14f/06-blocks.mp4 media=18116736293032090 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14f/07-efficiency.mp4
+published stories/2026-11-02/u14f/07-efficiency.mp4 media=18117825107519084 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14m/01-points.mp4
+published stories/2026-11-02/u14m/01-points.mp4 media=18099707087413059 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14m/02-rebounds.mp4
+published stories/2026-11-02/u14m/02-rebounds.mp4 media=18153395551523108 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14m/03-assists.mp4
+published stories/2026-11-02/u14m/03-assists.mp4 media=18134529706786805 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14m/04-steals.mp4
+published stories/2026-11-02/u14m/04-steals.mp4 media=18038554064902985 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14m/05-pointsThreeMade.mp4
+published stories/2026-11-02/u14m/05-pointsThreeMade.mp4 media=18195803497402943 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14m/06-blocks.mp4
+published stories/2026-11-02/u14m/06-blocks.mp4 media=17918921568526836 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-02/u14m/07-efficiency.mp4
+published stories/2026-11-02/u14m/07-efficiency.mp4 media=18453843217127348 tags=3 
+quota after run: usage 34 / 100, published this run: 14
+
+SUMMARY
+  stories/2026-11-02/u14f/01-points.mp4: 3 tags 
+  stories/2026-11-02/u14f/02-rebounds.mp4: 4 tags 
+  stories/2026-11-02/u14f/03-assists.mp4: 2 tags 
+  stories/2026-11-02/u14f/04-steals.mp4: 2 tags 
+  stories/2026-11-02/u14f/05-pointsThreeMade.mp4: 4 tags 
+  stories/2026-11-02/u14f/06-blocks.mp4: 5 tags 
+  stories/2026-11-02/u14f/07-efficiency.mp4: 3 tags 
+  stories/2026-11-02/u14m/01-points.mp4: 3 tags 
+  stories/2026-11-02/u14m/02-rebounds.mp4: 4 tags 
+  stories/2026-11-02/u14m/03-assists.mp4: 3 tags 
+  stories/2026-11-02/u14m/04-steals.mp4: 3 tags 
+  stories/2026-11-02/u14m/05-pointsThreeMade.mp4: 4 tags 
+  stories/2026-11-02/u14m/06-blocks.mp4: 4 tags 
+  stories/2026-11-02/u14m/07-efficiency.mp4: 3 tags 
