@@ -1,0 +1,41 @@
+token account: bkbfanssv
+publishing quota: 8/100 used in the last 24 h, 42 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac2semisf/01-fem-ca-co.mp4
+published stories/2026-11-01/ac2semisf/01-fem-ca-co.mp4 media=18066023861535265 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac2semisf/02-fem-us-cu.mp4
+published stories/2026-11-01/ac2semisf/02-fem-us-cu.mp4 media=18119546813089289 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac2semism/01-masc-us-br.mp4
+published stories/2026-11-01/ac2semism/01-masc-us-br.mp4 media=18131816503890627 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac2semism/02-masc-pr-ca.mp4
+published stories/2026-11-01/ac2semism/02-masc-pr-ca.mp4 media=18223142716349581 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac3tercerf/01-fem-co-cu.mp4
+published stories/2026-11-01/ac3tercerf/01-fem-co-cu.mp4 media=18111863609237106 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac3tercerm/01-masc-br-pr.mp4
+published stories/2026-11-01/ac3tercerm/01-masc-br-pr.mp4 media=18359662288221479 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac4finalf/01-fem-ca-us.mp4
+published stories/2026-11-01/ac4finalf/01-fem-ca-us.mp4 media=18468718117141308 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac4finalf/02-mvp.mp4
+published stories/2026-11-01/ac4finalf/02-mvp.mp4 media=18148577812602009 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac4finalf/03-podio.mp4
+published stories/2026-11-01/ac4finalf/03-podio.mp4 media=18358076281302201 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac4finalm/01-masc-us-ca.mp4
+published stories/2026-11-01/ac4finalm/01-masc-us-ca.mp4 media=18450182149124389 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac4finalm/02-mvp.mp4
+published stories/2026-11-01/ac4finalm/02-mvp.mp4 media=18145601875570729 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-01/ac4finalm/03-podio.mp4
+published stories/2026-11-01/ac4finalm/03-podio.mp4 media=18213865081366791 tags=4 
+quota after run: usage 19 / 100, published this run: 12
+
+SUMMARY
+  stories/2026-11-01/ac2semisf/01-fem-ca-co.mp4: 3 tags 
+  stories/2026-11-01/ac2semisf/02-fem-us-cu.mp4: 2 tags 
+  stories/2026-11-01/ac2semism/01-masc-us-br.mp4: 3 tags 
+  stories/2026-11-01/ac2semism/02-masc-pr-ca.mp4: 3 tags 
+  stories/2026-11-01/ac3tercerf/01-fem-co-cu.mp4: 2 tags 
+  stories/2026-11-01/ac3tercerm/01-masc-br-pr.mp4: 3 tags 
+  stories/2026-11-01/ac4finalf/01-fem-ca-us.mp4: 3 tags 
+  stories/2026-11-01/ac4finalf/02-mvp.mp4: 2 tags 
+  stories/2026-11-01/ac4finalf/03-podio.mp4: 4 tags 
+  stories/2026-11-01/ac4finalm/01-masc-us-ca.mp4: 3 tags 
+  stories/2026-11-01/ac4finalm/02-mvp.mp4: 2 tags 
+  stories/2026-11-01/ac4finalm/03-podio.mp4: 4 tags 
