@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmbf.elsalvador\n\nFINAL · Liga Mayor Femenino\nSanta Ana 78-59 Salvadoreñas\n\nJugador del Partido: Acorianna Lard (Santa Ana) · 28 PTS · 9 REB · 7 AST · 40 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "santa_anab.c_oficial",
+   "salvadorenas.bc"
+  ],
+  "positions": {
+   "santa_anab.c_oficial": [
+    0.1861,
+    0.2741
+   ],
+   "salvadorenas.bc": [
+    0.2324,
+    0.4
+   ]
+  }
+ }
+}
