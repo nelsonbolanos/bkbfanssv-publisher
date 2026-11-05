@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nMetapán 84-80 Salvadoreños\n\nJugador del Partido: Yoel Cubillas (Metapán) · 31 PTS · 23 REB · 4 AST · 50 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "metapanbcoficial",
+   "salvadorenosbc",
+   "salvadorenosbc_oficial"
+  ],
+  "positions": {
+   "metapanbcoficial": [
+    0.1667,
+    0.2741
+   ],
+   "salvadorenosbc": [
+    0.2329,
+    0.4
+   ],
+   "salvadorenosbc_oficial": [
+    0.2329,
+    0.4296
+   ]
+  }
+ }
+}
