@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nSan Salvador 115-102 Ahuachapan\n\nJugador del Partido: Bernardo Polanco (San Salvador) · 54 PTS · 5 REB · 2 AST · 46 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "imder.bkb.ss.fans",
+   "sansalvadorbc",
+   "ahuachapan_bc"
+  ],
+  "positions": {
+   "imder.bkb.ss.fans": [
+    0.2273,
+    0.2741
+   ],
+   "sansalvadorbc": [
+    0.2273,
+    0.3037
+   ],
+   "ahuachapan_bc": [
+    0.2097,
+    0.4
+   ]
+  }
+ }
+}

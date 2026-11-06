@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nBrujos de Izalco 90-81 Santa Tecla Imdels\n\nJugador del Partido: Alejandro De Los Santos (Brujos de Izalco) · 38 PTS · 6 REB · 2 AST · 34 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "brujos_oficial",
+   "santateclabkb"
+  ],
+  "positions": {
+   "brujos_oficial": [
+    0.2685,
+    0.2741
+   ],
+   "santateclabkb": [
+    0.2537,
+    0.4044
+   ]
+  }
+ }
+}
