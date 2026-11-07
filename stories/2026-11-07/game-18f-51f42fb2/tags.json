@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U18 Femenino · Jornada 4\nSivar Sports Academy 42-17 Seven\n\nJugador del Partido: Tania García (Sivar Sports Academy) · 13 PTS · 11 REB · 2 AST · 18 EFF\nDestacado: Andrea Blanco (Seven) · 5 PTS · 4 REB · 1 AST · 6 EFF\n\n#u18f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sivarsportsacademy",
+   "se7enbkbclub"
+  ],
+  "positions": {
+   "sivarsportsacademy": [
+    0.2824,
+    0.2785
+   ],
+   "se7enbkbclub": [
+    0.1315,
+    0.4
+   ]
+  }
+ }
+}
