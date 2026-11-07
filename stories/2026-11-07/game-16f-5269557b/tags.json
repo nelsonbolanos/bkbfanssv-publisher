@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U16 Femenino · Jornada 4\nFusalmo 32-23 Santanecos B.C.\n\nJugador del Partido: Karina Escobar (Fusalmo) · 2 PTS · 4 REB · 4 AST · 13 EFF\nDestacado: Rebeca Ramírez (Santanecos B.C.) · 3 PTS · 5 REB · 0 AST · 2 EFF\n\n#u16f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "adfusalmo",
+   "santanecosbasketballclub"
+  ],
+  "positions": {
+   "adfusalmo": [
+    0.1676,
+    0.2741
+   ],
+   "santanecosbasketballclub": [
+    0.2606,
+    0.4
+   ]
+  }
+ }
+}
