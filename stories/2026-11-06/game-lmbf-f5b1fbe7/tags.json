@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmbf.elsalvador\n\nFINAL · Liga Mayor Femenino\nSan Salvador 81-74 Santa Tecla Imdels\n\nJugador del Partido: Anisleidy Galindo (San Salvador) · 34 PTS · 17 REB · 3 AST · 47 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "imder.bkb.ss.fans",
+   "sansalvadorbc",
+   "santateclabkb"
+  ],
+  "positions": {
+   "imder.bkb.ss.fans": [
+    0.2273,
+    0.2741
+   ],
+   "sansalvadorbc": [
+    0.2273,
+    0.3037
+   ],
+   "santateclabkb": [
+    0.2537,
+    0.4044
+   ]
+  }
+ }
+}
