@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U16 Femenino · Jornada 4\nSivar Sports Academy 17-16 Salvadoreñas B.C.\n\nJugador del Partido: Sarah González (Sivar Sports Academy) · 5 PTS · 0 REB · 0 AST · 4 EFF\nDestacado: Rut Ayala (Salvadoreñas B.C.) · 2 PTS · 1 REB · 1 AST · 4 EFF\n\n#u16f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sivarsportsacademy",
+   "salvadorenas.bc"
+  ],
+  "positions": {
+   "sivarsportsacademy": [
+    0.2824,
+    0.2785
+   ],
+   "salvadorenas.bc": [
+    0.2856,
+    0.4
+   ]
+  }
+ }
+}
