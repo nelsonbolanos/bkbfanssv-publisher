@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nBrujos de Izalco 91-67 San Miguel\n\nBrujos de Izalco mandó de principio a fin: desde la primera canasta del #2, Alejandro De Los Santos, nunca soltó la delantera y se fue al descanso 19 arriba tras un gran segundo periodo. San Miguel respondió y se quedó con el tercer periodo, pero Brujos cerró con un parcial de 8-0 en los últimos minutos y llegó a una ventaja de 26. El Jugador del Partido fue el #24, Devin Franklin, de Brujos, con 13 puntos y 14 rebotes, y por San Miguel destacó el #7, Darius Daniels, con 25 puntos. Con este triunfo, Brujos de Izalco suma 4 victorias seguidas.\n\nJugador del Partido: Devin Franklin (Brujos de Izalco) · 13 PTS · 14 REB · 4 AST · 26 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "brujos_oficial",
+   "sanmiguelbc"
+  ],
+  "positions": {
+   "brujos_oficial": [
+    0.2685,
+    0.2741
+   ],
+   "sanmiguelbc": [
+    0.1995,
+    0.4
+   ]
+  }
+ }
+}

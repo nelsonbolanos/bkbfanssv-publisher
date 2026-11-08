@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nCojute 68-64 San Salvador\n\nSan Salvador salió con todo y un parcial de 8-0 en el primer periodo, pero Cojute le dio vuelta en el segundo y el juego se volvió un pulso con 10 cambios de ventaja. La canasta del #4, Aly Parker, a 5:40 del final puso a Cojute arriba 55-53, y el #15, Pablo Figueroa, sentenció con 5 puntos seguidos en el último minuto. San Salvador se acercó con el triple del #4, Aldahir Ávalos, pero el reloj no le alcanzó. El Jugador del Partido fue el #44, Yovani Del Rosario, de San Salvador, con 13 puntos y 25 rebotes. Con este triunfo, Cojute suma 3 victorias seguidas.\n\nJugador del Partido: Yovani Del Rosario (San Salvador) · 13 PTS · 25 REB · 0 AST · 34 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "cojutebkb_lmb",
+   "imder.bkb.ss.fans",
+   "sansalvadorbc"
+  ],
+  "positions": {
+   "cojutebkb_lmb": [
+    0.1444,
+    0.2741
+   ],
+   "imder.bkb.ss.fans": [
+    0.2273,
+    0.4
+   ],
+   "sansalvadorbc": [
+    0.2273,
+    0.4296
+   ]
+  }
+ }
+}
