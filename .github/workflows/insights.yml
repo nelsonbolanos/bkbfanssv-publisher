@@ -38,7 +38,7 @@ jobs:
         if: ${{ github.event_name != 'workflow_dispatch' || !inputs.probe }}
         run: |
           pip install -q cryptography
-          python3 publisher/insights.py --days "${{ inputs.days || '7' }}" --out insights.enc.json
+          python3 publisher/insights.py --days "${{ inputs.days || '9' }}" --out insights.enc.json
       - uses: actions/upload-artifact@v4
         if: ${{ github.event_name != 'workflow_dispatch' || !inputs.probe }}
         with:
