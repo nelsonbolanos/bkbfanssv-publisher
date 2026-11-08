@@ -1,0 +1,47 @@
+name: insights
+
+# Read-only Instagram insights snapshot (publisher/insights.py). The snapshot is encrypted with INSIGHTS_PUBKEY and
+# uploaded as a short-lived artifact; nothing readable is printed or committed in this public repo. The Mac pulls and
+# decrypts it into the private studio repo (stats/insights_pull.py).
+# Every 6 h: stories only expose insights while live (24 h).
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: "Probe only (permissions and metric names, no numbers, no artifact)"
+        type: boolean
+        default: true
+      days:
+        description: "Days of posts to read"
+        default: "35"
+
+permissions:
+  contents: read
+
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    env:
+      IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      INSIGHTS_PUBKEY: ${{ vars.INSIGHTS_PUBKEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.probe }}
+        run: python3 publisher/insights.py --probe
+      - name: Snapshot
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.probe }}
+        run: |
+          pip install -q cryptography
+          python3 publisher/insights.py --days "${{ inputs.days || '7' }}" --out insights.enc.json
+      - uses: actions/upload-artifact@v4
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.probe }}
+        with:
+          name: insights
+          path: insights.enc.json
+          retention-days: 7
