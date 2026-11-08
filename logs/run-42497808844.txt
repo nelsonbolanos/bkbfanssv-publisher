@@ -1,0 +1,11 @@
+token account: bkbfanssv
+publishing quota: 38/100 used in the last 24 h, 12 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-08/game-14m-848be4c1/01-post.jpg
+published stories/2026-11-08/game-14m-848be4c1/01-post.jpg media=18123696919897323 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-08/game-18f-8710d172/01-post.jpg
+published stories/2026-11-08/game-18f-8710d172/01-post.jpg media=18645310480054073 tags=1 
+quota after run: usage 39 / 100, published this run: 2
+
+SUMMARY
+  stories/2026-11-08/game-14m-848be4c1/01-post.jpg: 2 tags 
+  stories/2026-11-08/game-18f-8710d172/01-post.jpg: 1 tags 
