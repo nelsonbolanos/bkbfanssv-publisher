@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nAhuachapan 92-65 Santiagueño\n\nSantiagueño pegó primero y se puso 6-2, pero el triple del #8, Conner Kelly, puso arriba a Ahuachapan, que ya no cedió el mando. Santiagueño reaccionó en el segundo periodo y llegó a quedar a cuatro (37-33), pero Ahuachapan respondió con un parcial de 19-0 entre el cierre del segundo y el arranque del tercero que definió el juego. Kelly fue el Jugador del Partido con 20 puntos y 14 rebotes, mientras que por Santiagueño destacó el #0, Santiago Esperanza, con 19 puntos y 5 triples. Con este triunfo, Ahuachapan corta una racha de 10 derrotas.\n\nJugador del Partido: Conner Kelly (Ahuachapan) · 20 PTS · 14 REB · 7 AST · 36 EFF\n\n* A la fecha, la suma de puntos individuales no coincide con el marcador final.\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "ahuachapan_bc",
+   "santiagobc2017"
+  ],
+  "positions": {
+   "ahuachapan_bc": [
+    0.2097,
+    0.2741
+   ],
+   "santiagobc2017": [
+    0.2162,
+    0.4
+   ]
+  }
+ }
+}
