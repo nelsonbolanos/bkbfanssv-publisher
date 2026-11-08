@@ -22,6 +22,7 @@ STORY_METRICS = ["reach", "views", "replies", "shares", "total_interactions", "f
 ACCOUNT_TOTAL = ["views", "accounts_engaged", "total_interactions", "profile_links_taps", "likes", "comments", "shares", "saves", "follows_and_unfollows"]
 
 calls = 0
+usage = {}   # latest Graph rate-limit headers (X-App-Usage, X-Business-Use-Case-Usage...): percentages, no secrets
 
 
 class ApiError(Exception):
@@ -37,7 +38,14 @@ def get(path, **params):
         calls += 1
         try:
             req = urllib.request.Request(url, headers={"Authorization": "Bearer " + TOKEN})
-            return json.load(urllib.request.urlopen(req, timeout=30))
+            with urllib.request.urlopen(req, timeout=30) as r:
+                for k, v in r.headers.items():
+                    if k.lower().endswith("-usage"):
+                        try:
+                            usage[k.lower()] = json.loads(v)
+                        except ValueError:
+                            usage[k.lower()] = v
+                return json.load(r)
         except urllib.error.HTTPError as e:
             body = e.read().decode(errors="replace")
             if e.code >= 500 and attempt < 2:
@@ -166,6 +174,9 @@ def main():
             print("STORY metrics returned:", sorted(ins), "| errors:", {k: v[:120] for k, v in err.items()})
         d = account_daily(2)
         print("account daily keys:", {k: sorted(v) if isinstance(v, dict) else v[:150] for k, v in d.items()})
+        q = get(f"{me['id']}/content_publishing_limit", fields="quota_usage,config")["data"][0]
+        print("publishing quota:", q.get("quota_usage"), "/", q.get("config", {}).get("quota_total"))
+        print("usage headers:", usage or "none returned")
         print("calls:", calls)
         return
     since = (datetime.now(timezone.utc) - timedelta(days=a.days)).strftime("%Y-%m-%dT%H:%M:%S+0000")
@@ -175,8 +186,14 @@ def main():
     for m in media:
         m["insights"], m["insight_errors"] = media_insights(m)
         time.sleep(0.2)
+    daily = account_daily(a.days)
+    try:   # read-only: Content Publishing quota for the moving 24 h window
+        publishing = get(f"{me['id']}/content_publishing_limit", fields="quota_usage,config")["data"][0]
+    except Exception as ex:
+        publishing = {"error": str(ex)[:200]}
     snap = {"fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "account": me,
-            "daily": account_daily(a.days), "media": media, "calls": calls}
+            "daily": daily, "media": media, "calls": calls,
+            "limits": {"publishing": publishing, "usage_headers": usage}}
     raw = json.dumps(snap, ensure_ascii=False).encode()
     pub = os.environ.get("INSIGHTS_PUBKEY", "")
     if not pub:
