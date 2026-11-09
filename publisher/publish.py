@@ -14,8 +14,14 @@ env (never put the token in a file or a URL):
 manifest.json:
 {"caption": "...", "slides": [{"file": "u16m-01.jpg", "tags": [{"username": "goriladeportess", "x": 0.31, "y": 0.22}]}, ...]}
 Rules enforced here: 2-10 slides, JPEG only, tag x/y within 0..1, max 20 tags per slide.
+
+Reels: a manifest with "kind": "reel" is published as a reel (video with its music inside the MP4); format and
+rules in publisher/reel.py. Same READY / published.json flow as a carousel.
 """
 import json, os, sys, time, urllib.parse, urllib.request, urllib.error
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import reel
 
 DRY = "--dry-run" in sys.argv
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
@@ -124,10 +130,52 @@ def wait_public(url, tries=24):
     sys.exit(f"image not publicly reachable: {url}")
 
 
-validate(manifest)
 LOG = os.path.join(os.path.dirname(os.path.abspath(args[0])), "published.json")
 if os.path.exists(LOG) and not DRY:
     sys.exit(f"already published: {open(LOG).read()} (delete published.json only if you are sure it is not on Instagram)")
+
+
+def publish_reel(m):
+    # repo root: posts/<slug>/manifest.json -> ../.. ; media paths in the manifest are relative to it (as for slides)
+    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(args[0]))))
+    err = reel.check_manifest(m, root)
+    if err:
+        sys.exit("reel manifest:\n  " + "\n  ".join(err))
+    video = os.path.join(root, m["video"])
+    info, size = reel.probe(video), os.path.getsize(video)
+    err = reel.check_media(info, size)
+    if err:
+        sys.exit(f"{m['video']}:\n  " + "\n  ".join(err))
+    p = reel.payload(m, IMG or "(IMAGE_BASE_URL)")
+    if DRY:
+        print(f"DRY RUN reel. account={UID or '(IG_USER_ID unset)'} api={VER}")
+        print("video:", reel.summary(info, size))
+        print("POST /{ig-user-id}/media", json.dumps({k: v for k, v in p.items() if k != "caption"}, ensure_ascii=False))
+        print("then: wait status_code FINISHED, POST /{ig-user-id}/media_publish creation_id=<container>")
+        print("published.json:", "exists (a real run would stop)" if os.path.exists(LOG) else "none yet")
+        print("caption:\n" + m["caption"])
+        sys.exit(0)
+    if not (TOKEN and UID and IMG):
+        sys.exit("IG_TOKEN, IG_USER_ID and IMAGE_BASE_URL must be set")
+    print("video:", reel.summary(info, size))
+    wait_public(p["video_url"])
+    if "cover_url" in p:
+        wait_public(p["cover_url"])
+    print("reel media publicly reachable")
+    cid = call("POST", f"{UID}/media", p)["id"]
+    print("reel container created, waiting for Instagram to process the video")
+    wait_finished(cid, tries=60, first_wait=20)   # video processing: up to ~10 min, polled every 10 s
+    media = call("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
+    print("published reel media id:", media)
+    json.dump({"media_id": media, "kind": "reel", "at": time.strftime("%Y-%m-%d %H:%M"), "tags": len(m.get("tags", []))},
+              open(LOG, "w"), indent=1)
+    print(f"API calls used: {CALLS}")
+    sys.exit(0)
+
+
+if reel.is_reel(manifest):
+    publish_reel(manifest)
+validate(manifest)
 children_payloads = []
 for s in manifest["slides"]:
     p = {"image_url": f"{IMG}/{s['file']}", "is_carousel_item": "true"}

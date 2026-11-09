@@ -8,6 +8,7 @@ usage:
 A batch is published by the schedule only when someone marked it ready:
   stories/<date>/<league>/READY     (all NN-*.mp4 + tags.json already committed)
   posts/<slug>/READY                (manifest.json + images/<slug>/*.jpg already committed; first line = YYYY-MM-DD)
+                                    (a reel is the same: manifest "kind": "reel" + images/<slug>/reel.mp4)
 and it still has something missing from published.json. Batches older than MAX_AGE days are ignored (a late
 story is worse than no story); they stay for a manual run until cleanup-media removes them.
 """
