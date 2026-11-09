@@ -1,0 +1,139 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@club.jaguares.bkb.sv",
+   "@aguilassonsonate2026",
+   "@c.s.f.a._agape",
+   "@ballers_academy_santa_ana_"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "André Santos",
+  "value": "86",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@club.jaguares.bkb.sv",
+   "@adfusalmo",
+   "@se7enbkbclub"
+  ],
+  "players": [],
+  "no_handle": [
+   "Don Bosco"
+  ],
+  "leader": "Fernando Marroquín",
+  "value": "70",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@aguilassonsonate2026",
+   "@academia_onfire_",
+   "@capitalinos503_bkb_club",
+   "@santateclabkb"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Adrián Cosme",
+  "value": "26",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@ballers_academy_santa_ana_",
+   "@santateclabkb",
+   "@aguilassonsonate2026"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Lucas Velásquez",
+  "value": "28",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@club.jaguares.bkb.sv",
+   "@aml_bkb_club",
+   "@capitalinos503_bkb_club"
+  ],
+  "players": [],
+  "no_handle": [
+   "Don Bosco",
+   "Masferrer"
+  ],
+  "leader": "Adrián Cosme",
+  "value": "5",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@c.s.f.a._agape",
+   "@club.jaguares.bkb.sv",
+   "@capitalinos503_bkb_club"
+  ],
+  "players": [],
+  "no_handle": [
+   "La Paz Este",
+   "Masferrer"
+  ],
+  "leader": "Mario Durán",
+  "value": "11",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@club.jaguares.bkb.sv",
+   "@santateclabkb",
+   "@ballers_academy_santa_ana_"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "André Santos",
+  "value": "110",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@aguilassonsonate2026",
+   "@sivarsportsacademy"
+  ],
+  "players": [],
+  "leader": "Tadeo Pérez",
+  "value": "16",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@ballers_academy_santa_ana_",
+   "@santateclabkb",
+   "@club.jaguares.bkb.sv",
+   "@santanecosbasketballclub"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@ballers_academy_santa_ana_",
+   "@santateclabkb",
+   "@club.jaguares.bkb.sv",
+   "@santanecosbasketballclub",
+   "@goriladeportess",
+   "@sivarsportsacademy",
+   "@se7enbkbclub",
+   "@capitalinos503_bkb_club"
+  ],
+  "players": [],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
