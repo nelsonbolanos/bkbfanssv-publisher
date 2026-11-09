@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmbf.elsalvador\n\nFINAL · Liga Mayor Femenino\nSalvadoreñas 70-67 Santa Ana\n\nSanta Ana golpeó primero con un parcial de 8-0 en el segundo periodo y se fue al descanso arriba, pero Salvadoreñas le dio vuelta en el tercero, donde la canasta de la #27, Silvia Vega, la puso al frente 48-47. Salvadoreñas llegó a mandar por 11 en el último periodo, hasta que Santa Ana reaccionó y se acercó 67-68 con 55 segundos por jugar. Santa Ana tuvo varios tiros para empatar o pasar al frente, pero no pudo capitalizar en el marcador, y los tiros libres de la #00, Donasja Scott, sellaron la victoria de Salvadoreñas. La Jugadora del Partido fue la #22, Acorianna Lard, de Santa Ana, con 33 puntos y 6 triples.\n\nJugadora del Partido: Acorianna Lard (Santa Ana) · 33 PTS · 3 REB · 5 AST · 32 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "salvadorenas.bc",
+   "santa_anab.c_oficial"
+  ],
+  "positions": {
+   "salvadorenas.bc": [
+    0.2324,
+    0.2741
+   ],
+   "santa_anab.c_oficial": [
+    0.1861,
+    0.4
+   ]
+  }
+ }
+}
