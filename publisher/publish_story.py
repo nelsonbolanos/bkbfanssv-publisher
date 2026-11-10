@@ -16,6 +16,11 @@ what each one is:
   "01-post.jpg":  {"kind": "post",  "caption": "...", "handles": [...], "positions": {"user": [x, y]}}   feed image post
   "02-story.jpg": {"kind": "story", "handles": [...], "positions": {"user": [x, y]}}                      image story
 x/y are 0..1 from the top-left corner (required for a feed image, optional for a story). Videos stay as they were.
+A feed image post may also invite up to 3 collaborators (Collab post; rules in collab.py):
+  "01-post.jpg":  {"kind": "post", "caption": "...", "handles": [...], "collaborators": ["club"]}
+Stories cannot have collaborators: the run stops before publishing anything if a story spec has them. If Instagram
+rejects the collaborators (any 4xx on that container request), the post is recreated once without them and the
+SUMMARY / published.json note says so.
 
 env (never put the token in a file or a URL):
   IG_TOKEN        Instagram User access token (secret)
@@ -32,6 +37,9 @@ Safety:
   - A container that reaches media_publish is never retried blindly.
 """
 import json, os, sys, time, glob, urllib.parse, urllib.request, urllib.error
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import collab
 
 DRY = "--dry-run" in sys.argv
 ONLY = None
@@ -135,6 +143,20 @@ def user_tags(spec, tags):
     return out
 
 
+def check_specs(folder, specs):
+    """Errors in tags.json (list of strings): collaborators only on feed image posts, valid usernames."""
+    err = []
+    for name, spec in specs.items():
+        if not isinstance(spec, dict) or "collaborators" not in spec: continue
+        if not (name.lower().endswith(".jpg") and spec.get("kind") == "post"):
+            err.append(f"{folder}/{name}: collaborators are only supported on feed image posts (kind post), not on stories")
+        err += [f"{folder}/{name}: {e}" for e in collab.check(spec["collaborators"])]
+    return err
+
+
+COLLAB_DROPPED = {}   # image path -> warning, once Instagram rejected its collaborators (later retries go without)
+
+
 def create_image(path, tags, spec):
     """Feed image post (kind post: image_url + caption) or image story (kind story: media_type STORIES)."""
     if not MEDIA: raise ApiError(0, "MEDIA_BASE_URL is required for images (image_url)")
@@ -144,8 +166,14 @@ def create_image(path, tags, spec):
     else: p["media_type"] = "STORIES"
     ut = user_tags(spec, tags)
     if ut: p["user_tags"] = json.dumps(ut)
+    if kind == "post" and path not in COLLAB_DROPPED: collab.add(p, collab.names(spec))
     wait_public(p["image_url"])
-    return call("POST", f"{UID}/media", p)["id"]
+    try:
+        return call("POST", f"{UID}/media", p)["id"]
+    except ApiError as e:
+        if not collab.should_retry(p, e.code) or rate_limited(e.body): raise
+        COLLAB_DROPPED[path] = collab.warn(e)
+        return call("POST", f"{UID}/media", collab.without(p))["id"]
 
 
 def create(folder, mp4, tags, spec=None):
@@ -168,6 +196,13 @@ if not DRY and not (TOKEN and UID and MEDIA):
     sys.exit("IG_TOKEN, IG_USER_ID and MEDIA_BASE_URL must be set")
 
 report = []
+
+_bad = []
+for _d in dirs:
+    _tp = os.path.join(_d, "tags.json")
+    if os.path.exists(_tp): _bad += check_specs(_d, json.load(open(_tp, encoding="utf-8")))
+if _bad:
+    sys.exit("tags.json:\n  " + "\n  ".join(_bad))
 
 
 def quota_now(label):
@@ -224,6 +259,7 @@ for folder in dirs:
             print(f"DRY {folder}/{name}  {kind}  {os.path.getsize(mp4) // 1024} KB  tags={['@' + t for t in tags]}"
                   f"  via={'video_url' if MEDIA else 'resumable upload'}")
             if spec.get("kind") == "post": print("    caption: " + spec.get("caption", "").replace("\n", " | ")[:300])
+            if spec.get("collaborators"): print(f"    collaborators: {json.dumps(collab.names(spec))}")
             continue
         note = ""
         if REMAIN is not None and len(report) >= REMAIN:
@@ -258,6 +294,10 @@ for folder in dirs:
             if "2207042" in e.body or "Media Publish Limit" in e.body:
                 quota_stop("Instagram says: Media Publish Limit Exceeded")
             raise
+        if mp4 in COLLAB_DROPPED:
+            note = (note + "; " if note else "") + f"published WITHOUT collaborators ({COLLAB_DROPPED[mp4]})"
+        elif spec.get("kind") == "post" and spec.get("collaborators"):
+            note = (note + "; " if note else "") + f"collaborators invited: {', '.join(collab.names(spec))}"
         done[name] = {"media_id": mid, "tags": tags, "note": note, "at": time.strftime("%Y-%m-%d %H:%M")}
         json.dump(done, open(logp, "w"), indent=1)
         report.append((folder, name, tags, note))

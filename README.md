@@ -13,6 +13,12 @@ nelsonbolanos/bkbfanssv-studio.
   "share_to_feed": true, "audio_name": "...", "tags": [{"username": "..."}]}` (cover, thumb, audio_name, tags optional).
   Checked before any API call: MP4 H.264 + AAC, 9:16, 3-90 s, 23-60 fps, <= 100 MB. `python3 publisher/publish.py
   posts/<slug>/manifest.json --dry-run` prints the container payload; tests: `python3 -m unittest discover tests`
+- collaborators (Collab post, optional): `"collaborators": ["club"]` at the top level of a carousel or reel manifest,
+  or in the tags.json spec of a feed image post (`"kind": "post"`). Max 3 usernames, no @, unique, never bkbfanssv;
+  confirmed handles only (studio docs/handles.md), never on simulation posts (same rule as tags). Not on carousel
+  slides, not on stories (the run stops before publishing). Each club must accept the invite in the Instagram app. If
+  Instagram rejects the parameter (any 4xx on that container request), it is retried once without collaborators and
+  the log/published.json say "published WITHOUT collaborators". Rules in `publisher/collab.py`.
 - a `READY` file in a batch folder marks it as reviewed: pushing it starts the publish workflow (backup crons: stories
   18:07, carousels 09:07 El Salvador). `publisher/pending.py` lists what is READY and not yet published.
 - `published.json` next to each batch records what went out (reruns never duplicate)

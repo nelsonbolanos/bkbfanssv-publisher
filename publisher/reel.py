@@ -8,14 +8,19 @@ manifest.json:
  "thumb_offset_ms": 1500,                     # optional frame used as cover when there is no "cover"
  "share_to_feed": true,                       # optional, default true (reel also shows in the profile grid)
  "audio_name": "...",                         # optional name for the reel's original audio
- "tags": [{"username": "team"}]}              # optional, public accounts only, max 20, no x/y for reels
-Music goes INSIDE the MP4 (the API has no music library). No collaborators, no location.
+ "tags": [{"username": "team"}],             # optional, public accounts only, max 20, no x/y for reels
+ "collaborators": ["club"]}                   # optional Collab invite, max 3 usernames (no @); rules in collab.py
+Music goes INSIDE the MP4 (the API has no music library). No location. Collaborators: confirmed handles only
+(studio docs/handles.md), never on simulation posts; the club must accept the invite in the app; if Instagram
+rejects the parameter, publish.py retries once without it.
 
 Rules enforced: MP4 H.264 + AAC (audio required), 9:16, 3-90 s, 23-60 fps, <= 100 MB, cover JPEG.
 The media check needs ffprobe; if it is missing (e.g. a runner without ffmpeg) only the size/extension are checked
 and Instagram does the rest.
 """
 import json, os, shutil, subprocess
+
+import collab
 
 MIN_S, MAX_S = 3.0, 90.0
 MAX_MB = 100
@@ -50,7 +55,9 @@ def check_manifest(m, root):
         err.append("thumb_offset_ms must be a non-negative integer (milliseconds)")
     if "share_to_feed" in m and not isinstance(m["share_to_feed"], bool):
         err.append("share_to_feed must be true or false")
-    for k in ("collaborators", "slides", "location_id"):
+    if "collaborators" in m:
+        err += collab.check(m["collaborators"])
+    for k in ("slides", "location_id"):
         if k in m:
             err.append(f"{k!r} is not supported for reels here")
     tags = m.get("tags", [])
@@ -149,4 +156,4 @@ def payload(m, base):
     tags = [{"username": t["username"].lstrip("@")} for t in m.get("tags", [])]
     if tags:
         p["user_tags"] = json.dumps(tags)
-    return p
+    return collab.add(p, collab.names(m))

@@ -12,8 +12,11 @@ env (never put the token in a file or a URL):
   IG_API_VERSION  optional, default v23.0
 
 manifest.json:
-{"caption": "...", "slides": [{"file": "u16m-01.jpg", "tags": [{"username": "goriladeportess", "x": 0.31, "y": 0.22}]}, ...]}
-Rules enforced here: 2-10 slides, JPEG only, tag x/y within 0..1, max 20 tags per slide.
+{"caption": "...", "slides": [{"file": "u16m-01.jpg", "tags": [{"username": "goriladeportess", "x": 0.31, "y": 0.22}]}, ...],
+ "collaborators": ["club"]}   # optional Collab invite on the carousel (parent container only), max 3, see collab.py
+Rules enforced here: 2-10 slides, JPEG only, tag x/y within 0..1, max 20 tags per slide, no collaborators on a slide.
+If Instagram rejects the collaborators (any 4xx on the container request that carried them), the container is
+retried once without them and published.json records "collaborators_dropped".
 
 Reels: a manifest with "kind": "reel" is published as a reel (video with its music inside the MP4); format and
 rules in publisher/reel.py. Same READY / published.json flow as a carousel.
@@ -21,7 +24,7 @@ rules in publisher/reel.py. Same READY / published.json flow as a carousel.
 import json, os, sys, time, urllib.parse, urllib.request, urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import reel
+import collab, reel
 
 DRY = "--dry-run" in sys.argv
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
@@ -42,7 +45,13 @@ def validate(m):
         sys.exit(f"carousel needs 2-10 slides, got {len(slides)}")
     if not m.get("caption", "").strip():
         sys.exit("empty caption")
+    if "collaborators" in m:
+        err = collab.check(m["collaborators"])
+        if err:
+            sys.exit("collaborators:\n  " + "\n  ".join(err))
     for s in slides:
+        if "collaborators" in s:
+            sys.exit(f"{s['file']}: collaborators go on the carousel (manifest top level), not on a slide")
         if not s["file"].lower().endswith((".jpg", ".jpeg")):
             sys.exit(f"{s['file']}: Instagram needs JPEG")
         tags = s.get("tags", [])
@@ -104,6 +113,38 @@ def call(method, path, data=None, soft=False):
             sys.exit(f"network error on {path}: {e}")
 
 
+def http_code(err):
+    """HTTP status of a soft call() error ("HTTP 400: ..."), 0 when unknown."""
+    try:
+        return int(err.split(":", 1)[0].split()[1])
+    except (IndexError, ValueError):
+        return 0
+
+
+COLLAB_NOTE = ""   # set when Instagram rejected the collaborators and the container went out without them
+
+
+def create_container(p):
+    """POST /{ig-user-id}/media for a parent/reel container. With collaborators: a 4xx (not a rate limit) is retried
+    once without them. Returns call()'s dict ({"_error": ...} only when soft errors are left to the caller)."""
+    global COLLAB_NOTE
+    r = call("POST", f"{UID}/media", p, soft=True)
+    if "_error" in r and collab.should_retry(p, http_code(r["_error"])) and not rate_limited(r["_error"]):
+        COLLAB_NOTE = collab.warn(r["_error"])
+        p.pop("collaborators")
+        r = call("POST", f"{UID}/media", p, soft=True)
+    return r
+
+
+def collab_log(p):
+    """published.json fields about collaborators (empty when the manifest had none)."""
+    if COLLAB_NOTE:
+        return {"collaborators": [], "collaborators_dropped": COLLAB_NOTE}
+    if "collaborators" in p:
+        return {"collaborators": json.loads(p["collaborators"])}
+    return {}
+
+
 def wait_finished(cid, tries=30, first_wait=0):
     if first_wait:
         time.sleep(first_wait)   # the carousel container is never ready at once: polling right away wastes a call
@@ -162,13 +203,19 @@ def publish_reel(m):
     if "cover_url" in p:
         wait_public(p["cover_url"])
     print("reel media publicly reachable")
-    cid = call("POST", f"{UID}/media", p)["id"]
-    print("reel container created, waiting for Instagram to process the video")
+    r = create_container(p)
+    if "_error" in r:
+        sys.exit(f"reel container failed: {r['_error']}")
+    cid = r["id"]
+    print("reel container created" + (f", collaborators invited: {p['collaborators']}" if "collaborators" in p else "")
+          + ", waiting for Instagram to process the video")
     wait_finished(cid, tries=60, first_wait=20)   # video processing: up to ~10 min, polled every 10 s
     media = call("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
     print("published reel media id:", media)
-    json.dump({"media_id": media, "kind": "reel", "at": time.strftime("%Y-%m-%d %H:%M"), "tags": len(m.get("tags", []))},
-              open(LOG, "w"), indent=1)
+    json.dump({"media_id": media, "kind": "reel", "at": time.strftime("%Y-%m-%d %H:%M"), "tags": len(m.get("tags", [])),
+               **collab_log(p)}, open(LOG, "w"), indent=1)
+    if COLLAB_NOTE:
+        print(f"SUMMARY: reel published WITHOUT collaborators ({COLLAB_NOTE})")
     print(f"API calls used: {CALLS}")
     sys.exit(0)
 
@@ -183,12 +230,15 @@ for s in manifest["slides"]:
             for t in s.get("tags", [])]
     if tags:
         p["user_tags"] = json.dumps(tags)
-    children_payloads.append(p)
+    children_payloads.append(p)   # never collaborators here: Instagram only takes them on the carousel container
+COLLABS = collab.names(manifest)
 
 if DRY:
     print(f"DRY RUN. account={UID or '(IG_USER_ID unset)'} api={VER}")
     for i, p in enumerate(children_payloads, 1):
         print(f"slide {i}:", json.dumps(p, ensure_ascii=False))
+    print("carousel:", json.dumps(collab.add({"media_type": "CAROUSEL", "children": "<slide ids>"}, COLLABS),
+                                  ensure_ascii=False))
     print("caption:\n" + manifest["caption"])
     sys.exit(0)
 
@@ -206,8 +256,8 @@ for i, p in enumerate(children_payloads, 1):
     ids.append(call("POST", f"{UID}/media", p)["id"])
     print(f"slide {i}/{len(children_payloads)} created")
 time.sleep(5)
-parent_data = {"media_type": "CAROUSEL", "children": ",".join(ids), "caption": manifest["caption"]}
-r = call("POST", f"{UID}/media", parent_data, soft=True)
+parent_data = collab.add({"media_type": "CAROUSEL", "children": ",".join(ids), "caption": manifest["caption"]}, COLLABS)
+r = create_container(parent_data)   # a collaborators rejection is retried once without them in there
 if "_error" in r:
     print(f"carousel container rejected ({r['_error'][:300]}); checking each slide and retrying once")
     for i, cid in enumerate(ids, 1):
@@ -218,7 +268,11 @@ parent = r["id"]
 wait_finished(parent, first_wait=10)
 media = call("POST", f"{UID}/media_publish", {"creation_id": parent})["id"]
 print("published media id:", media)
-json.dump({"media_id": media, "at": time.strftime("%Y-%m-%d %H:%M"), "tags": sum(len(s.get("tags", [])) for s in manifest["slides"])},
-          open(LOG, "w"), indent=1)
+json.dump({"media_id": media, "at": time.strftime("%Y-%m-%d %H:%M"), "tags": sum(len(s.get("tags", [])) for s in manifest["slides"]),
+           **collab_log(parent_data)}, open(LOG, "w"), indent=1)
+if COLLAB_NOTE:
+    print(f"SUMMARY: carousel published WITHOUT collaborators ({COLLAB_NOTE})")
+elif "collaborators" in parent_data:
+    print(f"collaborators invited: {parent_data['collaborators']} (each club must accept in the app)")
 # (the permalink GET after publishing was dropped Oct 26 2026 to save a call per carousel; media_id is enough)
 print(f"API calls used: {CALLS}")

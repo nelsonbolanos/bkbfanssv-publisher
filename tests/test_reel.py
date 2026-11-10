@@ -38,7 +38,7 @@ class Manifest(unittest.TestCase):
     def test_bad(self):
         cases = [self.m(video="images/r/x.mov"), self.m(video="images/r/missing.mp4"), self.m(caption=" "),
                  self.m(cover="images/r/cover.png"), self.m(cover="images/r/cover.jpg", thumb_offset_ms=100),
-                 self.m(thumb_offset_ms=-1), self.m(share_to_feed="yes"), self.m(collaborators=["a"]),
+                 self.m(thumb_offset_ms=-1), self.m(share_to_feed="yes"), self.m(collaborators=["a", "b", "c", "d"]), self.m(slides=[]), self.m(location_id="1"),
                  self.m(tags=[{"username": "a"}, {"username": "A"}]), self.m(tags=[{"username": str(i)} for i in range(21)])]
         for c in cases:
             self.assertTrue(reel.check_manifest(c, self.root), c)
