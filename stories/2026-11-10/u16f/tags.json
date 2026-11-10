@@ -1,0 +1,137 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@wonderbasketballacademy",
+   "@goriladeportess",
+   "@sivarsportsacademy",
+   "@adfusalmo"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Ivania Herrera",
+  "value": "87",
+  "title": "CAMPEONA DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@wonderbasketballacademy",
+   "@goriladeportess",
+   "@academia_onfire_",
+   "@sivarsportsacademy",
+   "@santateclabkb"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Beatriz Bolaños",
+  "value": "50",
+  "title": "REINA DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@salvadorenas.bc",
+   "@capitalinasbc",
+   "@goriladeportess"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Camila Espinoza",
+  "value": "14",
+  "title": "REINA DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@c.s.f.a._agape",
+   "@salvadorenas.bc",
+   "@capitalinasbc",
+   "@santateclabkb"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Ivania Herrera",
+  "value": "18",
+  "title": "REINA DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@goriladeportess"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Génesis Mena",
+  "value": "5",
+  "title": "REINA DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@academia_onfire_",
+   "@c.s.f.a._agape",
+   "@sivarsportsacademy",
+   "@wonderbasketballacademy"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Sahori Cáceres",
+  "value": "15",
+  "title": "REINA DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@wonderbasketballacademy",
+   "@goriladeportess",
+   "@salvadorenas.bc",
+   "@capitalinasbc",
+   "@sivarsportsacademy"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Beatriz Bolaños",
+  "value": "105",
+  "title": "REINA DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@salvadorenas.bc",
+   "@capitalinasbc",
+   "@goriladeportess",
+   "@capitalinos503_bkb_club"
+  ],
+  "players": [],
+  "leader": "Iris Morán",
+  "value": "12",
+  "title": "SEXTA REINA"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@c.s.f.a._agape",
+   "@salvadorenas.bc",
+   "@capitalinasbc"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@c.s.f.a._agape",
+   "@salvadorenas.bc",
+   "@capitalinasbc",
+   "@wonderbasketballacademy",
+   "@capitalinos503_bkb_club"
+  ],
+  "players": [],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
