@@ -1,0 +1,65 @@
+token account: bkbfanssv
+publishing quota: 15/100 used in the last 24 h, 35 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16f/01-points.mp4
+published stories/2026-11-10/u16f/01-points.mp4 media=18210978886371095 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16f/02-rebounds.mp4
+published stories/2026-11-10/u16f/02-rebounds.mp4 media=18026461490925294 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16f/03-assists.mp4
+published stories/2026-11-10/u16f/03-assists.mp4 media=17899292424675457 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16f/04-steals.mp4
+published stories/2026-11-10/u16f/04-steals.mp4 media=17916527283510720 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16f/05-pointsThreeMade.mp4
+published stories/2026-11-10/u16f/05-pointsThreeMade.mp4 media=18132667243761070 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16f/06-blocks.mp4
+published stories/2026-11-10/u16f/06-blocks.mp4 media=18100664171549004 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16f/07-efficiency.mp4
+published stories/2026-11-10/u16f/07-efficiency.mp4 media=17966797587227938 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16f/08-sixth.mp4
+published stories/2026-11-10/u16f/08-sixth.mp4 media=17883841683541783 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16f/09-dreamteam.mp4
+published stories/2026-11-10/u16f/09-dreamteam.mp4 media=17866237281692583 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16f/10-top10.mp4
+published stories/2026-11-10/u16f/10-top10.mp4 media=18454870132121564 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16m/01-points.mp4
+published stories/2026-11-10/u16m/01-points.mp4 media=18033213539681620 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16m/02-rebounds.mp4
+published stories/2026-11-10/u16m/02-rebounds.mp4 media=18004954928800555 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16m/03-assists.mp4
+published stories/2026-11-10/u16m/03-assists.mp4 media=18110740538062590 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16m/04-steals.mp4
+published stories/2026-11-10/u16m/04-steals.mp4 media=17913249114477700 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16m/05-pointsThreeMade.mp4
+published stories/2026-11-10/u16m/05-pointsThreeMade.mp4 media=18570309937079920 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16m/06-blocks.mp4
+published stories/2026-11-10/u16m/06-blocks.mp4 media=17998224819018980 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16m/07-efficiency.mp4
+published stories/2026-11-10/u16m/07-efficiency.mp4 media=18159369235508490 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16m/08-sixth.mp4
+published stories/2026-11-10/u16m/08-sixth.mp4 media=18115693379519369 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16m/09-dreamteam.mp4
+published stories/2026-11-10/u16m/09-dreamteam.mp4 media=17915548755514440 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-10/u16m/10-top10.mp4
+published stories/2026-11-10/u16m/10-top10.mp4 media=18149485978570004 tags=8 
+quota after run: usage 19 / 100, published this run: 20
+
+SUMMARY
+  stories/2026-11-10/u16f/01-points.mp4: 4 tags 
+  stories/2026-11-10/u16f/02-rebounds.mp4: 5 tags 
+  stories/2026-11-10/u16f/03-assists.mp4: 3 tags 
+  stories/2026-11-10/u16f/04-steals.mp4: 5 tags 
+  stories/2026-11-10/u16f/05-pointsThreeMade.mp4: 2 tags 
+  stories/2026-11-10/u16f/06-blocks.mp4: 4 tags 
+  stories/2026-11-10/u16f/07-efficiency.mp4: 5 tags 
+  stories/2026-11-10/u16f/08-sixth.mp4: 4 tags 
+  stories/2026-11-10/u16f/09-dreamteam.mp4: 4 tags 
+  stories/2026-11-10/u16f/10-top10.mp4: 6 tags 
+  stories/2026-11-10/u16m/01-points.mp4: 5 tags 
+  stories/2026-11-10/u16m/02-rebounds.mp4: 4 tags 
+  stories/2026-11-10/u16m/03-assists.mp4: 5 tags 
+  stories/2026-11-10/u16m/04-steals.mp4: 5 tags 
+  stories/2026-11-10/u16m/05-pointsThreeMade.mp4: 5 tags 
+  stories/2026-11-10/u16m/06-blocks.mp4: 4 tags 
+  stories/2026-11-10/u16m/07-efficiency.mp4: 4 tags 
+  stories/2026-11-10/u16m/08-sixth.mp4: 4 tags 
+  stories/2026-11-10/u16m/09-dreamteam.mp4: 4 tags 
+  stories/2026-11-10/u16m/10-top10.mp4: 8 tags 
