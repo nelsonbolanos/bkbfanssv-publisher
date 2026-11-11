@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\nPerdón por el retraso 🙏\n\nFINAL · Liga Mayor Masculino\nSanta Ana 117-95 San Salvador\n\nSan Salvador salió más fino y llegó a mandar por ocho en el primer periodo, pero Santa Ana respondió en el segundo con un parcial de 9-0 que le dio la vuelta al juego. Tras 20 cambios de ventaja, la canasta del #12, Leandrew Knight II, a 57 segundos del descanso puso a Santa Ana arriba de forma definitiva. En el tercer periodo, Santa Ana apretó el acelerador con un 31-18 y se despegó hasta controlar el cierre. El Jugador del Partido fue el #20, Ayang Aguek, de Santa Ana, con 30 puntos y 15 rebotes, mientras que por San Salvador brilló el #6, Bernardo Polanco, con 38 puntos.\n\nJugador del Partido: Ayang Aguek (Santa Ana) · 30 PTS · 15 REB · 10 AST · 45 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "santa_anab.c_oficial",
+   "imder.bkb.ss.fans",
+   "sansalvadorbc"
+  ],
+  "positions": {
+   "santa_anab.c_oficial": [
+    0.1861,
+    0.2741
+   ],
+   "imder.bkb.ss.fans": [
+    0.2273,
+    0.4
+   ],
+   "sansalvadorbc": [
+    0.2273,
+    0.4296
+   ]
+  }
+ }
+}
