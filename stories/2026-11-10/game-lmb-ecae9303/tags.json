@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nA Lobos BKB 81-54 Salvadoreños\n\nEl arranque fue de ida y vuelta, con Salvadoreños golpeando primero y ocho cambios de ventaja, hasta que la canasta del #21, Alejandro Grant, puso a A Lobos BKB arriba 17-15 y ya no volvió a ceder el mando. Desde ahí, Lobos ganó todos los periodos y se fue al descanso arriba por 14. En el último periodo, los Lobos cerraron con un parcial de 11-0 que estiró la ventaja hasta 33 puntos. El Jugador del Partido fue el #22, Montavious Marc, de Lobos, con 17 puntos y 16 rebotes, y por Salvadoreños destacó el #5, Erick Rodríguez, con 8 puntos y 7 rebotes.\n\nJugador del Partido: Montavious Marc (A Lobos BKB) · 17 PTS · 16 REB · 8 AST · 32 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "lobosbkblmb",
+   "salvadorenosbc",
+   "salvadorenosbc_oficial"
+  ],
+  "positions": {
+   "lobosbkblmb": [
+    0.2065,
+    0.2741
+   ],
+   "salvadorenosbc": [
+    0.2329,
+    0.4
+   ],
+   "salvadorenosbc_oficial": [
+    0.2329,
+    0.4296
+   ]
+  }
+ }
+}
