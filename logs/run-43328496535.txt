@@ -1,0 +1,19 @@
+token account: bkbfanssv
+publishing quota: 22/100 used in the last 24 h, 28 left
+skip stories/2026-11-12/lmb/01-points.mp4 (already published 2026-11-12 23:14)
+skip stories/2026-11-12/lmb/02-rebounds.mp4 (already published 2026-11-12 23:16)
+skip stories/2026-11-12/lmb/03-assists.mp4 (already published 2026-11-12 23:17)
+skip stories/2026-11-12/lmb/04-steals.mp4 (already published 2026-11-12 23:18)
+skip stories/2026-11-12/lmb/05-pointsThreeMade.mp4 (already published 2026-11-12 23:18)
+skip stories/2026-11-12/lmb/06-blocks.mp4 (already published 2026-11-12 23:20)
+skip stories/2026-11-12/lmb/07-efficiency.mp4 (already published 2026-11-12 23:21)
+skip stories/2026-11-12/lmb/08-sixth.mp4 (already published 2026-11-12 23:22)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/09-dreamteam.mp4
+published stories/2026-11-12/lmb/09-dreamteam.mp4 media=18032028410692143 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/10-top10.mp4
+published stories/2026-11-12/lmb/10-top10.mp4 media=18037465580904462 tags=11 
+quota after run: usage 23 / 100, published this run: 2
+
+SUMMARY
+  stories/2026-11-12/lmb/09-dreamteam.mp4: 6 tags 
+  stories/2026-11-12/lmb/10-top10.mp4: 11 tags 
