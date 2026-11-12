@@ -1,0 +1,74 @@
+token account: bkbfanssv
+publishing quota: 17/100 used in the last 24 h, 33 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/01-points.mp4
+published stories/2026-11-12/lmbf/01-points.mp4 media=18119891432007004 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/02-rebounds.mp4
+published stories/2026-11-12/lmbf/02-rebounds.mp4 media=17939945295402434 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/03-assists.mp4
+published stories/2026-11-12/lmbf/03-assists.mp4 media=18025045610927259 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/04-steals.mp4
+04-steals.mp4: container failed with tags (HTTP 0: container 17898772170613866 ERROR: {'status_code': 'ERROR', 'status': 'ERROR', 'id': '17898772170613866'}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/04-steals.mp4
+  04-steals.mp4: posted with 4 tags, without @santa_anab.c_oficial
+published stories/2026-11-12/lmbf/04-steals.mp4 media=18503999767103848 tags=4 published WITHOUT @santa_anab.c_oficial (Instagram rejected it: private or invalid; tag error: HTTP 0: container 17898772170613866 ERROR: {'status_code': 'ERROR', 'status': 'ERROR', 'id': '17898772170613866'})
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/05-pointsThreeMade.mp4
+published stories/2026-11-12/lmbf/05-pointsThreeMade.mp4 media=17919033996465316 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/06-blocks.mp4
+published stories/2026-11-12/lmbf/06-blocks.mp4 media=18074971598590347 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/07-efficiency.mp4
+published stories/2026-11-12/lmbf/07-efficiency.mp4 media=18116993278841362 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/08-sixth.mp4
+published stories/2026-11-12/lmbf/08-sixth.mp4 media=18116326237861483 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/09-dreamteam.mp4
+published stories/2026-11-12/lmbf/09-dreamteam.mp4 media=18110643419217000 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmbf/10-top10.mp4
+published stories/2026-11-12/lmbf/10-top10.mp4 media=17894422773685173 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/01-points.mp4
+published stories/2026-11-12/lmb/01-points.mp4 media=17972623721961753 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/02-rebounds.mp4
+published stories/2026-11-12/lmb/02-rebounds.mp4 media=18103840310638724 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/03-assists.mp4
+published stories/2026-11-12/lmb/03-assists.mp4 media=17983694765912270 tags=7 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/04-steals.mp4
+published stories/2026-11-12/lmb/04-steals.mp4 media=18148615858584206 tags=8 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/05-pointsThreeMade.mp4
+published stories/2026-11-12/lmb/05-pointsThreeMade.mp4 media=18135049237805671 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/06-blocks.mp4
+published stories/2026-11-12/lmb/06-blocks.mp4 media=18475708423140061 tags=7 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/07-efficiency.mp4
+published stories/2026-11-12/lmb/07-efficiency.mp4 media=18204290644378523 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/08-sixth.mp4
+published stories/2026-11-12/lmb/08-sixth.mp4 media=18123099344285030 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-12/lmb/09-dreamteam.mp4
+Traceback (most recent call last):
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 89, in call
+    with urllib.request.urlopen(req, timeout=300) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 500: Internal Server Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 292, in <module>
+    mid = call("POST", f"{UID}/media_publish", {"creation_id": cid})["id"]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/bkbfanssv-publisher/bkbfanssv-publisher/publisher/publish_story.py", line 98, in call
+    raise ApiError(e.code, msg)
+ApiError: HTTP 500: {"error":{"message":"An unexpected error has occurred. Please retry your request later.","type":"OAuthException","is_transient":true,"code":2,"fbtrace_id":"A7XMeNhRgQ1_qgEJJC6Ntkx"}}

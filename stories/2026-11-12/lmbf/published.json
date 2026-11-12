@@ -1,0 +1,122 @@
+{
+ "01-points.mp4": {
+  "media_id": "18119891432007004",
+  "tags": [
+   "lmmr_bkb",
+   "sansalvadorbc",
+   "santa_anab.c_oficial",
+   "santateclabkb",
+   "lmbf.elsalvador"
+  ],
+  "note": "",
+  "at": "2026-11-12 23:03"
+ },
+ "02-rebounds.mp4": {
+  "media_id": "17939945295402434",
+  "tags": [
+   "sansalvadorbc",
+   "lmmr_bkb",
+   "santateclabkb",
+   "salvadorenas.bc",
+   "lmbf.elsalvador"
+  ],
+  "note": "",
+  "at": "2026-11-12 23:04"
+ },
+ "03-assists.mp4": {
+  "media_id": "18025045610927259",
+  "tags": [
+   "salvadorenas.bc",
+   "lmmr_bkb",
+   "sansalvadorbc",
+   "santa_anab.c_oficial",
+   "santateclabkb",
+   "lmbf.elsalvador"
+  ],
+  "note": "",
+  "at": "2026-11-12 23:05"
+ },
+ "04-steals.mp4": {
+  "media_id": "18503999767103848",
+  "tags": [
+   "lmmr_bkb",
+   "salvadorenas.bc",
+   "sansalvadorbc",
+   "lmbf.elsalvador"
+  ],
+  "note": "published WITHOUT @santa_anab.c_oficial (Instagram rejected it: private or invalid; tag error: HTTP 0: container 17898772170613866 ERROR: {'status_code': 'ERROR', 'status': 'ERROR', 'id': '17898772170613866'})",
+  "at": "2026-11-12 23:07"
+ },
+ "05-pointsThreeMade.mp4": {
+  "media_id": "17919033996465316",
+  "tags": [
+   "santa_anab.c_oficial",
+   "sansalvadorbc",
+   "lmmr_bkb",
+   "lmbf.elsalvador"
+  ],
+  "note": "",
+  "at": "2026-11-12 23:09"
+ },
+ "06-blocks.mp4": {
+  "media_id": "18074971598590347",
+  "tags": [
+   "sansalvadorbc",
+   "lmmr_bkb",
+   "santa_anab.c_oficial",
+   "santateclabkb",
+   "lmbf.elsalvador"
+  ],
+  "note": "",
+  "at": "2026-11-12 23:10"
+ },
+ "07-efficiency.mp4": {
+  "media_id": "18116993278841362",
+  "tags": [
+   "sansalvadorbc",
+   "lmmr_bkb",
+   "santa_anab.c_oficial",
+   "santateclabkb",
+   "lmbf.elsalvador"
+  ],
+  "note": "",
+  "at": "2026-11-12 23:11"
+ },
+ "08-sixth.mp4": {
+  "media_id": "18116326237861483",
+  "tags": [
+   "salvadorenas.bc",
+   "santateclabkb",
+   "sansalvadorbc",
+   "lmbf.elsalvador"
+  ],
+  "note": "",
+  "at": "2026-11-12 23:12"
+ },
+ "09-dreamteam.mp4": {
+  "media_id": "18110643419217000",
+  "tags": [
+   "sansalvadorbc",
+   "santa_anab.c_oficial",
+   "salvadorenas.bc",
+   "santateclabkb",
+   "lmbf.elsalvador",
+   "_smilez.x"
+  ],
+  "note": "",
+  "at": "2026-11-12 23:12"
+ },
+ "10-top10.mp4": {
+  "media_id": "17894422773685173",
+  "tags": [
+   "sansalvadorbc",
+   "santa_anab.c_oficial",
+   "salvadorenas.bc",
+   "santateclabkb",
+   "lmbf.elsalvador",
+   "_smilez.x"
+  ],
+  "note": "",
+  "at": "2026-11-12 23:13"
+ }
+}
