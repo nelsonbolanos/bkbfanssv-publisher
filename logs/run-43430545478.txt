@@ -1,0 +1,85 @@
+all slides publicly reachable
+slide 1/7 created
+slide 2/7 created
+slide 3/7 created
+slide 4/7 created
+slide 5/7 created
+slide 6/7 created
+slide 7/7 created
+published media id: 18022604960945373
+API calls used: 10
+all slides publicly reachable
+slide 1/6 created
+slide 2/6 created
+slide 3/6 created
+slide 4/6 created
+slide 5/6 created
+slide 6/6 created
+published media id: 17893522146686142
+API calls used: 9
+all slides publicly reachable
+slide 1/6 created
+slide 2/6 created
+slide 3/6 created
+slide 4/6 created
+slide 5/6 created
+slide 6/6 created
+published media id: 17948140878086241
+API calls used: 9
+all slides publicly reachable
+slide 1/6 created
+slide 2/6 created
+slide 3/6 created
+slide 4/6 created
+slide 5/6 created
+slide 6/6 created
+published media id: 18131221373491682
+API calls used: 9
+all slides publicly reachable
+slide 1/8 created
+slide 2/8 created
+slide 3/8 created
+slide 4/8 created
+slide 5/8 created
+slide 6/8 created
+slide 7/8 created
+slide 8/8 created
+published media id: 18049987931822394
+API calls used: 11
+all slides publicly reachable
+slide 1/6 created
+slide 2/6 created
+slide 3/6 created
+slide 4/6 created
+slide 5/6 created
+slide 6/6 created
+published media id: 18118965751839962
+API calls used: 9
+all slides publicly reachable
+slide 1/6 created
+slide 2/6 created
+slide 3/6 created
+slide 4/6 created
+slide 5/6 created
+slide 6/6 created
+published media id: 18350330905284634
+API calls used: 9
+all slides publicly reachable
+slide 1/4 created
+slide 2/4 created
+slide 3/4 created
+slide 4/4 created
+published media id: 18233179291330351
+API calls used: 7
+all slides publicly reachable
+slide 1/9 created
+slide 2/9 created
+slide 3/9 created
+slide 4/9 created
+slide 5/9 created
+slide 6/9 created
+slide 7/9 created
+slide 8/9 created
+slide 9/9 created
+published media id: 18109008806194105
+API calls used: 12
