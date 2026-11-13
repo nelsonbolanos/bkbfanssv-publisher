@@ -1,0 +1,147 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@nejapabc_",
+   "@sansalvadorbc",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Salvadoreños B.C.",
+   "Santiagueño B.C.",
+   "Tigres"
+  ],
+  "leader": "Kevin Lovos",
+  "value": "39",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@nejapabc_",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Academia Duke",
+   "Cougars",
+   "El Origen B.C.",
+   "Santiagueño B.C."
+  ],
+  "leader": "Cristopher Rodríguez",
+  "value": "16",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@nejapabc_",
+   "@sansalvadorbc",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Brujos de Izalco",
+   "Cougars",
+   "Salvadoreños B.C."
+  ],
+  "leader": "Diego Hernández",
+  "value": "11",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@apgbulldogs_sv",
+   "@adfusalmo",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Cougars",
+   "Tigres"
+  ],
+  "leader": "Fernando Perdomo",
+  "value": "8",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@nejapabc_",
+   "@sansalvadorbc",
+   "@santanecosbasketballclub",
+   "@adfusalmo",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Brujos de Izalco"
+  ],
+  "leader": "Alexander Ayala",
+  "value": "7",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Academia Duke",
+   "Bulldogs",
+   "El Origen B.C.",
+   "Salvadoreños B.C."
+  ],
+  "leader": "Fernando Morales",
+  "value": "4",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@sansalvadorbc",
+   "@nejapabc_",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Salvadoreños B.C.",
+   "Tigres"
+  ],
+  "leader": "Gonzalo Baires",
+  "value": "36",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@apgbulldogs_sv",
+   "@nejapabc_",
+   "@santanecosbasketballclub",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "leader": "Diego Marroquín",
+  "value": "28",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@sansalvadorbc",
+   "@nejapabc_",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@sansalvadorbc",
+   "@nejapabc_",
+   "@apgbulldogs_sv",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
