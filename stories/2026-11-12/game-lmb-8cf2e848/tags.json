@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nA Lobos BKB 83-53 Salvadoreños\n\nA Lobos BKB mandó desde temprano: tras un arranque parejo, el triple del #17, Michael Meléndez, lo puso arriba 8-5 en el primer periodo y ya nunca cedió el frente. Un parcial de 9-0 antes de cerrar ese periodo abrió la brecha, y los Lobos se quedaron con los cuatro periodos hasta estirar la ventaja a 32 puntos en el cierre. El #22, Montavious Marc, de A Lobos, fue el Jugador del Partido con un triple-doble de 19 rebotes y 10 asistencias. Por Salvadoreños, el #35, Ibrahin Hechavarría, dio la pelea con 18 puntos y 9 rebotes.\n\nJugador del Partido: Montavious Marc (A Lobos BKB) · 17 PTS · 19 REB · 10 AST · 37 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "lobosbkblmb",
+   "salvadorenosbc",
+   "salvadorenosbc_oficial"
+  ],
+  "positions": {
+   "lobosbkblmb": [
+    0.2065,
+    0.2741
+   ],
+   "salvadorenosbc": [
+    0.2329,
+    0.4
+   ],
+   "salvadorenosbc_oficial": [
+    0.2329,
+    0.4296
+   ]
+  }
+ }
+}

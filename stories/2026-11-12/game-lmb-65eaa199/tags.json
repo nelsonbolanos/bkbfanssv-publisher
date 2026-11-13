@@ -1,0 +1,30 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nSanta Ana 108-67 San Salvador\n\nSanta Ana mandó desde su primera canasta, obra del #10, Darnell Johnson, y estuvo arriba en el marcador de principio a fin. Los santanecos llegaron al descanso con 19 de ventaja y en el tercer periodo rompieron el juego con un parcial de 12-0 que movió el marcador de 61-41 a 73-41. Johnson fue el Jugador del Partido con 30 puntos y 12 rebotes para Santa Ana, mientras que por San Salvador destacó el #44, Yovani Del Rosario, que peleó cada balón con 21 rebotes.\n\nJugador del Partido: Darnell Johnson (Santa Ana) · 30 PTS · 12 REB · 11 AST · 42 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "santa_anab.c_oficial",
+   "imder.bkb.ss.fans",
+   "sansalvadorbc",
+   "iamdarnelljohnson"
+  ],
+  "positions": {
+   "santa_anab.c_oficial": [
+    0.1861,
+    0.2741
+   ],
+   "imder.bkb.ss.fans": [
+    0.2273,
+    0.4
+   ],
+   "sansalvadorbc": [
+    0.2273,
+    0.4296
+   ],
+   "iamdarnelljohnson": [
+    0.7093,
+    0.7259
+   ]
+  }
+ }
+}
