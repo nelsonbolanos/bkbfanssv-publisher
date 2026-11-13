@@ -1,0 +1,35 @@
+token account: bkbfanssv
+publishing quota: 31/100 used in the last 24 h, 19 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/u21m/01-points.mp4
+published stories/2026-11-13/u21m/01-points.mp4 media=18120836720521199 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/u21m/02-rebounds.mp4
+published stories/2026-11-13/u21m/02-rebounds.mp4 media=18093629144694781 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/u21m/03-assists.mp4
+published stories/2026-11-13/u21m/03-assists.mp4 media=18103437560639899 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/u21m/04-steals.mp4
+published stories/2026-11-13/u21m/04-steals.mp4 media=17874664857648425 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/u21m/05-pointsThreeMade.mp4
+published stories/2026-11-13/u21m/05-pointsThreeMade.mp4 media=18081294545751757 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/u21m/06-blocks.mp4
+published stories/2026-11-13/u21m/06-blocks.mp4 media=17936455671145225 tags=2 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/u21m/07-efficiency.mp4
+published stories/2026-11-13/u21m/07-efficiency.mp4 media=18210201064373645 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/u21m/08-sixth.mp4
+published stories/2026-11-13/u21m/08-sixth.mp4 media=18153864751624509 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/u21m/09-dreamteam.mp4
+published stories/2026-11-13/u21m/09-dreamteam.mp4 media=18126885658902967 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/u21m/10-top10.mp4
+published stories/2026-11-13/u21m/10-top10.mp4 media=18652198213018335 tags=5 
+quota after run: usage 38 / 100, published this run: 10
+
+SUMMARY
+  stories/2026-11-13/u21m/01-points.mp4: 3 tags 
+  stories/2026-11-13/u21m/02-rebounds.mp4: 2 tags 
+  stories/2026-11-13/u21m/03-assists.mp4: 3 tags 
+  stories/2026-11-13/u21m/04-steals.mp4: 4 tags 
+  stories/2026-11-13/u21m/05-pointsThreeMade.mp4: 5 tags 
+  stories/2026-11-13/u21m/06-blocks.mp4: 2 tags 
+  stories/2026-11-13/u21m/07-efficiency.mp4: 4 tags 
+  stories/2026-11-13/u21m/08-sixth.mp4: 4 tags 
+  stories/2026-11-13/u21m/09-dreamteam.mp4: 4 tags 
+  stories/2026-11-13/u21m/10-top10.mp4: 5 tags 
