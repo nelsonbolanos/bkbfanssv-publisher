@@ -6,6 +6,9 @@
    "cojutebkb_lmb"
   ],
   "note": "published WITHOUT @mjaves44 (Instagram rejected it: private or invalid; tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient)",
-  "at": "2026-11-14 05:04"
+  "at": "2026-11-14 05:04",
+  "manual_web_tags": [
+   "mjaves44"
+  ]
  }
 }
