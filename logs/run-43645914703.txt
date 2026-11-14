@@ -1,0 +1,15 @@
+token account: bkbfanssv
+publishing quota: 38/100 used in the last 24 h, 12 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-14/game-16f-f479709a/01-post.jpg
+01-post.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: rociselalizzethmolina","fbtrace_id":"AW7C5263mKletw28gW16Z6W"}}); retrying
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-14/game-16f-f479709a/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-14/game-16f-f479709a/01-post.jpg
+  01-post.jpg: posted with 1 tags, without @rociselalizzethmolina
+published stories/2026-11-14/game-16f-f479709a/01-post.jpg media=18360978556172601 tags=1 published WITHOUT @rociselalizzethmolina (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-14/game-18m-18b5c808/01-post.jpg
+published stories/2026-11-14/game-18m-18b5c808/01-post.jpg media=18102953213385630 tags=2 
+quota after run: usage 39 / 100, published this run: 2
+
+SUMMARY
+  stories/2026-11-14/game-16f-f479709a/01-post.jpg: 1 tags published WITHOUT @rociselalizzethmolina (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-11-14/game-18m-18b5c808/01-post.jpg: 2 tags 
