@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nSan Miguel 82-64 Cojute\n\nEl partido arrancó parejo, con Cojute llegando a mandar por tres en el primer periodo y cinco empates en el camino. San Miguel tomó el control en el segundo periodo, cuando el triple del #30, Mauricio Guzmán, lo puso arriba 24-22 y ya no volvió a ceder la ventaja. Los migueleños sostuvieron el pulso en el tercero y sentenciaron con un parcial de 11-0 en los últimos minutos. El Jugador del Partido fue el #1, Michael Hinestroza, de Cojute, con 19 puntos y 14 rebotes. Con este triunfo, San Miguel corta una racha de 4 victorias seguidas de Cojute.\n\nJugador del Partido: Michael Hinestroza (Cojute) · 19 PTS · 14 REB · 6 AST · 30 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sanmiguelbc",
+   "cojutebkb_lmb",
+   "mjaves44"
+  ],
+  "positions": {
+   "sanmiguelbc": [
+    0.1995,
+    0.2741
+   ],
+   "cojutebkb_lmb": [
+    0.1444,
+    0.4
+   ],
+   "mjaves44": [
+    0.7093,
+    0.7259
+   ]
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nMetapán 65-61 Brujos de Izalco\n\nBrujos de Izalco llegó a mandar 10-3, pero Metapán metió un parcial de 10-0 alrededor del descanso para pasar al frente. Los Brujos recuperaron el mando y entraron arriba al último periodo, hasta que el triple del #26, Brayan García, y dos tiros libres del #1, Jerome Savoy, pusieron a Metapán adelante en el cierre. Izalco tuvo un tiro para empatar o pasar al frente, pero no pudo capitalizar, y Savoy sentenció con una canasta. El #29, Yoel Cubillas, Jugador del Partido, firmó 23 puntos y 15 rebotes por Metapán; por Brujos destacó el #24, Devin Franklin, con 18 puntos y 18 rebotes. Metapán suma 20 victorias seguidas.\n\nJugador del Partido: Yoel Cubillas (Metapán) · 23 PTS · 15 REB · 3 AST · 31 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "metapanbcoficial",
+   "brujos_oficial"
+  ],
+  "positions": {
+   "metapanbcoficial": [
+    0.1667,
+    0.2741
+   ],
+   "brujos_oficial": [
+    0.2685,
+    0.4
+   ]
+  }
+ }
+}

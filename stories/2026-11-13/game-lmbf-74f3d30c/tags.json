@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmbf.elsalvador\n\nFINAL · Liga Mayor Femenino\nSan Salvador 78-58 Salvadoreñas\n\nSalvadoreñas golpeó primero con un 3-0 y el arranque fue de ida y vuelta, con cinco cambios de ventaja y tres empates, hasta que un tiro libre de la #30, Arlenys Romero, puso a San Salvador arriba 12-11 en el primer periodo, ya para siempre. Al cierre del segundo periodo, las capitalinas metieron un parcial de 9-0 que abrió la brecha antes del descanso, y ganaron los cuatro periodos hasta estirar la ventaja a 24 puntos. La Jugadora del Partido fue la #6, Anisleidy Galindo, de San Salvador, con 31 puntos y 16 rebotes. Por Salvadoreñas destacó la #27, Silvia Vega, con 13 puntos y 11 rebotes.\n\nJugadora del Partido: Anisleidy Galindo (San Salvador) · 31 PTS · 16 REB · 2 AST · 37 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "imder.bkb.ss.fans",
+   "sansalvadorbc",
+   "salvadorenas.bc"
+  ],
+  "positions": {
+   "imder.bkb.ss.fans": [
+    0.2273,
+    0.2741
+   ],
+   "sansalvadorbc": [
+    0.2273,
+    0.3037
+   ],
+   "salvadorenas.bc": [
+    0.2324,
+    0.4
+   ]
+  }
+ }
+}
