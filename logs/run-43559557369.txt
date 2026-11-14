@@ -1,0 +1,28 @@
+token account: bkbfanssv
+publishing quota: 21/100 used in the last 24 h, 29 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/game-21m-400e0a6f/01-post.jpg
+published stories/2026-11-13/game-21m-400e0a6f/01-post.jpg media=17885902935527854 tags=1 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/game-21m-d7a9acd4/01-post.jpg
+published stories/2026-11-13/game-21m-d7a9acd4/01-post.jpg media=17915122563488560 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/game-lmb-b6bcfd99/01-post.jpg
+published stories/2026-11-13/game-lmb-b6bcfd99/01-post.jpg media=17993969685114641 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/game-lmb-ff7dd7a5/01-post.jpg
+01-post.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: mjaves44","fbtrace_id":"A8ZJokZ55aVN8Y5dWIERMua"}}); retrying
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/game-lmb-ff7dd7a5/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/game-lmb-ff7dd7a5/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/game-lmb-ff7dd7a5/01-post.jpg
+  01-post.jpg: posted with 2 tags, without @mjaves44
+published stories/2026-11-13/game-lmb-ff7dd7a5/01-post.jpg media=18100730069532253 tags=2 published WITHOUT @mjaves44 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/game-lmbf-74f3d30c/01-post.jpg
+01-post.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: imder.bkb.ss.fans","fbtrace_id":"AaMZHKMb8x2avGbhKM6vHIb"}}); retrying
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-13/game-lmbf-74f3d30c/01-post.jpg
+  01-post.jpg: posted with 2 tags, without @imder.bkb.ss.fans
+published stories/2026-11-13/game-lmbf-74f3d30c/01-post.jpg media=18131512810908975 tags=2 published WITHOUT @imder.bkb.ss.fans (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+quota after run: usage 25 / 100, published this run: 5
+
+SUMMARY
+  stories/2026-11-13/game-21m-400e0a6f/01-post.jpg: 1 tags 
+  stories/2026-11-13/game-21m-d7a9acd4/01-post.jpg: 2 tags 
+  stories/2026-11-13/game-lmb-b6bcfd99/01-post.jpg: 2 tags 
+  stories/2026-11-13/game-lmb-ff7dd7a5/01-post.jpg: 2 tags published WITHOUT @mjaves44 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-11-13/game-lmbf-74f3d30c/01-post.jpg: 2 tags published WITHOUT @imder.bkb.ss.fans (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
