@@ -1,0 +1,23 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U14 Masculino · Jornada 5\nAcademia Ballers 41-38 Santanecos B.C.\n\nAcademia Ballers llegaba como favorito al 93 % en nuestra simulación, que proyectaba un 57-30, pero Santanecos B.C. mandó tres periodos y llegó a ir arriba 33-23 en el cuarto. Los Ballers respondieron con un parcial de 11-0; Santanecos empató con un triple del #5, Jonathan Ríos, pero un tiro libre del #28, Lucas Velásquez, devolvió la ventaja a los Ballers a 25 segundos del final. Velásquez fue el Jugador del Partido con 23 puntos y 8 rebotes, y el #4, Luis Terán, destacó en Santanecos con 8 puntos y 10 rebotes. Con el triunfo, Academia Ballers alcanza la cima y comparte el primer lugar en puntos con otro equipo.\n\nJugador del Partido: Lucas Velásquez (Academia Ballers) · 23 PTS · 8 REB · 1 AST · 22 EFF\nDestacado: Luis Terán (Santanecos B.C.) · 8 PTS · 10 REB · 2 AST · 13 EFF\n\n#u14m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "academiaballers_bkb",
+   "santanecosbasketballclub"
+  ],
+  "positions": {
+   "academiaballers_bkb": [
+    0.2806,
+    0.2741
+   ],
+   "santanecosbasketballclub": [
+    0.2606,
+    0.4
+   ]
+  },
+  "collaborators": [
+   "academiaballers_bkb"
+  ]
+ }
+}
