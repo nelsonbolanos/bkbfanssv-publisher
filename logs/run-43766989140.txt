@@ -1,0 +1,17 @@
+token account: bkbfanssv
+publishing quota: 30/100 used in the last 24 h, 20 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-15/game-14f-c1729c1d/01-post.jpg
+WARNING collaborators rejected: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: mayerlynietor","fbtrace_id":"Aw; retrying without
+01-post.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: mayerlynietor","fbtrace_id":"Axavr3cZuJlo-GtIJe9i7OZ"}}); retrying
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-15/game-14f-c1729c1d/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-15/game-14f-c1729c1d/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-15/game-14f-c1729c1d/01-post.jpg
+  01-post.jpg: posted with 2 tags, without @mayerlynietor
+published stories/2026-11-15/game-14f-c1729c1d/01-post.jpg media=18648667972007495 tags=2 published WITHOUT @mayerlynietor (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient); published WITHOUT collaborators (collaborators rejected: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: mayerlynietor","fbtrace_id":"Aw; retrying without)
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-15/game-16m-49c1f1ed/01-post.jpg
+published stories/2026-11-15/game-16m-49c1f1ed/01-post.jpg media=18252181807309912 tags=2 
+quota after run: usage 30 / 100, published this run: 2
+
+SUMMARY
+  stories/2026-11-15/game-14f-c1729c1d/01-post.jpg: 2 tags published WITHOUT @mayerlynietor (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient); published WITHOUT collaborators (collaborators rejected: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: mayerlynietor","fbtrace_id":"Aw; retrying without)
+  stories/2026-11-15/game-16m-49c1f1ed/01-post.jpg: 2 tags 

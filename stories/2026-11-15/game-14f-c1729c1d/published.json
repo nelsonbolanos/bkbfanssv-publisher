@@ -1,0 +1,11 @@
+{
+ "01-post.jpg": {
+  "media_id": "18648667972007495",
+  "tags": [
+   "wonderbasketballacademy",
+   "aguilassonsonate2026"
+  ],
+  "note": "published WITHOUT @mayerlynietor (Instagram rejected it: private or invalid; tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient); published WITHOUT collaborators (collaborators rejected: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient\":false,\"error_user_title\":\"Cannot load user with a private profile or invalid username\",\"error_user_msg\":\"The following user(s) cannot be accessed: mayerlynietor\",\"fbtrace_id\":\"Aw; retrying without)",
+  "at": "2026-11-15 22:03"
+ }
+}
