@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nSanta Ana 78-58 San Salvador\n\nSanta Ana y San Salvador firmaron una primera mitad de ida y vuelta, y los capitalinos se fueron al descanso arriba 40-39. En el tercer periodo, el triple del #33, Alexander Colocho, puso a Santa Ana al frente 52-49 en medio de un parcial de 20-0 que se extendió hasta el último periodo y definió el partido. El Jugador del Partido fue el #20, Ayang Aguek, de Santa Ana, con 23 puntos y 12 rebotes, y por San Salvador destacó el #44, Yovani Del Rosario, con 10 puntos y 11 rebotes. Con este triunfo, Santa Ana suma 3 victorias seguidas.\n\nJugador del Partido: Ayang Aguek (Santa Ana) · 23 PTS · 12 REB · 6 AST · 32 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "santa_anab.c_oficial",
+   "imder.bkb.ss.fans",
+   "sansalvadorbc"
+  ],
+  "positions": {
+   "santa_anab.c_oficial": [
+    0.1861,
+    0.2741
+   ],
+   "imder.bkb.ss.fans": [
+    0.2273,
+    0.4
+   ],
+   "sansalvadorbc": [
+    0.2273,
+    0.4296
+   ]
+  }
+ }
+}
