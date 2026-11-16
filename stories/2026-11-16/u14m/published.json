@@ -8,7 +8,8 @@
    "academiaballers_bkb"
   ],
   "note": "published WITHOUT @gabrielgomez.11 (Instagram rejected it: private or invalid; tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient)",
-  "at": "2026-11-16 23:05"
+  "at": "2026-11-16 23:05",
+  "rebuilt": "from run 43974422512 log"
  },
  "02-rebounds.mp4": {
   "media_id": "18196523164402682",
@@ -19,7 +20,8 @@
    "se7enbkbclub"
   ],
   "note": "",
-  "at": "2026-11-16 23:05"
+  "at": "2026-11-16 23:05",
+  "rebuilt": "from run 43974422512 log"
  },
  "03-assists.mp4": {
   "media_id": "18082640432390294",
@@ -29,7 +31,8 @@
    "club.jaguares.bkb.sv"
   ],
   "note": "",
-  "at": "2026-11-16 23:06"
+  "at": "2026-11-16 23:06",
+  "rebuilt": "from run 43974422512 log"
  },
  "04-steals.mp4": {
   "media_id": "18262879030308246",
@@ -39,7 +42,8 @@
    "aguilassonsonate2026"
   ],
   "note": "",
-  "at": "2026-11-16 23:07"
+  "at": "2026-11-16 23:07",
+  "rebuilt": "from run 43974422512 log"
  },
  "05-pointsThreeMade.mp4": {
   "media_id": "18128547574925481",
@@ -49,7 +53,8 @@
    "santanecosbasketballclub"
   ],
   "note": "",
-  "at": "2026-11-16 23:08"
+  "at": "2026-11-16 23:08",
+  "rebuilt": "from run 43974422512 log"
  },
  "06-blocks.mp4": {
   "media_id": "17913981183481920",
@@ -59,7 +64,8 @@
    "capitalinos503_bkb_club"
   ],
   "note": "",
-  "at": "2026-11-16 23:09"
+  "at": "2026-11-16 23:09",
+  "rebuilt": "from run 43974422512 log"
  },
  "07-efficiency.mp4": {
   "media_id": "17959498677293854",
@@ -68,7 +74,8 @@
    "academiaballers_bkb"
   ],
   "note": "published WITHOUT @gabrielgomez.11 (Instagram rejected it: private or invalid; tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient)",
-  "at": "2026-11-16 23:10"
+  "at": "2026-11-16 23:10",
+  "rebuilt": "from run 43974422512 log"
  },
  "08-sixth.mp4": {
   "media_id": "18174550243419817",
@@ -78,7 +85,8 @@
    "c.s.f.a._agape"
   ],
   "note": "",
-  "at": "2026-11-16 23:12"
+  "at": "2026-11-16 23:12",
+  "rebuilt": "from run 43974422512 log"
  },
  "09-dreamteam.mp4": {
   "media_id": "18651817090005947",
@@ -87,7 +95,8 @@
    "c.s.f.a._agape"
   ],
   "note": "published WITHOUT @gabrielgomez.11 (Instagram rejected it: private or invalid; tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient)",
-  "at": "2026-11-16 23:13"
+  "at": "2026-11-16 23:13",
+  "rebuilt": "from run 43974422512 log"
  },
  "10-top10.mp4": {
   "media_id": "18646520230026513",
@@ -99,6 +108,7 @@
    "academiaballers_bkb"
   ],
   "note": "published WITHOUT @gabrielgomez.11 (Instagram rejected it: private or invalid; tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient)",
-  "at": "2026-11-16 23:14"
+  "at": "2026-11-16 23:14",
+  "rebuilt": "from run 43974422512 log"
  }
 }
