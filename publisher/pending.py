@@ -22,6 +22,16 @@ def fresh(day):
     return today - datetime.timedelta(days=MAX_AGE) <= day <= today + datetime.timedelta(days=1)
 
 
+def order_key(name):
+    """Publish order inside a batch: U14, U16, U18, U21, then mayor (lmb), women before men in each category.
+    name = league folder ("u18f", "lmb") or post slug ("u14f-j5-a", "lmbf-2026-11-15")."""
+    m = re.match(r"(u\d\d|lmb)(f|m)?(?![a-z])", name)
+    if not m:
+        return (99, 0, name)
+    cat = 50 if m.group(1) == "lmb" else int(m.group(1)[1:])
+    return (cat, 0 if m.group(2) == "f" else 1, name)
+
+
 def stories():
     out = []
     for ready in glob.glob("stories/*/*/READY"):
@@ -35,13 +45,7 @@ def stories():
         done = set(json.load(open(pub))) if os.path.exists(pub) else set()
         if mp4s - done:
             out.append(folder)
-    # date, then league, then women before men (u18f before u18m, lmbf before lmb)
-    def key(f):
-        lg = f.split("/")[2]
-        women = lg.endswith("f")
-        base = lg[:-1] if lg[-1:] in ("f", "m") else lg   # u18f/u18m -> u18, lmbf/lmb -> lmb
-        return (f.split("/")[1], base, not women, f)
-    return sorted(out, key=key)
+    return sorted(out, key=lambda f: (f.split("/")[1], *order_key(f.split("/")[2])))
 
 
 def carousels():
@@ -57,7 +61,7 @@ def carousels():
             print(f"skip {folder}: ready date {day} too old", file=sys.stderr); continue
         if os.path.exists(f"{folder}/manifest.json") and not os.path.exists(f"{folder}/published.json"):
             out.append(f"{folder}/manifest.json")
-    return out
+    return sorted(out, key=lambda f: order_key(f.split("/")[1]))
 
 
 if __name__ == "__main__":

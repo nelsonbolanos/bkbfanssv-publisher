@@ -252,8 +252,16 @@ print("all slides publicly reachable")
 # are NOT polled one by one any more (that was ~1 status call per slide). The carousel container is created right
 # after; only if Instagram rejects it (a slide not ready yet) the slides are polled as before and it is retried once.
 ids = []
-for i, p in enumerate(children_payloads, 1):
-    ids.append(call("POST", f"{UID}/media", p)["id"])
+web_tags = []   # tags Instagram refused (private accounts): the slide goes out without them, tagged later by the web
+for i, (p, s) in enumerate(zip(children_payloads, manifest["slides"]), 1):
+    r = call("POST", f"{UID}/media", p, soft="user_tags" in p)
+    if "_error" in r:
+        if "2207018" not in r["_error"]:
+            sys.exit(f"slide {i}: {r['_error']}")
+        print(f"slide {i}: a tagged account is private; creating it without tags (tags kept for the web pass)")
+        web_tags.append({"file": s["file"], "tags": json.loads(p.pop("user_tags"))})
+        r = call("POST", f"{UID}/media", p)
+    ids.append(r["id"])
     print(f"slide {i}/{len(children_payloads)} created")
 time.sleep(5)
 parent_data = collab.add({"media_type": "CAROUSEL", "children": ",".join(ids), "caption": manifest["caption"]}, COLLABS)
@@ -268,8 +276,12 @@ parent = r["id"]
 wait_finished(parent, first_wait=10)
 media = call("POST", f"{UID}/media_publish", {"creation_id": parent})["id"]
 print("published media id:", media)
-json.dump({"media_id": media, "at": time.strftime("%Y-%m-%d %H:%M"), "tags": sum(len(s.get("tags", [])) for s in manifest["slides"]),
-           **collab_log(parent_data)}, open(LOG, "w"), indent=1)
+json.dump({"media_id": media, "at": time.strftime("%Y-%m-%d %H:%M"),
+           "tags": sum(len(s.get("tags", [])) for s in manifest["slides"]) - sum(len(w["tags"]) for w in web_tags),
+           **({"web_tags_pending": web_tags} if web_tags else {}), **collab_log(parent_data)}, open(LOG, "w"), indent=1)
+if web_tags:
+    print(f"SUMMARY: published; {sum(len(w['tags']) for w in web_tags)} tag(s) on {len(web_tags)} slide(s) refused "
+          "(private account) -> web_tags_pending in published.json")
 if COLLAB_NOTE:
     print(f"SUMMARY: carousel published WITHOUT collaborators ({COLLAB_NOTE})")
 elif "collaborators" in parent_data:
