@@ -1,0 +1,84 @@
+all slides publicly reachable
+slide 1/10 created
+slide 2/10 created
+slide 3/10 created
+HTTP 400 on POST 17841478415958357/media: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: mjaves44","fbtrace_id":"AWEyJ5IvfbSVMBkBCPlYXq1"}}
+all slides publicly reachable
+slide 1/4 created
+slide 2/4 created
+slide 3/4 created
+slide 4/4 created
+published media id: 18484951933112800
+API calls used: 7
+all slides publicly reachable
+slide 1/8 created
+slide 2/8 created
+slide 3/8 created
+HTTP 400 on POST 17841478415958357/media: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: mayerlynietor","fbtrace_id":"AiKuaGS8RIhhI1_hm6nzB2r"}}
+all slides publicly reachable
+slide 1/6 created
+HTTP 400 on POST 17841478415958357/media: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: alecardona.cg_","fbtrace_id":"AgNIN_yBFcxqHW6myc-M6hx"}}
+all slides publicly reachable
+slide 1/7 created
+HTTP 400 on POST 17841478415958357/media: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: alexttv.sg","fbtrace_id":"A2ppOZ5ItF7qLNH9U9_zBwc"}}
+all slides publicly reachable
+slide 1/7 created
+slide 2/7 created
+HTTP 400 on POST 17841478415958357/media: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: gabrielgomez.11","fbtrace_id":"ASHdjmFQNdTgTCju2LBo4_9"}}
+all slides publicly reachable
+slide 1/9 created
+HTTP 400 on POST 17841478415958357/media: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: sggb.gab","fbtrace_id":"AUi2E0ZL6do5-Ck6iRsaUyX"}}
+all slides publicly reachable
+slide 1/7 created
+HTTP 400 on POST 17841478415958357/media: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: carlg11z","fbtrace_id":"AZiZuqpH7OfwJ3VTsevbKOK"}}
+all slides publicly reachable
+slide 1/7 created
+slide 2/7 created
+slide 3/7 created
+HTTP 400 on POST 17841478415958357/media: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: derian_valenzuelaa","fbtrace_id":"AyCKPZhTCUoAFbT-m8OM5wa"}}
+all slides publicly reachable
+slide 1/5 created
+slide 2/5 created
+slide 3/5 created
+slide 4/5 created
+slide 5/5 created
+published media id: 18112719860190673
+API calls used: 8
+all slides publicly reachable
+slide 1/10 created
+slide 2/10 created
+slide 3/10 created
+slide 4/10 created
+slide 5/10 created
+slide 6/10 created
+slide 7/10 created
+slide 8/10 created
+slide 9/10 created
+slide 10/10 created
+published media id: 18100050473673331
+API calls used: 13
+all slides publicly reachable
+slide 1/9 created
+slide 2/9 created
+slide 3/9 created
+slide 4/9 created
+slide 5/9 created
+slide 6/9 created
+slide 7/9 created
+slide 8/9 created
+slide 9/9 created
+published media id: 18108668918345465
+API calls used: 12
+all slides publicly reachable
+slide 1/10 created
+slide 2/10 created
+slide 3/10 created
+slide 4/10 created
+slide 5/10 created
+slide 6/10 created
+slide 7/10 created
+slide 8/10 created
+slide 9/10 created
+slide 10/10 created
+published media id: 18354116095280252
+API calls used: 13
