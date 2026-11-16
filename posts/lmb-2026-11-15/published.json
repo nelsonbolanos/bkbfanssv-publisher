@@ -1,5 +1,27 @@
 {
  "media_id": "17981189988035320",
  "at": "2026-11-16 13:59",
- "tags": 31
+ "tags": 31,
+ "web_tags_pending": [
+  {
+   "file": "images/lmb-2026-11-15/lmb-2026-11-15-04.jpg",
+   "tags": [
+    {
+     "username": "mjaves44",
+     "x": 0.7093,
+     "y": 0.7259
+    }
+   ]
+  },
+  {
+   "file": "images/lmb-2026-11-15/lmb-2026-11-15-08.jpg",
+   "tags": [
+    {
+     "username": "dopebucket",
+     "x": 0.7093,
+     "y": 0.7259
+    }
+   ]
+  }
+ ]
 }

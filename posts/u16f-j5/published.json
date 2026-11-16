@@ -1,5 +1,27 @@
 {
  "media_id": "18116537258274151",
  "at": "2026-11-16 14:05",
- "tags": 24
+ "tags": 24,
+ "web_tags_pending": [
+  {
+   "file": "images/u16f-j5/u16f-j5-02.jpg",
+   "tags": [
+    {
+     "username": "sggb.gab",
+     "x": 0.2722,
+     "y": 0.7077
+    }
+   ]
+  },
+  {
+   "file": "images/u16f-j5/u16f-j5-03.jpg",
+   "tags": [
+    {
+     "username": "rociselalizzethmolina",
+     "x": 0.2722,
+     "y": 0.7077
+    }
+   ]
+  }
+ ]
 }

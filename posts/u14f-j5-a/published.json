@@ -1,5 +1,27 @@
 {
  "media_id": "18444405250179664",
  "at": "2026-11-16 14:00",
- "tags": 19
+ "tags": 19,
+ "web_tags_pending": [
+  {
+   "file": "images/u14f-j5-a/u14f-j5-a-04.jpg",
+   "tags": [
+    {
+     "username": "mayerlynietor",
+     "x": 0.2722,
+     "y": 0.7077
+    }
+   ]
+  },
+  {
+   "file": "images/u14f-j5-a/u14f-j5-a-06.jpg",
+   "tags": [
+    {
+     "username": "luzz_0324",
+     "x": 0.2722,
+     "y": 0.7077
+    }
+   ]
+  }
+ ]
 }

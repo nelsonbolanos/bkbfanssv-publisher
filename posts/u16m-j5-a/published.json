@@ -1,5 +1,27 @@
 {
  "media_id": "18231986332333510",
  "at": "2026-11-16 14:06",
- "tags": 14
+ "tags": 14,
+ "web_tags_pending": [
+  {
+   "file": "images/u16m-j5-a/u16m-j5-a-02.jpg",
+   "tags": [
+    {
+     "username": "carlg11z",
+     "x": 0.2722,
+     "y": 0.7077
+    }
+   ]
+  },
+  {
+   "file": "images/u16m-j5-a/u16m-j5-a-03.jpg",
+   "tags": [
+    {
+     "username": "ma_gzzzz2030",
+     "x": 0.2722,
+     "y": 0.7077
+    }
+   ]
+  }
+ ]
 }
