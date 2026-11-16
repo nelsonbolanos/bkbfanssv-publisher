@@ -253,6 +253,28 @@ class Story(unittest.TestCase):
         self.assertIn("WITHOUT collaborators", log["01-post.jpg"]["note"])
         self.assertEqual(log["01-post.jpg"]["tags"], ["team"])
 
+    def test_private_tag_keeps_club(self):
+        # Nov 15: a private player account made Instagram reject the container; the club must stay, only her tag goes
+        body = ('{"error":{"message":"Invalid user id","code":110,"error_subcode":2207018,'
+                '"error_user_msg":"The following user(s) cannot be accessed: priv"}}')
+        fake = FakeIG(lambda p: (400, body) if "priv" in p.get("user_tags", "") else None)
+        spec = self.post(collaborators=["club"], handles=["@team", "@priv"], positions={"team": [0.5, 0.5], "priv": [0.4, 0.4]})
+        code, out, log = self.publish(fake, {"01-post.jpg": spec})
+        self.assertEqual(code, None, out)
+        self.assertTrue(all("collaborators" in p for p in fake.posts), fake.posts)
+        note = log["01-post.jpg"]["note"]
+        self.assertIn("WITHOUT @priv", note)
+        self.assertNotIn("WITHOUT collaborators", note)
+        self.assertIn("collaborators invited: club", note)
+        self.assertEqual(log["01-post.jpg"]["tags"], ["team"])
+
+    def test_blocked_collaborator_still_dropped(self):
+        self.assertEqual(collab.blocked("x cannot be accessed: a.b, c_d\"}"), ["a.b", "c_d"])
+        p = {"collaborators": json.dumps(["club"])}
+        self.assertTrue(collab.should_retry(p, 400, "The following user(s) cannot be accessed: club"))
+        self.assertFalse(collab.should_retry(p, 400, "The following user(s) cannot be accessed: priv"))
+        self.assertTrue(collab.should_retry(p, 400, "Invalid parameter collaborators"))
+
 
 if __name__ == "__main__":
     unittest.main()

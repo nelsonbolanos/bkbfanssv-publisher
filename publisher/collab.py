@@ -8,6 +8,8 @@ the invite in the app and must accept it; until then the post shows only on @bkb
 It is not proven that the Instagram API with Instagram Login (graph.instagram.com) accepts the parameter, so a 4xx on a
 container request that carried collaborators is retried ONCE without them (nothing was published yet, so that is safe)
 and the run logs "collaborators rejected: <error>; retrying without". The post is never lost because of it.
+Exception: when the error names only tagged users as inaccessible (a private player account), the collaborators stay
+and the caller drops just that tag.
 """
 import json, re
 
@@ -57,9 +59,23 @@ def without(p):
     return {k: v for k, v in p.items() if k != "collaborators"}
 
 
-def should_retry(p, code):
-    """True when a failed container request carried collaborators and failed with a client error (4xx)."""
-    return "collaborators" in p and 400 <= int(code or 0) < 500
+_BLOCKED = re.compile(r"cannot be accessed:\s*([a-z0-9._,\s]+)", re.I)
+
+
+def blocked(body):
+    """Usernames Instagram names as inaccessible (private/invalid) in an error body, [] when it names none."""
+    m = _BLOCKED.search(str(body or ""))
+    return [u.strip().lower() for u in m.group(1).split(",") if u.strip()] if m else []
+
+
+def should_retry(p, code, body=""):
+    """True when a failed container request carried collaborators and failed with a client error (4xx).
+    False when the error names inaccessible users and none of them is a collaborator: that is a user_tags problem
+    (e.g. a private player account), so the caller drops that tag and keeps the club."""
+    if "collaborators" not in p or not 400 <= int(code or 0) < 500:
+        return False
+    bad = blocked(body)
+    return not bad or any(u in json.loads(p["collaborators"]) for u in bad)
 
 
 def warn(err):

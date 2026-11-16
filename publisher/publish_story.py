@@ -171,7 +171,7 @@ def create_image(path, tags, spec):
     try:
         return call("POST", f"{UID}/media", p)["id"]
     except ApiError as e:
-        if not collab.should_retry(p, e.code) or rate_limited(e.body): raise
+        if not collab.should_retry(p, e.code, e.body) or rate_limited(e.body): raise
         COLLAB_DROPPED[path] = collab.warn(e)
         return call("POST", f"{UID}/media", collab.without(p))["id"]
 

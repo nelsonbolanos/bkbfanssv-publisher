@@ -129,7 +129,7 @@ def create_container(p):
     once without them. Returns call()'s dict ({"_error": ...} only when soft errors are left to the caller)."""
     global COLLAB_NOTE
     r = call("POST", f"{UID}/media", p, soft=True)
-    if "_error" in r and collab.should_retry(p, http_code(r["_error"])) and not rate_limited(r["_error"]):
+    if "_error" in r and collab.should_retry(p, http_code(r["_error"]), r["_error"]) and not rate_limited(r["_error"]):
         COLLAB_NOTE = collab.warn(r["_error"])
         p.pop("collaborators")
         r = call("POST", f"{UID}/media", p, soft=True)
