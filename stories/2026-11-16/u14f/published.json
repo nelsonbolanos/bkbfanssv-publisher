@@ -1,0 +1,111 @@
+{
+ "01-points.mp4": {
+  "media_id": "18363128695220067",
+  "tags": [
+   "santaines.csi",
+   "wonderbasketballacademy",
+   "sivarsportsacademy"
+  ],
+  "note": "",
+  "at": "2026-11-16 22:55"
+ },
+ "02-rebounds.mp4": {
+  "media_id": "18110392132960408",
+  "tags": [
+   "dragons.sub14fem",
+   "wonderbasketballacademy",
+   "santanecosbasketballclub",
+   "santateclabkb",
+   "capitalinos503_bkb_club"
+  ],
+  "note": "",
+  "at": "2026-11-16 22:56"
+ },
+ "03-assists.mp4": {
+  "media_id": "18121493035981184",
+  "tags": [
+   "santateclabkb",
+   "wonderbasketballacademy"
+  ],
+  "note": "",
+  "at": "2026-11-16 22:57"
+ },
+ "04-steals.mp4": {
+  "media_id": "18114554396074831",
+  "tags": [
+   "santateclabkb",
+   "wonderbasketballacademy",
+   "dragons.sub14fem"
+  ],
+  "note": "published WITHOUT @rociselalizzethmolina (Instagram rejected it: private or invalid; tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient)",
+  "at": "2026-11-16 22:59"
+ },
+ "05-pointsThreeMade.mp4": {
+  "media_id": "18102783623420963",
+  "tags": [
+   "adfusalmo",
+   "santateclabkb",
+   "goriladeportess"
+  ],
+  "note": "",
+  "at": "2026-11-16 23:00"
+ },
+ "06-blocks.mp4": {
+  "media_id": "18080078585755939",
+  "tags": [
+   "adfusalmo",
+   "santaines.csi",
+   "capitalinos503_bkb_club",
+   "sivarsportsacademy"
+  ],
+  "note": "",
+  "at": "2026-11-16 23:00"
+ },
+ "07-efficiency.mp4": {
+  "media_id": "17929877643430701",
+  "tags": [
+   "sivarsportsacademy",
+   "wonderbasketballacademy",
+   "goriladeportess",
+   "dragons.sub14fem"
+  ],
+  "note": "published WITHOUT @rociselalizzethmolina (Instagram rejected it: private or invalid; tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient)",
+  "at": "2026-11-16 23:01"
+ },
+ "08-sixth.mp4": {
+  "media_id": "17886471435627020",
+  "tags": [
+   "santanecosbasketballclub",
+   "club.jaguares.bkb.sv",
+   "aguilassonsonate2026",
+   "adfusalmo"
+  ],
+  "note": "",
+  "at": "2026-11-16 23:02"
+ },
+ "09-dreamteam.mp4": {
+  "media_id": "17931909405183116",
+  "tags": [
+   "sivarsportsacademy",
+   "wonderbasketballacademy",
+   "dragons.sub14fem",
+   "club.jaguares.bkb.sv"
+  ],
+  "note": "published WITHOUT @rociselalizzethmolina (Instagram rejected it: private or invalid; tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient)",
+  "at": "2026-11-16 23:03"
+ },
+ "10-top10.mp4": {
+  "media_id": "18183905659430637",
+  "tags": [
+   "sivarsportsacademy",
+   "wonderbasketballacademy",
+   "dragons.sub14fem",
+   "club.jaguares.bkb.sv",
+   "goriladeportess",
+   "capitalinos503_bkb_club",
+   "santaines.csi"
+  ],
+  "note": "published WITHOUT @rociselalizzethmolina (Instagram rejected it: private or invalid; tag error: HTTP 400: {\"error\":{\"message\":\"Invalid user id\",\"type\":\"OAuthException\",\"code\":110,\"error_subcode\":2207018,\"is_transient)",
+  "at": "2026-11-16 23:04"
+ }
+}
