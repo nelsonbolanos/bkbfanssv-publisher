@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nSan Miguel 85-79 Cojute\n\nCojute mandó en la primera mitad y llegó a estirar la ventaja a nueve puntos, 54-45, en el tercer periodo. San Miguel reaccionó, se metió de nuevo en el juego antes del último periodo y lo dominó con un parcial de 22-14. El triple del #30, Mauricio Guzmán, de San Miguel, lo puso 73-70 a 4:35 del final, y desde ahí los migueleños ya no se vieron abajo, sellando el cierre desde la línea con el #35, Nicholas Moore, y el #7, Darius Daniels. Del lado de Cojute brilló el #2, Sean Scott, Jugador del Partido con 23 puntos y 7 rebotes.\n\nJugador del Partido: Sean Scott (Cojute) · 23 PTS · 7 REB · 4 AST · 28 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sanmiguelbc",
+   "cojutebkb_lmb",
+   "dopebucket"
+  ],
+  "positions": {
+   "sanmiguelbc": [
+    0.1995,
+    0.2741
+   ],
+   "cojutebkb_lmb": [
+    0.1444,
+    0.4
+   ],
+   "dopebucket": [
+    0.7093,
+    0.7259
+   ]
+  }
+ }
+}
