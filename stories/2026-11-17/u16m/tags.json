@@ -1,0 +1,145 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@academia_onfire_",
+   "@sivarsportsacademy",
+   "@santateclabkb",
+   "@cojute_sub16",
+   "@goriladeportess"
+  ],
+  "players": [
+   "@derian_valenzuelaa"
+  ],
+  "no_handle": [],
+  "leader": "Derian Valenzuela",
+  "value": "155",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@goriladeportess",
+   "@academia_onfire_",
+   "@bkb.elcambio"
+  ],
+  "players": [],
+  "no_handle": [
+   "Cecam"
+  ],
+  "leader": "Jorge Perdomo",
+  "value": "43",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@cojute_sub16",
+   "@sansalvadorbc",
+   "@capitalinos503_bkb_club",
+   "@sivarsportsacademy",
+   "@academia_onfire_"
+  ],
+  "players": [
+   "@jonathan_28855"
+  ],
+  "no_handle": [],
+  "leader": "Jonathan Rodríguez",
+  "value": "24",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@cojute_sub16",
+   "@aml_bkb_club",
+   "@capitalinos503_bkb_club",
+   "@academia_onfire_"
+  ],
+  "players": [
+   "@gabrielitooo.11"
+  ],
+  "no_handle": [],
+  "leader": "Gabriel Gámez",
+  "value": "26",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@cojute_sub16",
+   "@capitalinos503_bkb_club",
+   "@santanecosbasketballclub",
+   "@aml_bkb_club",
+   "@sivarsportsacademy"
+  ],
+  "players": [
+   "@gabrielitooo.11"
+  ],
+  "no_handle": [],
+  "leader": "Gabriel Gámez",
+  "value": "10",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@academia_onfire_",
+   "@se7enbkbclub"
+  ],
+  "players": [],
+  "no_handle": [
+   "Cecam"
+  ],
+  "leader": "Jorge Perdomo",
+  "value": "10",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@academia_onfire_",
+   "@sivarsportsacademy",
+   "@capitalinos503_bkb_club",
+   "@cojute_sub16"
+  ],
+  "players": [
+   "@derian_valenzuelaa"
+  ],
+  "no_handle": [],
+  "leader": "Derian Valenzuela",
+  "value": "151",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@capitalinos503_bkb_club"
+  ],
+  "players": [],
+  "leader": "Matteo Garay",
+  "value": "20",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@academia_onfire_",
+   "@santateclabkb",
+   "@goriladeportess"
+  ],
+  "players": [
+   "@derian_valenzuelaa"
+  ],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@academia_onfire_",
+   "@santateclabkb",
+   "@goriladeportess",
+   "@sivarsportsacademy",
+   "@aml_bkb_club",
+   "@capitalinos503_bkb_club"
+  ],
+  "players": [
+   "@derian_valenzuelaa",
+   "@coopertidwell_01"
+  ],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
