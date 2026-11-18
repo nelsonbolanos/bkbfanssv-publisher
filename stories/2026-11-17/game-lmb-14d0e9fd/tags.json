@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nCojute 68-58 San Miguel\n\nSan Miguel salió encendido y llegó a mandar 18-5 en el primer periodo, pero Cojute respondió con un parcial de 12-0 que lo metió de lleno en el partido. Tras un arranque igualado, la canasta de Kevin Martínez, el #11 de Cojute, lo puso arriba 37-35 a 1:45 del descanso, y desde ahí Cojute ya no cedió el frente. En el último periodo, Cojute estiró la diferencia hasta 16 puntos. Sean Scott, el #2 de Cojute, fue el Jugador del Partido con 21 puntos y 17 rebotes, mientras que por San Miguel destacó Nicholas Moore, el #35, con 14 puntos y 12 rebotes.\n\nJugador del Partido: Sean Scott (Cojute) · 21 PTS · 17 REB · 6 AST · 34 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "cojutebkb_lmb",
+   "sanmiguelbc",
+   "dopebucket"
+  ],
+  "positions": {
+   "cojutebkb_lmb": [
+    0.1444,
+    0.2741
+   ],
+   "sanmiguelbc": [
+    0.1995,
+    0.4
+   ],
+   "dopebucket": [
+    0.7093,
+    0.7259
+   ]
+  }
+ }
+}
