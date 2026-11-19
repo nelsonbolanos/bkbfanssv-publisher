@@ -1,0 +1,4 @@
+token account: bkbfanssv
+publishing quota: 25/50 used in the last 24 h, 25 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-19/lmbf/01-points.mp4
+published stories/2026-11-19/lmbf/01-points.mp4 media=18099768956559012 tags=4 
