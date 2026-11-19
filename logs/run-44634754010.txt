@@ -1,0 +1,14 @@
+token account: bkbfanssv
+publishing quota: 19/50 used in the last 24 h, 31 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-19/lmb/08-sixth.mp4
+published stories/2026-11-19/lmb/08-sixth.mp4 media=18126433516937396 tags=7 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-19/lmb/09-dreamteam.mp4
+published stories/2026-11-19/lmb/09-dreamteam.mp4 media=18143512105628505 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-19/lmb/10-top10.mp4
+published stories/2026-11-19/lmb/10-top10.mp4 media=17965130775248555 tags=9 
+quota after run: usage 18 / 50, published this run: 3
+
+SUMMARY
+  stories/2026-11-19/lmb/08-sixth.mp4: 7 tags 
+  stories/2026-11-19/lmb/09-dreamteam.mp4: 5 tags 
+  stories/2026-11-19/lmb/10-top10.mp4: 9 tags 
