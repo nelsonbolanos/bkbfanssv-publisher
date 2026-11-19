@@ -1,0 +1,19 @@
+all slides publicly reachable
+slide 1/4 created
+slide 2/4 created
+slide 3/4 created
+slide 4/4 created
+published media id: 18112282112229033
+API calls used: 7
+all slides publicly reachable
+slide 1/9 created
+slide 2/9 created
+slide 3/9 created
+slide 4/9 created
+slide 5/9 created
+slide 6/9 created
+slide 7/9 created
+slide 8/9 created
+slide 9/9 created
+published media id: 18027940439931390
+API calls used: 12
