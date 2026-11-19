@@ -1,0 +1,147 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@brujos_oficial",
+   "@santa_anab.c_oficial",
+   "@sansalvadorbc",
+   "@cojutebkb_lmb",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Alejandro De Los Santos",
+  "value": "29.3",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@lobosbkblmb",
+   "@sanmiguelbc",
+   "@metapanbcoficial",
+   "@brujos_oficial",
+   "@cojutebkb_lmb",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Montavious Marc",
+  "value": "19.0",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@santa_anab.c_oficial",
+   "@lobosbkblmb",
+   "@metapanbcoficial",
+   "@lmb_elsalvador"
+  ],
+  "players": [
+   "@iamdarnelljohnson"
+  ],
+  "no_handle": [],
+  "leader": "Darnell Johnson",
+  "value": "9.3",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@metapanbcoficial",
+   "@santa_anab.c_oficial",
+   "@brujos_oficial",
+   "@salvadorenosbc",
+   "@salvadorenosbc_oficial",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Lee Vazquez",
+  "value": "3.0",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@metapanbcoficial",
+   "@sanmiguelbc",
+   "@lobosbkblmb",
+   "@sansalvadorbc",
+   "@salvadorenosbc",
+   "@salvadorenosbc_oficial",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Lee Vazquez",
+  "value": "3.7",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@cojutebkb_lmb",
+   "@metapanbcoficial",
+   "@santa_anab.c_oficial",
+   "@sansalvadorbc",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Michael Hinestroza",
+  "value": "5.2",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@santa_anab.c_oficial",
+   "@lobosbkblmb",
+   "@metapanbcoficial",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Ayang Aguek",
+  "value": "39.3",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@salvadorenosbc",
+   "@salvadorenosbc_oficial",
+   "@santa_anab.c_oficial",
+   "@lobosbkblmb",
+   "@metapanbcoficial",
+   "@brujos_oficial",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "leader": "Luis Escoto",
+  "value": "10.0",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@santa_anab.c_oficial",
+   "@lobosbkblmb",
+   "@metapanbcoficial",
+   "@lmb_elsalvador"
+  ],
+  "players": [
+   "@iamdarnelljohnson"
+  ],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@santa_anab.c_oficial",
+   "@lobosbkblmb",
+   "@metapanbcoficial",
+   "@cojutebkb_lmb",
+   "@sansalvadorbc",
+   "@sanmiguelbc",
+   "@lmb_elsalvador"
+  ],
+  "players": [
+   "@iamdarnelljohnson",
+   "@dopebucket"
+  ],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}

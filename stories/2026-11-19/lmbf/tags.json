@@ -1,0 +1,123 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@santateclabkb",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Anisleidy Galindo",
+  "value": "27.2",
+  "title": "CAMPEONA DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@santateclabkb",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Anisleidy Galindo",
+  "value": "17.0",
+  "title": "REINA DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@salvadorenas.bc",
+   "@santateclabkb",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Arlenys Romero",
+  "value": "7.8",
+  "title": "REINA DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@salvadorenas.bc",
+   "@sansalvadorbc",
+   "@santateclabkb",
+   "@lmbf.elsalvador"
+  ],
+  "players": [
+   "@alfarogab10"
+  ],
+  "no_handle": [],
+  "leader": "Gabriela Alfaro",
+  "value": "2.0",
+  "title": "REINA DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@santateclabkb",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Elisa Domínguez",
+  "value": "2.8",
+  "title": "REINA DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@santateclabkb",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Anisleidy Galindo",
+  "value": "1.5",
+  "title": "REINA DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@santateclabkb",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Anisleidy Galindo",
+  "value": "37.5",
+  "title": "REINA DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "leader": "Laura Rivas",
+  "value": "7.0",
+  "title": "SEXTA REINA"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@salvadorenas.bc",
+   "@lmbf.elsalvador"
+  ],
+  "players": [],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
