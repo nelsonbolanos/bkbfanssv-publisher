@@ -1,0 +1,13 @@
+token account: bkbfanssv
+publishing quota: 17/50 used in the last 24 h, 33 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-19/game-lmb-6da5fa50/01-post.jpg
+01-post.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: mjaves44","fbtrace_id":"AQ8bI7LnHt3nDnZFrSwB-E4"}}); retrying
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-19/game-lmb-6da5fa50/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-19/game-lmb-6da5fa50/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-19/game-lmb-6da5fa50/01-post.jpg
+  01-post.jpg: posted with 2 tags, without @mjaves44
+published stories/2026-11-19/game-lmb-6da5fa50/01-post.jpg media=17966343849235797 tags=2 published WITHOUT @mjaves44 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+quota after run: usage 17 / 50, published this run: 1
+
+SUMMARY
+  stories/2026-11-19/game-lmb-6da5fa50/01-post.jpg: 2 tags published WITHOUT @mjaves44 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
