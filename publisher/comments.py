@@ -8,6 +8,8 @@ ap = argparse.ArgumentParser(); ap.add_argument("media"); ap.add_argument("--out
 a = ap.parse_args()
 if not TOKEN:
     sys.exit("IG_TOKEN missing")
+m = get(a.media, fields="media_type,media_product_type,comments_count,timestamp")
+print("media:", m.get("media_type"), m.get("media_product_type"), "comments_count:", m.get("comments_count"), m.get("timestamp"))
 out, after = [], None
 while True:
     kw = dict(fields="id,username,text,timestamp,replies{username,text,timestamp}", limit=50)
