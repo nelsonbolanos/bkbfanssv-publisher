@@ -1,0 +1,32 @@
+name: comments
+
+# Encrypted dump of one post's comments (publisher/comments.py) for raffles; artifact only, nothing readable in logs.
+on:
+  workflow_dispatch:
+    inputs:
+      media:
+        description: "Media id"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  comments:
+    runs-on: ubuntu-latest
+    env:
+      IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      INSIGHTS_PUBKEY: ${{ vars.INSIGHTS_PUBKEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install -q cryptography
+          python3 publisher/comments.py "${{ inputs.media }}" --out comments.enc.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: comments
+          path: comments.enc.json
+          retention-days: 2
