@@ -1,0 +1,11 @@
+token account: bkbfanssv
+publishing quota: 7/50 used in the last 24 h, 43 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-20/rifa-miloj/01-post.jpg
+published stories/2026-11-20/rifa-miloj/01-post.jpg media=18108116960194070 tags=0 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-20/rifa-miloj/02-story.jpg
+published stories/2026-11-20/rifa-miloj/02-story.jpg media=18119060657045455 tags=0 
+quota after run: usage 8 / 50, published this run: 2
+
+SUMMARY
+  stories/2026-11-20/rifa-miloj/01-post.jpg: 0 tags 
+  stories/2026-11-20/rifa-miloj/02-story.jpg: 0 tags 
