@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U16 Masculino · Jornada 6\nOn Fire 72-25 Sprtns\n\nOn Fire mandó desde la primera canasta del partido, obra de Derian Valenzuela (#22), y nunca soltó el frente. Tras dominar el tercer periodo, On Fire firmó un parcial de 23-0 entre el cierre del tercero y el cuarto que dejó el juego sentenciado. Valenzuela (#22) fue el Jugador del Partido con 56 puntos y 7 rebotes, mientras que por Sprtns destacó Daniel López (#11) con 4 puntos y 5 rebotes. Con esta victoria, On Fire toma el liderato en solitario.\n\nJugador del Partido: Derian Valenzuela (On Fire) · 56 PTS · 7 REB · 3 AST · 48 EFF\nDestacado: Daniel López (Sprtns) · 4 PTS · 5 REB · 0 AST · 6 EFF\n\n#u16m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "academia_onfire_",
+   "sprtns_basketball_sv",
+   "derian_valenzuelaa"
+  ],
+  "positions": {
+   "academia_onfire_": [
+    0.1463,
+    0.2741
+   ],
+   "sprtns_basketball_sv": [
+    0.1481,
+    0.4
+   ],
+   "derian_valenzuelaa": [
+    0.2722,
+    0.693
+   ]
+  }
+ }
+}
