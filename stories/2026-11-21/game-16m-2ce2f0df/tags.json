@@ -1,0 +1,28 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U16 Masculino · Jornada 6\nAML 43-27 Santanecos B.C.\n\nAML mandó de principio a fin: el #30, Carlos García, abrió el marcador con una canasta y Santanecos B.C. nunca logró empatar ni ponerse arriba. AML se fue al descanso con ventaja, y un parcial de 7-0 entre el cierre del segundo periodo y el arranque del tercero la estiró hasta el 24-9. Santanecos siguió dando la pelea en el último periodo, pero AML llegó a tener 17 puntos de ventaja y cerró el juego con autoridad. García fue el Jugador del Partido con 14 puntos y 10 rebotes, y por Santanecos destacó el #20, Jeremy Aparicio, con 9 puntos y 4 asistencias.\n\nJugador del Partido: Carlos García (AML) · 14 PTS · 10 REB · 0 AST · 18 EFF\nDestacado: Jeremy Aparicio (Santanecos B.C.) · 9 PTS · 2 REB · 4 AST · 10 EFF\n\n#u16m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "aml_bkb_club",
+   "santanecosbasketballclub",
+   "carlg11z"
+  ],
+  "positions": {
+   "aml_bkb_club": [
+    0.1097,
+    0.2741
+   ],
+   "santanecosbasketballclub": [
+    0.2606,
+    0.4
+   ],
+   "carlg11z": [
+    0.2722,
+    0.7077
+   ]
+  },
+  "collaborators": [
+   "aml_bkb_club"
+  ]
+ }
+}
