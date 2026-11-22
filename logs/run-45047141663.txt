@@ -1,0 +1,19 @@
+token account: bkbfanssv
+publishing quota: 32/50 used in the last 24 h, 18 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-22/game-16f-519fae36/01-post.jpg
+01-post.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: merlin.beatriz18","fbtrace_id":"Anr58xpUNyYbDsSa27UPXYj"}}); retrying
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-22/game-16f-519fae36/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-22/game-16f-519fae36/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-22/game-16f-519fae36/01-post.jpg
+  01-post.jpg: posted with 2 tags, without @merlin.beatriz18
+published stories/2026-11-22/game-16f-519fae36/01-post.jpg media=18114559544212882 tags=2 published WITHOUT @merlin.beatriz18 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient); collaborators invited: wonderbasketballacademy
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-22/game-18f-15a0f1da/01-post.jpg
+published stories/2026-11-22/game-18f-15a0f1da/01-post.jpg media=18110786173958061 tags=2 
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-22/vivo-2a5b4456/01-story.jpg
+published stories/2026-11-22/vivo-2a5b4456/01-story.jpg media=17932673517177156 tags=2 
+quota after run: usage 32 / 50, published this run: 3
+
+SUMMARY
+  stories/2026-11-22/game-16f-519fae36/01-post.jpg: 2 tags published WITHOUT @merlin.beatriz18 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient); collaborators invited: wonderbasketballacademy
+  stories/2026-11-22/game-18f-15a0f1da/01-post.jpg: 2 tags 
+  stories/2026-11-22/vivo-2a5b4456/01-story.jpg: 2 tags 
