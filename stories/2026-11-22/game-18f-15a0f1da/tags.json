@@ -1,0 +1,20 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U18 Femenino · Jornada 6\nClub FSB 32-15 Seven\n\nClub FSB y Seven arrancaron parejos, con un primer periodo que terminó igualado 4-4. En el segundo periodo, un tiro libre de la #22, Dilcia Alas, puso a Club FSB al frente y desató un parcial de 17-0 que se extendió hasta el tercero y encaminó el juego. Seven respondió con más ritmo en el último periodo, pero FSB sostuvo la ventaja hasta el final. La Jugadora del Partido fue la #77, Camila Robles, de Club FSB, con 17 puntos y 13 rebotes, y por Seven destacó la #22, Andrea Blanco, con 3 puntos y 3 rebotes. Con la victoria, Club FSB se mete en la parte alta: queda empatado en puntos con el 2º lugar.\n\nJugadora del Partido: Camila Robles (Club FSB) · 17 PTS · 13 REB · 0 AST · 18 EFF\nDestacada: Andrea Blanco (Seven) · 3 PTS · 3 REB · 1 AST · 3 EFF\n\n#u18f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "club_fsb",
+   "se7enbkbclub"
+  ],
+  "positions": {
+   "club_fsb": [
+    0.1667,
+    0.2741
+   ],
+   "se7enbkbclub": [
+    0.1315,
+    0.4
+   ]
+  }
+ }
+}
