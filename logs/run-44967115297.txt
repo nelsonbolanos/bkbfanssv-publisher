@@ -1,0 +1,19 @@
+token account: bkbfanssv
+publishing quota: 29/50 used in the last 24 h, 21 left
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-21/game-14m-e3bef47e/01-post.jpg
+published stories/2026-11-21/game-14m-e3bef47e/01-post.jpg media=18136578727783530 tags=1 collaborators invited: academiaballers_bkb
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-21/game-16m-2ce2f0df/01-post.jpg
+01-post.jpg: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: carlg11z","fbtrace_id":"A0PgJie4F0Zs4vc5lOwYr_5"}}); retrying
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-21/game-16m-2ce2f0df/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-21/game-16m-2ce2f0df/01-post.jpg
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-21/game-16m-2ce2f0df/01-post.jpg
+  01-post.jpg: posted with 2 tags, without @carlg11z
+published stories/2026-11-21/game-16m-2ce2f0df/01-post.jpg media=18140609710711084 tags=2 published WITHOUT @carlg11z (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient); collaborators invited: aml_bkb_club
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-21/game-18m-fe95dbf3/01-post.jpg
+published stories/2026-11-21/game-18m-fe95dbf3/01-post.jpg media=18429864853153094 tags=2 
+quota after run: usage 31 / 50, published this run: 3
+
+SUMMARY
+  stories/2026-11-21/game-14m-e3bef47e/01-post.jpg: 1 tags collaborators invited: academiaballers_bkb
+  stories/2026-11-21/game-16m-2ce2f0df/01-post.jpg: 2 tags published WITHOUT @carlg11z (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient); collaborators invited: aml_bkb_club
+  stories/2026-11-21/game-18m-fe95dbf3/01-post.jpg: 2 tags 
