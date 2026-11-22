@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U16 Masculino · Jornada 6\nSivar Sports Academy 70-22 El Cambio B.C.\n\nSivar Sports Academy mandó desde su primera canasta y nunca cedió el control, con un primer periodo de 17-5 que marcó el rumbo. El golpe definitivo llegó en el tercer periodo, cuando Sivar encadenó un parcial de 21-0 que dejó el juego sentenciado. El #01, Cooper Tidwell, de Sivar, fue el Jugador del Partido con 26 puntos y 8 rebotes, mientras que por El Cambio B.C. destacó el #1, José De la O, con 13 puntos. Con la victoria, Sivar sigue invicto con 5-0 y alcanza la cima, donde comparte el primer lugar.\n\nJugador del Partido: Cooper Tidwell (Sivar Sports Academy) · 26 PTS · 8 REB · 4 AST · 30 EFF\nDestacado: José De la O (El Cambio B.C.) · 13 PTS · 1 REB · 0 AST · 7 EFF\n\n#u16m #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sivarsportsacademy",
+   "bkb.elcambio",
+   "coopertidwell_01"
+  ],
+  "positions": {
+   "sivarsportsacademy": [
+    0.2824,
+    0.2785
+   ],
+   "bkb.elcambio": [
+    0.2356,
+    0.4
+   ],
+   "coopertidwell_01": [
+    0.2722,
+    0.7077
+   ]
+  }
+ }
+}
