@@ -1,0 +1,5 @@
+video: 9.2 MB (ffprobe not available: codecs/duration not checked)
+reel media publicly reachable
+reel container created, waiting for Instagram to process the video
+published reel media id: 18138230989662841
+API calls used: 6
