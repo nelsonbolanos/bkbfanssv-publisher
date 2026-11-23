@@ -1,0 +1,145 @@
+all slides publicly reachable
+slide 1/8 created
+slide 2: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 2/8 created
+slide 3/8 created
+slide 4/8 created
+slide 5/8 created
+slide 6: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 6/8 created
+slide 7: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 7/8 created
+slide 8/8 created
+published media id: 18135207439773891
+SUMMARY: published; 8 tag(s) on 3 slide(s) refused (private account) -> web_tags_pending in published.json
+API calls used: 14
+all slides publicly reachable
+slide 1/7 created
+slide 2/7 created
+slide 3: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 3/7 created
+slide 4/7 created
+slide 5/7 created
+slide 6/7 created
+slide 7/7 created
+published media id: 18114198836136426
+SUMMARY: published; 2 tag(s) on 1 slide(s) refused (private account) -> web_tags_pending in published.json
+API calls used: 11
+all slides publicly reachable
+slide 1/7 created
+slide 2/7 created
+slide 3/7 created
+slide 4/7 created
+slide 5/7 created
+slide 6/7 created
+slide 7/7 created
+published media id: 18448362139183462
+API calls used: 10
+all slides publicly reachable
+slide 1/7 created
+slide 2/7 created
+slide 3: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 3/7 created
+slide 4/7 created
+slide 5/7 created
+slide 6/7 created
+slide 7/7 created
+published media id: 18132768994896060
+SUMMARY: published; 2 tag(s) on 1 slide(s) refused (private account) -> web_tags_pending in published.json
+API calls used: 11
+all slides publicly reachable
+slide 1/9 created
+slide 2/9 created
+slide 3: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 3/9 created
+slide 4/9 created
+slide 5/9 created
+slide 6: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 6/9 created
+slide 7/9 created
+slide 8/9 created
+slide 9/9 created
+published media id: 18001011395828821
+SUMMARY: published; 6 tag(s) on 2 slide(s) refused (private account) -> web_tags_pending in published.json
+API calls used: 14
+all slides publicly reachable
+slide 1/7 created
+slide 2: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 2/7 created
+slide 3/7 created
+slide 4: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 4/7 created
+slide 5: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 5/7 created
+slide 6/7 created
+slide 7/7 created
+published media id: 18137205097743321
+SUMMARY: published; 9 tag(s) on 3 slide(s) refused (private account) -> web_tags_pending in published.json
+API calls used: 13
+all slides publicly reachable
+slide 1/7 created
+slide 2/7 created
+slide 3/7 created
+slide 4: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 4/7 created
+slide 5/7 created
+slide 6/7 created
+slide 7/7 created
+published media id: 18009274703793388
+SUMMARY: published; 3 tag(s) on 1 slide(s) refused (private account) -> web_tags_pending in published.json
+API calls used: 11
+all slides publicly reachable
+slide 1/5 created
+slide 2/5 created
+slide 3/5 created
+slide 4/5 created
+slide 5/5 created
+published media id: 18275482699306054
+API calls used: 8
+all slides publicly reachable
+slide 1/10 created
+slide 2/10 created
+slide 3/10 created
+slide 4/10 created
+slide 5/10 created
+slide 6/10 created
+slide 7/10 created
+slide 8/10 created
+slide 9/10 created
+slide 10/10 created
+published media id: 18240945016321046
+API calls used: 13
+all slides publicly reachable
+slide 1/8 created
+slide 2/8 created
+slide 3/8 created
+slide 4/8 created
+slide 5/8 created
+slide 6/8 created
+slide 7/8 created
+slide 8/8 created
+published media id: 17903743776387195
+API calls used: 11
+all slides publicly reachable
+slide 1/8 created
+slide 2/8 created
+slide 3/8 created
+slide 4/8 created
+slide 5/8 created
+slide 6/8 created
+slide 7/8 created
+slide 8/8 created
+published media id: 18000983400042428
+API calls used: 11
+all slides publicly reachable
+slide 1/7 created
+slide 2/7 created
+slide 3: a tagged account is private; creating it without tags (tags kept for the web pass)
+slide 3/7 created
+slide 4/7 created
+slide 5/7 created
+slide 6/7 created
+slide 7/7 created
+published media id: 17962023540016477
+SUMMARY: published; 3 tag(s) on 1 slide(s) refused (private account) -> web_tags_pending in published.json
+API calls used: 11
