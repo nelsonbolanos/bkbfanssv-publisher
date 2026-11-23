@@ -1,0 +1,141 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@wonderbasketballacademy",
+   "@santaines.csi",
+   "@santateclabkb",
+   "@sivarsportsacademy"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Mayerly Nieto",
+  "value": "94",
+  "title": "CAMPEONA DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@dragons.sub14fem",
+   "@wonderbasketballacademy",
+   "@capitalinos503_bkb_club",
+   "@santanecosbasketballclub",
+   "@santateclabkb"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Sofía Lizama",
+  "value": "61",
+  "title": "REINA DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@wonderbasketballacademy"
+  ],
+  "players": [
+   "@vale_12._13"
+  ],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Valeria Hernández",
+  "value": "20",
+  "title": "REINA DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@wonderbasketballacademy",
+   "@adfusalmo",
+   "@dragons.sub14fem"
+  ],
+  "players": [
+   "@rociselalizzethmolina"
+  ],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Rocisela Recinos",
+  "value": "39",
+  "title": "REINA DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@santateclabkb",
+   "@goriladeportess",
+   "@santanecosbasketballclub"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Paola García",
+  "value": "6",
+  "title": "REINA DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@santaines.csi",
+   "@adfusalmo",
+   "@capitalinos503_bkb_club",
+   "@sivarsportsacademy",
+   "@wonderbasketballacademy"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Alejandra Cardona",
+  "value": "12",
+  "title": "REINA DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@sivarsportsacademy",
+   "@santateclabkb",
+   "@wonderbasketballacademy",
+   "@goriladeportess"
+  ],
+  "players": [
+   "@rociselalizzethmolina"
+  ],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Rocisela Recinos",
+  "value": "117",
+  "title": "REINA DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@goriladeportess",
+   "@capitalinos503_bkb_club",
+   "@santateclabkb"
+  ],
+  "players": [],
+  "leader": "Alessandra Velásquez",
+  "value": "15",
+  "title": "SEXTA REINA"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@goriladeportess",
+   "@sivarsportsacademy"
+  ],
+  "players": [
+   "@vale_12._13",
+   "@rociselalizzethmolina"
+  ],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@goriladeportess",
+   "@sivarsportsacademy",
+   "@capitalinos503_bkb_club"
+  ],
+  "players": [
+   "@vale_12._13",
+   "@rociselalizzethmolina"
+  ],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
