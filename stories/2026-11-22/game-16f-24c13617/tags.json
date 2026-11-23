@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "Vuelve la acción de la Liga de Desarrollo 🏀 @ligasdedesarrollo.fesabal\n\nFINAL · U16 Femenino · Jornada 6\nSivar Sports Academy 26-21 Gorillaz\n\nSivar Sports Academy dio la campanada ante un Gorillaz que llegaba como favorito al 68 % en nuestra simulación, que proyectaba un 36-29. La primera mitad fue pareja, pero en el tercer periodo la canasta de la #23, Isabella Martínez, puso a Sivar arriba y abrió un parcial de 6-0 que Gorillaz buscó descontar hasta los últimos segundos sin poder capitalizar en el marcador. Martínez fue la Jugadora del Partido con 10 puntos y 8 rebotes, y por Gorillaz brilló la #32, Sofhía Granados, con 13 puntos y 9 rebotes. Con el triunfo, Sivar toma el liderato en solitario. Se pitaron 32 faltas personales, 18 a Gorillaz y 14 a Sivar.\n\nJugadora del Partido: Isabella Martínez (Sivar Sports Academy) · 10 PTS · 8 REB · 0 AST · 14 EFF\nDestacada: Sofhía Granados (Gorillaz) · 13 PTS · 9 REB · 2 AST · 11 EFF\n\n#u16f #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "sivarsportsacademy",
+   "goriladeportess",
+   "stefanypss"
+  ],
+  "positions": {
+   "sivarsportsacademy": [
+    0.2824,
+    0.2785
+   ],
+   "goriladeportess": [
+    0.1648,
+    0.4
+   ],
+   "stefanypss": [
+    0.7278,
+    0.7077
+   ]
+  }
+ }
+}
