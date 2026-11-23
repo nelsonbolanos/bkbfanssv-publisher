@@ -1,7 +1,9 @@
-Tablas de posiciones actualizadas 📊 @ligasdedesarrollo.fesabal
+📌 FE DE ERRATA
 
-Liga de Desarrollo (U14, U16 y U18, Jornada 6) y U21 Grupo B (Jornada 3), tal como las publica Fesabal: incluyen los juegos ganados o perdidos en mesa (0 puntos) y el desempate FIBA. Clasifican los primeros 8 de cada tabla o grupo (U21: los primeros 4 por grupo).
+Las tablas de posiciones que publicamos esta mañana al final de cada carrusel tenían errores: no tomaban en cuenta los juegos ganados o perdidos en mesa (0 puntos) ni el desempate FIBA. Tomen como válidas estas tablas, tal como las publica @ligasdedesarrollo.fesabal , y no las del final de esos carruseles.
 
-Estas tablas reemplazan las que iban al final de los carruseles de esta mañana.
+Liga de Desarrollo (U14, U16 y U18, Jornada 6): clasifican los primeros 8 de cada tabla o grupo. U21 Grupo B (Jornada 3): ignoren la nota de clasificados de la tabla; el formato de playoffs de U21 no lo tenemos confirmado.
+
+Disculpen el error 🙏
 
 #ligadedesarrollo #fesabal #elsalvador #clausura2026 #baloncesto #basketball
