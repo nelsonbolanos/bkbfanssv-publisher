@@ -1,62 +1,72 @@
 {
- "media_id": "18135207439773891",
- "at": "2026-11-23 13:51",
- "tags": 14,
- "web_tags_pending": [
-  {
-   "file": "images/u14f-j6-a/u14f-j6-a-02.jpg",
-   "tags": [
+  "media_id": "18135207439773891",
+  "at": "2026-11-23 13:51",
+  "tags": 14,
+  "web_tags_pending": [
     {
-     "username": "santateclabkb",
-     "x": 0.2527,
-     "y": 0.2785
+      "file": "images/u14f-j6-a/u14f-j6-a-02.jpg",
+      "tags": [
+        {
+          "username": "santateclabkb",
+          "x": 0.2527,
+          "y": 0.2785
+        },
+        {
+          "username": "vale_12._13",
+          "x": 0.2722,
+          "y": 0.7077
+        }
+      ]
     },
     {
-     "username": "vale_12._13",
-     "x": 0.2722,
-     "y": 0.7077
+      "file": "images/u14f-j6-a/u14f-j6-a-06.jpg",
+      "tags": [
+        {
+          "username": "sivarsportsacademy",
+          "x": 0.2814,
+          "y": 0.2785
+        },
+        {
+          "username": "sansalvadorbc",
+          "x": 0.2796,
+          "y": 0.4
+        },
+        {
+          "username": "luzz_0324",
+          "x": 0.2722,
+          "y": 0.7077
+        }
+      ]
+    },
+    {
+      "file": "images/u14f-j6-a/u14f-j6-a-07.jpg",
+      "tags": [
+        {
+          "username": "aguilassonsonate2026",
+          "x": 0.2062,
+          "y": 0.2741
+        },
+        {
+          "username": "capitalinos503_bkb_club",
+          "x": 0.1183,
+          "y": 0.4
+        },
+        {
+          "username": "naz_artinez",
+          "x": 0.2722,
+          "y": 0.7077
+        }
+      ]
     }
-   ]
-  },
-  {
-   "file": "images/u14f-j6-a/u14f-j6-a-06.jpg",
-   "tags": [
-    {
-     "username": "sivarsportsacademy",
-     "x": 0.2814,
-     "y": 0.2785
-    },
-    {
-     "username": "sansalvadorbc",
-     "x": 0.2796,
-     "y": 0.4
-    },
-    {
-     "username": "luzz_0324",
-     "x": 0.2722,
-     "y": 0.7077
-    }
-   ]
-  },
-  {
-   "file": "images/u14f-j6-a/u14f-j6-a-07.jpg",
-   "tags": [
-    {
-     "username": "aguilassonsonate2026",
-     "x": 0.2062,
-     "y": 0.2741
-    },
-    {
-     "username": "capitalinos503_bkb_club",
-     "x": 0.1183,
-     "y": 0.4
-    },
-    {
-     "username": "naz_artinez",
-     "x": 0.2722,
-     "y": 0.7077
-    }
-   ]
-  }
- ]
+  ],
+  "manual_web_tags": [
+    "aguilassonsonate2026",
+    "capitalinos503_bkb_club",
+    "luzz_0324",
+    "naz_artinez",
+    "sansalvadorbc",
+    "santateclabkb",
+    "sivarsportsacademy",
+    "vale_12._13"
+  ]
 }

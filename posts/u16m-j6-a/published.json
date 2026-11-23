@@ -1,67 +1,80 @@
 {
- "media_id": "18137205097743321",
- "at": "2026-11-23 13:57",
- "tags": 9,
- "web_tags_pending": [
-  {
-   "file": "images/u16m-j6-a/u16m-j6-a-02.jpg",
-   "tags": [
+  "media_id": "18137205097743321",
+  "at": "2026-11-23 13:57",
+  "tags": 9,
+  "web_tags_pending": [
     {
-     "username": "santateclabkb",
-     "x": 0.2527,
-     "y": 0.2785
+      "file": "images/u16m-j6-a/u16m-j6-a-02.jpg",
+      "tags": [
+        {
+          "username": "santateclabkb",
+          "x": 0.2527,
+          "y": 0.2785
+        },
+        {
+          "username": "capitalinos503_bkb_club",
+          "x": 0.1183,
+          "y": 0.4
+        },
+        {
+          "username": "angel_wthx9",
+          "x": 0.2722,
+          "y": 0.7077
+        }
+      ]
     },
     {
-     "username": "capitalinos503_bkb_club",
-     "x": 0.1183,
-     "y": 0.4
+      "file": "images/u16m-j6-a/u16m-j6-a-04.jpg",
+      "tags": [
+        {
+          "username": "aml_bkb_club",
+          "x": 0.1095,
+          "y": 0.2741
+        },
+        {
+          "username": "santanecosbasketballclub",
+          "x": 0.2597,
+          "y": 0.4
+        },
+        {
+          "username": "carlg11z",
+          "x": 0.2722,
+          "y": 0.7077
+        }
+      ]
     },
     {
-     "username": "angel_wthx9",
-     "x": 0.2722,
-     "y": 0.7077
+      "file": "images/u16m-j6-a/u16m-j6-a-05.jpg",
+      "tags": [
+        {
+          "username": "sansalvadorbc",
+          "x": 0.2796,
+          "y": 0.2741
+        },
+        {
+          "username": "sivarsportsacademy",
+          "x": 0.2184,
+          "y": 0.4
+        },
+        {
+          "username": "lalberto_ad8",
+          "x": 0.2722,
+          "y": 0.7077
+        }
+      ]
     }
-   ]
-  },
-  {
-   "file": "images/u16m-j6-a/u16m-j6-a-04.jpg",
-   "tags": [
-    {
-     "username": "aml_bkb_club",
-     "x": 0.1095,
-     "y": 0.2741
-    },
-    {
-     "username": "santanecosbasketballclub",
-     "x": 0.2597,
-     "y": 0.4
-    },
-    {
-     "username": "carlg11z",
-     "x": 0.2722,
-     "y": 0.7077
-    }
-   ]
-  },
-  {
-   "file": "images/u16m-j6-a/u16m-j6-a-05.jpg",
-   "tags": [
-    {
-     "username": "sansalvadorbc",
-     "x": 0.2796,
-     "y": 0.2741
-    },
-    {
-     "username": "sivarsportsacademy",
-     "x": 0.2184,
-     "y": 0.4
-    },
-    {
-     "username": "lalberto_ad8",
-     "x": 0.2722,
-     "y": 0.7077
-    }
-   ]
-  }
- ]
+  ],
+  "manual_web_tags": [
+    "aml_bkb_club",
+    "angel_wthx9",
+    "capitalinos503_bkb_club",
+    "carlg11z",
+    "sansalvadorbc",
+    "santanecosbasketballclub",
+    "santateclabkb",
+    "sivarsportsacademy"
+  ],
+  "manual_web_tags_skipped": [
+    "lalberto_ad8"
+  ]
 }

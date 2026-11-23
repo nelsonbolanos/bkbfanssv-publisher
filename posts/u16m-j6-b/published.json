@@ -1,27 +1,32 @@
 {
- "media_id": "18009274703793388",
- "at": "2026-11-23 13:58",
- "tags": 15,
- "web_tags_pending": [
-  {
-   "file": "images/u16m-j6-b/u16m-j6-b-04.jpg",
-   "tags": [
+  "media_id": "18009274703793388",
+  "at": "2026-11-23 13:58",
+  "tags": 15,
+  "web_tags_pending": [
     {
-     "username": "academia_onfire_",
-     "x": 0.1461,
-     "y": 0.2741
-    },
-    {
-     "username": "sprtns_basketball_sv",
-     "x": 0.1478,
-     "y": 0.4
-    },
-    {
-     "username": "derian_valenzuelaa",
-     "x": 0.2722,
-     "y": 0.693
+      "file": "images/u16m-j6-b/u16m-j6-b-04.jpg",
+      "tags": [
+        {
+          "username": "academia_onfire_",
+          "x": 0.1461,
+          "y": 0.2741
+        },
+        {
+          "username": "sprtns_basketball_sv",
+          "x": 0.1478,
+          "y": 0.4
+        },
+        {
+          "username": "derian_valenzuelaa",
+          "x": 0.2722,
+          "y": 0.693
+        }
+      ]
     }
-   ]
-  }
- ]
+  ],
+  "manual_web_tags": [
+    "academia_onfire_",
+    "derian_valenzuelaa",
+    "sprtns_basketball_sv"
+  ]
 }

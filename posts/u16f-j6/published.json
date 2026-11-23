@@ -1,47 +1,55 @@
 {
- "media_id": "18001011395828821",
- "at": "2026-11-23 13:56",
- "tags": 21,
- "web_tags_pending": [
-  {
-   "file": "images/u16f-j6/u16f-j6-03.jpg",
-   "tags": [
+  "media_id": "18001011395828821",
+  "at": "2026-11-23 13:56",
+  "tags": 21,
+  "web_tags_pending": [
     {
-     "username": "santateclabkb",
-     "x": 0.2527,
-     "y": 0.2785
+      "file": "images/u16f-j6/u16f-j6-03.jpg",
+      "tags": [
+        {
+          "username": "santateclabkb",
+          "x": 0.2527,
+          "y": 0.2785
+        },
+        {
+          "username": "capitalinos503_bkb_club",
+          "x": 0.1183,
+          "y": 0.4
+        },
+        {
+          "username": "estrelladalila.13",
+          "x": 0.2722,
+          "y": 0.7077
+        }
+      ]
     },
     {
-     "username": "capitalinos503_bkb_club",
-     "x": 0.1183,
-     "y": 0.4
-    },
-    {
-     "username": "estrelladalila.13",
-     "x": 0.2722,
-     "y": 0.7077
+      "file": "images/u16f-j6/u16f-j6-06.jpg",
+      "tags": [
+        {
+          "username": "wonderbasketballacademy",
+          "x": 0.2749,
+          "y": 0.2785
+        },
+        {
+          "username": "academia_onfire_",
+          "x": 0.1461,
+          "y": 0.4
+        },
+        {
+          "username": "merlin.beatriz18",
+          "x": 0.2722,
+          "y": 0.7077
+        }
+      ]
     }
-   ]
-  },
-  {
-   "file": "images/u16f-j6/u16f-j6-06.jpg",
-   "tags": [
-    {
-     "username": "wonderbasketballacademy",
-     "x": 0.2749,
-     "y": 0.2785
-    },
-    {
-     "username": "academia_onfire_",
-     "x": 0.1461,
-     "y": 0.4
-    },
-    {
-     "username": "merlin.beatriz18",
-     "x": 0.2722,
-     "y": 0.7077
-    }
-   ]
-  }
- ]
+  ],
+  "manual_web_tags": [
+    "academia_onfire_",
+    "capitalinos503_bkb_club",
+    "estrelladalila.13",
+    "merlin.beatriz18",
+    "santateclabkb",
+    "wonderbasketballacademy"
+  ]
 }
