@@ -1,0 +1,25 @@
+{
+ "01-post.jpg": {
+  "kind": "post",
+  "caption": "La acción de la Liga Mayor de Baloncesto 🏀 @lmb_elsalvador\n\nFINAL · Liga Mayor Masculino\nMetapán 64-54 Cojute\n\nCojute arrancó mandando con un 11-5, pero Metapán respondió con un parcial de 14-0 entre el cierre del primer periodo y el inicio del segundo y llegó a estar 15 arriba. En el tercero, Cojute reaccionó con un 19-7 y convirtió el juego en un ida y vuelta de cambios de ventaja hasta el último periodo. La canasta de Yoel Cubillas (#29) a 5:08 del final puso a Metapán arriba 55-54, y desde ahí Metapán cerró con un 9-0. El Jugador del Partido fue Michael Hinestroza (#1), de Cojute, con 13 puntos y 21 rebotes. Con este triunfo, Metapán suma 23 victorias seguidas.\n\nJugador del Partido: Michael Hinestroza (Cojute) · 13 PTS · 21 REB · 6 AST · 30 EFF\n\n#ligamayor #lmb #fesabal #elsalvador #clausura2026 #baloncesto",
+  "handles": [
+   "metapanbcoficial",
+   "cojutebkb_lmb",
+   "mjaves44"
+  ],
+  "positions": {
+   "metapanbcoficial": [
+    0.1667,
+    0.2741
+   ],
+   "cojutebkb_lmb": [
+    0.1444,
+    0.4
+   ],
+   "mjaves44": [
+    0.7093,
+    0.7259
+   ]
+  }
+ }
+}
