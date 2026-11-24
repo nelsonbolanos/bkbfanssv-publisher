@@ -1,0 +1,144 @@
+token account: bkbfanssv
+publishing quota: 22/50 used in the last 24 h, 28 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/01-points.mp4
+published stories/2026-11-24/u16f/01-points.mp4 media=17990338893090835 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/02-rebounds.mp4
+02-rebounds.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: merlin.beatriz18","fbtrace_id":"AMlgvb4JRUALRyQCWPS31va"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/02-rebounds.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/02-rebounds.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/02-rebounds.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/02-rebounds.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/02-rebounds.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/02-rebounds.mp4
+  02-rebounds.mp4: posted with 5 tags, without @merlin.beatriz18
+published stories/2026-11-24/u16f/02-rebounds.mp4 media=18133493998687868 tags=5 published WITHOUT @merlin.beatriz18 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/03-assists.mp4
+published stories/2026-11-24/u16f/03-assists.mp4 media=17958672063299008 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/04-steals.mp4
+published stories/2026-11-24/u16f/04-steals.mp4 media=17923043376245627 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/05-pointsThreeMade.mp4
+published stories/2026-11-24/u16f/05-pointsThreeMade.mp4 media=17955548475089496 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/06-blocks.mp4
+published stories/2026-11-24/u16f/06-blocks.mp4 media=17969316524984145 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/07-efficiency.mp4
+07-efficiency.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: merlin.beatriz18","fbtrace_id":"Av2r26RAYbD4YhDOGzTgb_n"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/07-efficiency.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/07-efficiency.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/07-efficiency.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/07-efficiency.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/07-efficiency.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/07-efficiency.mp4
+  07-efficiency.mp4: posted with 5 tags, without @merlin.beatriz18
+published stories/2026-11-24/u16f/07-efficiency.mp4 media=18006530796001359 tags=5 published WITHOUT @merlin.beatriz18 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/08-sixth.mp4
+published stories/2026-11-24/u16f/08-sixth.mp4 media=18137741831500414 tags=4 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/09-dreamteam.mp4
+09-dreamteam.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: merlin.beatriz18, estrelladalila.13","fbtrace_id":"AW5dY8bbFtp2Wlw35wLW3SQ"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/09-dreamteam.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/09-dreamteam.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/09-dreamteam.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/09-dreamteam.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/09-dreamteam.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/09-dreamteam.mp4
+published stories/2026-11-24/u16f/09-dreamteam.mp4 media=18106198865040669 tags=0 published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/10-top10.mp4
+10-top10.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: merlin.beatriz18, estrelladalila.13, rociselalizzethmolina","fbtrace_id":"Ak28v_MvJ0kELe8Rv9OIoGx"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16f/10-top10.mp4
+published stories/2026-11-24/u16f/10-top10.mp4 media=17897060862437810 tags=0 published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/01-points.mp4
+01-points.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: derian_valenzuelaa","fbtrace_id":"AxDKGm5jYZ6ti8gmk0nmtlo"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/01-points.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/01-points.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/01-points.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/01-points.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/01-points.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/01-points.mp4
+  01-points.mp4: posted with 5 tags, without @derian_valenzuelaa
+published stories/2026-11-24/u16m/01-points.mp4 media=18035032274913124 tags=5 published WITHOUT @derian_valenzuelaa (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/02-rebounds.mp4
+published stories/2026-11-24/u16m/02-rebounds.mp4 media=18127140148954394 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/03-assists.mp4
+published stories/2026-11-24/u16m/03-assists.mp4 media=17967077088211389 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/04-steals.mp4
+04-steals.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: gabrielitooo.11","fbtrace_id":"AGFYdL-CbyDo_eh4Qkjk3Qk"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/04-steals.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/04-steals.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/04-steals.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/04-steals.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/04-steals.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/04-steals.mp4
+  04-steals.mp4: posted with 5 tags, without @gabrielitooo.11
+published stories/2026-11-24/u16m/04-steals.mp4 media=17889006648506173 tags=5 published WITHOUT @gabrielitooo.11 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/05-pointsThreeMade.mp4
+05-pointsThreeMade.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: gabrielitooo.11","fbtrace_id":"A-NC2Hq_IwKJ6tpEux4G3Me"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/05-pointsThreeMade.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/05-pointsThreeMade.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/05-pointsThreeMade.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/05-pointsThreeMade.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/05-pointsThreeMade.mp4
+  05-pointsThreeMade.mp4: posted with 4 tags, without @gabrielitooo.11
+published stories/2026-11-24/u16m/05-pointsThreeMade.mp4 media=18108557453640122 tags=4 published WITHOUT @gabrielitooo.11 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/06-blocks.mp4
+published stories/2026-11-24/u16m/06-blocks.mp4 media=18229414642337835 tags=3 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/07-efficiency.mp4
+07-efficiency.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: derian_valenzuelaa","fbtrace_id":"ATm6CSgzkrclru1acqIn-oM"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/07-efficiency.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/07-efficiency.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/07-efficiency.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/07-efficiency.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/07-efficiency.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/07-efficiency.mp4
+  07-efficiency.mp4: posted with 5 tags, without @derian_valenzuelaa
+published stories/2026-11-24/u16m/07-efficiency.mp4 media=18132267226873924 tags=5 published WITHOUT @derian_valenzuelaa (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/08-sixth.mp4
+published stories/2026-11-24/u16m/08-sixth.mp4 media=18427412383154069 tags=1 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/09-dreamteam.mp4
+09-dreamteam.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: derian_valenzuelaa","fbtrace_id":"ASJxG5Tamxvd9nBEknwdl3z"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/09-dreamteam.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/09-dreamteam.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/09-dreamteam.mp4
+  09-dreamteam.mp4: posted with 3 tags, without @derian_valenzuelaa
+published stories/2026-11-24/u16m/09-dreamteam.mp4 media=17982433169920803 tags=3 published WITHOUT @derian_valenzuelaa (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+10-top10.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: derian_valenzuelaa, angel_wthx9","fbtrace_id":"AnuZflw6dV2BnqE4hL-uZOy"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-24/u16m/10-top10.mp4
+published stories/2026-11-24/u16m/10-top10.mp4 media=18134679148615228 tags=0 published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+quota after run: usage 42 / 50, published this run: 20
+
+SUMMARY
+  stories/2026-11-24/u16f/01-points.mp4: 4 tags 
+  stories/2026-11-24/u16f/02-rebounds.mp4: 5 tags published WITHOUT @merlin.beatriz18 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-11-24/u16f/03-assists.mp4: 4 tags 
+  stories/2026-11-24/u16f/04-steals.mp4: 3 tags 
+  stories/2026-11-24/u16f/05-pointsThreeMade.mp4: 3 tags 
+  stories/2026-11-24/u16f/06-blocks.mp4: 4 tags 
+  stories/2026-11-24/u16f/07-efficiency.mp4: 5 tags published WITHOUT @merlin.beatriz18 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-11-24/u16f/08-sixth.mp4: 4 tags 
+  stories/2026-11-24/u16f/09-dreamteam.mp4: 0 tags published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+  stories/2026-11-24/u16f/10-top10.mp4: 0 tags published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+  stories/2026-11-24/u16m/01-points.mp4: 5 tags published WITHOUT @derian_valenzuelaa (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-11-24/u16m/02-rebounds.mp4: 3 tags 
+  stories/2026-11-24/u16m/03-assists.mp4: 6 tags 
+  stories/2026-11-24/u16m/04-steals.mp4: 5 tags published WITHOUT @gabrielitooo.11 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-11-24/u16m/05-pointsThreeMade.mp4: 4 tags published WITHOUT @gabrielitooo.11 (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-11-24/u16m/06-blocks.mp4: 3 tags 
+  stories/2026-11-24/u16m/07-efficiency.mp4: 5 tags published WITHOUT @derian_valenzuelaa (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-11-24/u16m/08-sixth.mp4: 1 tags 
+  stories/2026-11-24/u16m/09-dreamteam.mp4: 3 tags published WITHOUT @derian_valenzuelaa (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+  stories/2026-11-24/u16m/10-top10.mp4: 0 tags published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
