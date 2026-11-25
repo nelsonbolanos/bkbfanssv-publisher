@@ -1,0 +1,6 @@
+token account: bkbfanssv
+publishing quota: 22/50 used in the last 24 h, 28 left
+01-story.jpg: container failed with tags (HTTP 0: video not publicly reachable: https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-25/top3-ganador/01-story.jpg); retrying
+  public OK (image/jpeg): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-25/top3-ganador/01-story.jpg
+  01-story.jpg: posted with 2 tags, without @ligasdedesarrollo.fesabal
+published stories/2026-11-25/top3-ganador/01-story.jpg media=18089570225310093 tags=2 published WITHOUT @ligasdedesarrollo.fesabal (Instagram rejected it: private or invalid; tag error: HTTP 0: video not publicly reachable: https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-25/top3-ganado)
