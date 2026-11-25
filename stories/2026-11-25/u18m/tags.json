@@ -1,0 +1,139 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@sub18.dragons",
+   "@adfusalmo",
+   "@apgbulldogs_sv"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Jorge Barrientos",
+  "value": "113",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@sprtns_basketball_sv",
+   "@bkb.elcambio",
+   "@se7enbkbclub",
+   "@lapazeste_u18",
+   "@nejapabc_"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Diego Rivas",
+  "value": "92",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@bkb.elcambio",
+   "@apgbulldogs_sv",
+   "@sansalvadorbc",
+   "@sprtns_basketball_sv",
+   "@goriladeportess"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Carlos Cortez",
+  "value": "26",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@sub18.dragons",
+   "@sansalvadorbc",
+   "@santanecosbasketballclub"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Yordy Lazo",
+  "value": "20",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@apgbulldogs_sv",
+   "@adfusalmo",
+   "@nejapabc_"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer",
+   "San Salvador Sur"
+  ],
+  "leader": "Diego Gómez",
+  "value": "15",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@se7enbkbclub",
+   "@bkb.elcambio",
+   "@sivarsportsacademy",
+   "@sprtns_basketball_sv"
+  ],
+  "players": [],
+  "no_handle": [
+   "Masferrer"
+  ],
+  "leader": "Sebastián Morales",
+  "value": "18",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@sprtns_basketball_sv",
+   "@santateclabkb",
+   "@goriladeportess",
+   "@sivarsportsacademy"
+  ],
+  "players": [],
+  "no_handle": [
+   "San Salvador Sur"
+  ],
+  "leader": "Diego Rivas",
+  "value": "114",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@sub18.dragons",
+   "@goriladeportess",
+   "@bkb.elcambio",
+   "@adfusalmo",
+   "@nejapabc_"
+  ],
+  "players": [],
+  "leader": "Amir Padilla",
+  "value": "11",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@sprtns_basketball_sv",
+   "@apgbulldogs_sv",
+   "@santanecosbasketballclub",
+   "@santateclabkb"
+  ],
+  "players": [],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@sprtns_basketball_sv",
+   "@apgbulldogs_sv",
+   "@santanecosbasketballclub",
+   "@santateclabkb",
+   "@goriladeportess",
+   "@bkb.elcambio"
+  ],
+  "players": [],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
