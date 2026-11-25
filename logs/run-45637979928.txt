@@ -1,0 +1,12 @@
+token account: bkbfanssv
+publishing quota: 21/50 used in the last 24 h, 29 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-25/cumple-lucas/01-cumple.mp4
+01-cumple.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: lucas_1vlss","fbtrace_id":"A2ahfWcSU7-LI6b8XzzO6lx"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-25/cumple-lucas/01-cumple.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-25/cumple-lucas/01-cumple.mp4
+  01-cumple.mp4: posted with 1 tags, without @lucas_1vlss
+published stories/2026-11-25/cumple-lucas/01-cumple.mp4 media=18080521385456160 tags=1 published WITHOUT @lucas_1vlss (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+quota after run: usage 21 / 50, published this run: 1
+
+SUMMARY
+  stories/2026-11-25/cumple-lucas/01-cumple.mp4: 1 tags published WITHOUT @lucas_1vlss (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
