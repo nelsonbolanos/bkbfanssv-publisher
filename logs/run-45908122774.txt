@@ -1,0 +1,25 @@
+token account: bkbfanssv
+publishing quota: 28/50 used in the last 24 h, 22 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/lmb/08-sixth.mp4
+published stories/2026-11-26/lmb/08-sixth.mp4 media=17941442850124643 tags=5 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/lmb/09-dreamteam.mp4
+published stories/2026-11-26/lmb/09-dreamteam.mp4 media=17966985276230020 tags=6 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/lmb/10-top10.mp4
+published stories/2026-11-26/lmb/10-top10.mp4 media=18107772395376154 tags=8 
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/lmb/11-top10-sv.mp4
+11-top10-sv.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: pablo.08_f","fbtrace_id":"AYUThGU77bU1HOR81QnSs3P"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/lmb/11-top10-sv.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/lmb/11-top10-sv.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/lmb/11-top10-sv.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/lmb/11-top10-sv.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/lmb/11-top10-sv.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/lmb/11-top10-sv.mp4
+  11-top10-sv.mp4: posted with 5 tags, without @pablo.08_f
+published stories/2026-11-26/lmb/11-top10-sv.mp4 media=17963290326255780 tags=5 published WITHOUT @pablo.08_f (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
+quota after run: usage 28 / 50, published this run: 4
+
+SUMMARY
+  stories/2026-11-26/lmb/08-sixth.mp4: 5 tags 
+  stories/2026-11-26/lmb/09-dreamteam.mp4: 6 tags 
+  stories/2026-11-26/lmb/10-top10.mp4: 8 tags 
+  stories/2026-11-26/lmb/11-top10-sv.mp4: 5 tags published WITHOUT @pablo.08_f (Instagram rejected it: private or invalid; tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient)
