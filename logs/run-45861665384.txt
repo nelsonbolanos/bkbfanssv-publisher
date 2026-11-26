@@ -1,0 +1,8 @@
+token account: bkbfanssv
+publishing quota: 32/50 used in the last 24 h, 18 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-26/cumple-sean/01-cumple-sean-scott.mp4
+published stories/2026-11-26/cumple-sean/01-cumple-sean-scott.mp4 media=18157756309531477 tags=1 
+quota after run: usage 32 / 50, published this run: 1
+
+SUMMARY
+  stories/2026-11-26/cumple-sean/01-cumple-sean-scott.mp4: 1 tags 
