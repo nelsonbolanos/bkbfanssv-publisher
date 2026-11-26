@@ -1,0 +1,56 @@
+{
+ "08-sixth.mp4": {
+  "handles": [
+   "@sanmiguelbc",
+   "@metapanbcoficial",
+   "@lobosbkblmb",
+   "@cojutebkb_lmb",
+   "@lmb_elsalvador"
+  ],
+  "players": [],
+  "leader": "Rafael Henríquez",
+  "value": "9.0",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@metapanbcoficial",
+   "@santa_anab.c_oficial",
+   "@lobosbkblmb",
+   "@cojutebkb_lmb",
+   "@lmb_elsalvador"
+  ],
+  "players": [
+   "@iamdarnelljohnson"
+  ],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@metapanbcoficial",
+   "@santa_anab.c_oficial",
+   "@lobosbkblmb",
+   "@cojutebkb_lmb",
+   "@sanmiguelbc",
+   "@lmb_elsalvador"
+  ],
+  "players": [
+   "@iamdarnelljohnson",
+   "@dopebucket"
+  ],
+  "title": "TOP 10 DE LA JORNADA"
+ },
+ "11-top10-sv.mp4": {
+  "handles": [
+   "@metapanbcoficial",
+   "@santa_anab.c_oficial",
+   "@lobosbkblmb",
+   "@cojutebkb_lmb",
+   "@lmb_elsalvador"
+  ],
+  "players": [
+   "@pablo.08_f"
+  ],
+  "title": "TOP 10 SALVADOREÑOS DE LA SEMANA"
+ }
+}
