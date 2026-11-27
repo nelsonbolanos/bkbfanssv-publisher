@@ -1,0 +1,14 @@
+all slides publicly reachable
+slide 1/10 created
+slide 2/10 created
+slide 3/10 created
+slide 4/10 created
+slide 5/10 created
+slide 6/10 created
+slide 7/10 created
+slide 8/10 created
+slide 9/10 created
+slide 10/10 created
+published media id: 18115954283335172
+collaborators invited: ["mister_ligadesarrollo"] (each club must accept in the app)
+API calls used: 13
