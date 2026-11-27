@@ -1,0 +1,12 @@
+token account: bkbfanssv
+publishing quota: 11/50 used in the last 24 h, 39 left
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-27/cumple-fiorella/01-cumple-fiorella-paredes.mp4
+01-cumple-fiorella-paredes.mp4: container failed with tags (HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid username","error_user_msg":"The following user(s) cannot be accessed: fiorella.paredesn, jekiita17","fbtrace_id":"ACNOtc4sqErdIbkha3SjNT7"}}); retrying
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-27/cumple-fiorella/01-cumple-fiorella-paredes.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-27/cumple-fiorella/01-cumple-fiorella-paredes.mp4
+  public OK (video/mp4): https://nelsonbolanos.github.io/bkbfanssv-publisher/stories/2026-11-27/cumple-fiorella/01-cumple-fiorella-paredes.mp4
+published stories/2026-11-27/cumple-fiorella/01-cumple-fiorella-paredes.mp4 media=18156063697529752 tags=0 published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
+quota after run: usage 10 / 50, published this run: 1
+
+SUMMARY
+  stories/2026-11-27/cumple-fiorella/01-cumple-fiorella-paredes.mp4: 0 tags published WITHOUT tags (tag error: HTTP 400: {"error":{"message":"Invalid user id","type":"OAuthException","code":110,"error_subcode":2207018,"is_transient":false,"error_user_title":"Cannot load user with a private profile or invalid u)
