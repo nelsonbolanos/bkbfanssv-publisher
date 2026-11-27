@@ -1,0 +1,145 @@
+{
+ "01-points.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@tigreselsalvador",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Brujos de Izalco",
+   "Cougars",
+   "Salvadoreños B.C."
+  ],
+  "leader": "Josué Elías",
+  "value": "78",
+  "title": "CAMPEÓN DE PUNTOS"
+ },
+ "02-rebounds.mp4": {
+  "handles": [
+   "@nejapabc_",
+   "@sansalvadorbc",
+   "@capitalinos503_bkb_club",
+   "@se7enbkbclub",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Cougars"
+  ],
+  "leader": "Diego Hernández",
+  "value": "47",
+  "title": "REY DE LOS REBOTES"
+ },
+ "03-assists.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@nejapabc_",
+   "@santateclabkb",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Cougars"
+  ],
+  "leader": "Luis Guerrero",
+  "value": "32",
+  "title": "REY DE LAS ASISTENCIAS"
+ },
+ "04-steals.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@adfusalmo",
+   "@nejapabc_",
+   "@tigreselsalvador",
+   "@sub21_fesabal"
+  ],
+  "players": [
+   "@fej_perdomo"
+  ],
+  "no_handle": [
+   "Brujos de Izalco"
+  ],
+  "leader": "Fernando Perdomo",
+  "value": "24",
+  "title": "REY DE LOS ROBOS"
+ },
+ "05-pointsThreeMade.mp4": {
+  "handles": [
+   "@santateclabkb",
+   "@adfusalmo",
+   "@santanecosbasketballclub",
+   "@nejapabc_",
+   "@sansalvadorbc",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [],
+  "leader": "Jaquin Morán",
+  "value": "11",
+  "title": "REY DE LOS TRIPLES"
+ },
+ "06-blocks.mp4": {
+  "handles": [
+   "@nejapabc_",
+   "@sansalvadorbc",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Academia Duke",
+   "El Origen B.C.",
+   "Salvadoreños B.C."
+  ],
+  "leader": "Steven Molina",
+  "value": "10",
+  "title": "REY DE LOS TAPONES"
+ },
+ "07-efficiency.mp4": {
+  "handles": [
+   "@nejapabc_",
+   "@sansalvadorbc",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "no_handle": [
+   "Brujos de Izalco"
+  ],
+  "leader": "Diego Hernández",
+  "value": "109",
+  "title": "REY DE LA EFICIENCIA"
+ },
+ "08-sixth.mp4": {
+  "handles": [
+   "@sansalvadorbc",
+   "@adfusalmo",
+   "@sub21_fesabal"
+  ],
+  "players": [],
+  "leader": "Julio Barquero",
+  "value": "17",
+  "title": "SEXTO REY"
+ },
+ "09-dreamteam.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@sansalvadorbc",
+   "@sub21_fesabal"
+  ],
+  "players": [
+   "@fej_perdomo"
+  ],
+  "title": "DREAM TEAM DE LA JORNADA"
+ },
+ "10-top10.mp4": {
+  "handles": [
+   "@adfusalmo",
+   "@sansalvadorbc",
+   "@sub21_fesabal"
+  ],
+  "players": [
+   "@fej_perdomo"
+  ],
+  "title": "TOP 10 DE LA JORNADA"
+ }
+}
